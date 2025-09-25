@@ -47,3 +47,4 @@ Cmd: compileSnippet
 
 Cmd: initializeCompiler
 
+Cmd: shutdown

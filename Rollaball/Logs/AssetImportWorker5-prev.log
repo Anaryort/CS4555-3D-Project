@@ -1,32 +1,32 @@
 Using pre-set license
-Built from '6000.0/staging' branch; Version is '6000.0.57f1 (b7b9860b7bbd) revision 12040582'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 15605 MB
+Built from '6000.0/staging' branch; Version is '6000.0.58f1 (44b8bf3a3225) revision 4503743'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32645 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-09-25T16:30:11Z
+Date: 2025-09-26T01:08:24Z
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Unity.exe
+D:\Unity\6000.0.58f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker5
 -projectPath
-C:/Users/Andyv/Documents/GitHub/CS4555-3D-Project/Rollaball
+C:/Users/PokeM/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-53900
+53307
 -job-worker-count
-3
+5
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/Andyv/Documents/GitHub/CS4555-3D-Project/Rollaball
-C:/Users/Andyv/Documents/GitHub/CS4555-3D-Project/Rollaball
+Successfully changed project path to: C:/Users/PokeM/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
+C:/Users/PokeM/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -62,15 +62,13 @@ C:/Users/Andyv/Documents/GitHub/CS4555-3D-Project/Rollaball
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9560]  Target information:
+Player connection [27996]  Target information:
 
-Player connection [9560]  * "[IP] 192.168.112.1 [Port] 0 [Flags] 2 [Guid] 892367053 [EditorId] 892367053 [Version] 1048832 [Id] WindowsEditor(7,Andy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [27996]  * "[IP] 192.168.1.83 [Port] 0 [Flags] 2 [Guid] 3694411326 [EditorId] 3694411326 [Version] 1048832 [Id] WindowsEditor(7,Hiyokurenri) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [9560]  * "[IP] 10.85.62.186 [Port] 0 [Flags] 2 [Guid] 892367053 [EditorId] 892367053 [Version] 1048832 [Id] WindowsEditor(7,Andy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [9560] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [9560] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 3
+Player connection [27996] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [27996] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -81,61 +79,61 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 7.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.28 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 6000.0.57f1 (b7b9860b7bbd)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Andyv/Documents/GitHub/CS4555-3D-Project/Rollaball/Assets
+Initialize engine version: 6000.0.58f1 (44b8bf3a3225)
+[Subsystems] Discovering subsystems at path D:/Unity/6000.0.58f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/PokeM/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) Graphics (ID=0x1506)
-    Vendor:   ATI
-    VRAM:     7802 MB
-    Driver:   32.0.21025.10016
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e82)
+    Vendor:   NVIDIA
+    VRAM:     7989 MB
+    Driver:   32.0.15.7216
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Mono path[0] = 'D:/Unity/6000.0.58f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/6000.0.58f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/6000.0.58f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.014392 seconds.
-- Loaded All Assemblies, in  3.287 seconds
+Register platform support module: D:/Unity/6000.0.58f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/6000.0.58f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008138 seconds.
+- Loaded All Assemblies, in  0.899 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.290 seconds
-Domain Reload Profiling: 4569ms
-	BeginReloadAssembly (1644ms)
+- Finished resetting the current domain, in  0.861 seconds
+Domain Reload Profiling: 1759ms
+	BeginReloadAssembly (357ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (68ms)
-	RebuildCommonClasses (615ms)
-	RebuildNativeTypeToScriptingClass (77ms)
-	initialDomainReloadingComplete (281ms)
-	LoadAllAssembliesAndSetupDomain (661ms)
-		LoadAssemblies (1486ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (92ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (334ms)
+		LoadAssemblies (355ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (644ms)
-			TypeCache.Refresh (639ms)
-				TypeCache.ScanAssembly (601ms)
+		AnalyzeDomain (328ms)
+			TypeCache.Refresh (325ms)
+				TypeCache.ScanAssembly (300ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1292ms)
+	FinalizeReload (861ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1120ms)
+		SetupLoadedEditorAssemblies (762ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (72ms)
-			SetLoadedEditorAssemblies (15ms)
-			BeforeProcessingInitializeOnLoad (311ms)
-			ProcessInitializeOnLoadAttributes (549ms)
-			ProcessInitializeOnLoadMethodAttributes (173ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (178ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (135ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -144,8 +142,8 @@ Domain Reload Profiling: 4569ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.096 seconds
-Refreshing native plugins compatible for Editor in 3.43 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.259 seconds
+Refreshing native plugins compatible for Editor in 6.02 ms, found 7 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -153,46 +151,182 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  5.559 seconds
-Domain Reload Profiling: 8650ms
-	BeginReloadAssembly (609ms)
+- Finished resetting the current domain, in  1.815 seconds
+Domain Reload Profiling: 4064ms
+	BeginReloadAssembly (420ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (31ms)
+		DisableScriptedObjects (14ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (94ms)
-	RebuildCommonClasses (115ms)
-	RebuildNativeTypeToScriptingClass (40ms)
-	initialDomainReloadingComplete (120ms)
-	LoadAllAssembliesAndSetupDomain (2206ms)
-		LoadAssemblies (1235ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (83ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (100ms)
+	LoadAllAssembliesAndSetupDomain (1608ms)
+		LoadAssemblies (1173ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1291ms)
-			TypeCache.Refresh (939ms)
-				TypeCache.ScanAssembly (889ms)
-			BuildScriptInfoCaches (242ms)
-			ResolveRequiredComponents (92ms)
-	FinalizeReload (5560ms)
+		AnalyzeDomain (702ms)
+			TypeCache.Refresh (563ms)
+				TypeCache.ScanAssembly (526ms)
+			BuildScriptInfoCaches (116ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1816ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (4506ms)
+		SetupLoadedEditorAssemblies (1420ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (149ms)
-			BeforeProcessingInitializeOnLoad (1282ms)
-			ProcessInitializeOnLoadAttributes (2893ms)
-			ProcessInitializeOnLoadMethodAttributes (151ms)
-			AfterProcessingInitializeOnLoad (17ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (314ms)
+			ProcessInitializeOnLoadAttributes (992ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (28ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 3.89 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 10.52 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6074 unused Assets / (4.2 MB). Loaded Objects now: 6776.
-Memory consumption went from 125.2 MB to 120.9 MB.
-Total: 27.033100 ms (FindLiveObjects: 2.099400 ms CreateObjectMapping: 2.815700 ms MarkObjects: 14.587600 ms  DeleteObjects: 7.524700 ms)
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6500 unused Assets / (3.5 MB). Loaded Objects now: 7214.
+Memory consumption went from 141.0 MB to 137.5 MB.
+Total: 40.521600 ms (FindLiveObjects: 1.263100 ms CreateObjectMapping: 5.782800 ms MarkObjects: 25.670400 ms  DeleteObjects: 7.802900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 60383.760192 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/WaterEffects/Prefabs/RainEffect.prefab
+  artifactKey: Guid(d0c0b49979d372942ae5a964d9364111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/EffectExamples/WaterEffects/Prefabs/RainEffect.prefab using Guid(d0c0b49979d372942ae5a964d9364111) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ed4b532340c74303c8848a447f18568') in 3.5172807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Obstacle Pack/Models/ice wall 2.fbx
+  artifactKey: Guid(9e4f120c535ce4da787b641912506946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obstacle Pack/Models/ice wall 2.fbx using Guid(9e4f120c535ce4da787b641912506946) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '477162c8c84d0e039725cb19a365a2d6') in 0.4816695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/Misc Effects/Prefabs/SparksEffect.prefab
+  artifactKey: Guid(78b71003e8b357d4bbf89c8b5e5e4f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/EffectExamples/Misc Effects/Prefabs/SparksEffect.prefab using Guid(78b71003e8b357d4bbf89c8b5e5e4f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f955bc2e52caf5a9ee23455f58723b23') in 0.3115774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Prefabs/SmallExplosionEffect.prefab
+  artifactKey: Guid(ecdd96beb7f93494880c052dfccf9dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Prefabs/SmallExplosionEffect.prefab using Guid(ecdd96beb7f93494880c052dfccf9dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd41874ee21275679e2429676084e9c1a') in 0.2059669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/WeaponEffects/Models/RocketWarhead.FBX
+  artifactKey: Guid(c25b0e0e92e901144a739246c4539336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/EffectExamples/WeaponEffects/Models/RocketWarhead.FBX using Guid(c25b0e0e92e901144a739246c4539336) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '258a56ac52573cdf59c48f37a87ce756') in 0.0354661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Obstacle Pack/Prefabs/obstacle crossbow.prefab
+  artifactKey: Guid(831e77e5a064448eaa8f8736e96155b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obstacle Pack/Prefabs/obstacle crossbow.prefab using Guid(831e77e5a064448eaa8f8736e96155b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19d89e7f1f48a8f7e2748d344f6efc7c') in 5.8932937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Button_02.fbx
+  artifactKey: Guid(227b372d554aea64f81e118cd9a61a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Button_02.fbx using Guid(227b372d554aea64f81e118cd9a61a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '260c1180e7bdad027b6c515c13699d3b') in 0.0678091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/Shared/Prefabs/Wood.prefab
+  artifactKey: Guid(b6d38b5165f9b6e49a8402118b5237a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/EffectExamples/Shared/Prefabs/Wood.prefab using Guid(b6d38b5165f9b6e49a8402118b5237a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c68d01de70d6bb369c75cdee8761eb4') in 0.1088087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Obstacle Pack/Models/obstacle spikewall.fbx
+  artifactKey: Guid(f0b363472b08d4612ab5ec09bea39817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obstacle Pack/Models/obstacle spikewall.fbx using Guid(f0b363472b08d4612ab5ec09bea39817) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e97d18446e665438db481055365db293') in 0.052406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/HaniJahanDesign/FreePack/Prefabs/HJD_FP_Crate_01.prefab
+  artifactKey: Guid(02bb6eede665d534a96b79960cf0da00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HaniJahanDesign/FreePack/Prefabs/HJD_FP_Crate_01.prefab using Guid(02bb6eede665d534a96b79960cf0da00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0142f194a13fb5be9587bbc7a4b808b7') in 0.0372974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/HaniJahanDesign/FreePack/Prefabs/HJD_FP_Hazzard_01.prefab
+  artifactKey: Guid(134f867878859b64b87b500cb64aac29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HaniJahanDesign/FreePack/Prefabs/HJD_FP_Hazzard_01.prefab using Guid(134f867878859b64b87b500cb64aac29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '127c1cb2224c0014395c002721a40965') in 0.0280981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Obstacle Pack/Models/Bomb.fbx
+  artifactKey: Guid(3c47550989e8e47859e785a4893523e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obstacle Pack/Models/Bomb.fbx using Guid(3c47550989e8e47859e785a4893523e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84c35128dea84641bc9cbf431632da27') in 0.0611035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/WaterEffects/Models/ImpactSplash.FBX
+  artifactKey: Guid(8f8a4cd20bdf7f845ab3768cae8aceed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/EffectExamples/WaterEffects/Models/ImpactSplash.FBX using Guid(8f8a4cd20bdf7f845ab3768cae8aceed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b7de0f19d51220dbaa4e8c1becea1aa') in 0.0575579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Obstacle Pack/Prefabs/obstacle gyotine.prefab
+  artifactKey: Guid(0b17c7f38812645138e287963a670f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obstacle Pack/Prefabs/obstacle gyotine.prefab using Guid(0b17c7f38812645138e287963a670f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e37f5a8cea3554afe39af5922c77d9d') in 0.0376006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Ground_Slope_03.fbx
+  artifactKey: Guid(03f461012dc2346459842e598def99aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Ground_Slope_03.fbx using Guid(03f461012dc2346459842e598def99aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'add1a880ebb4ef9100089e7c0bc61c81') in 0.0481284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Obstacle Pack/Prefabs/blade spinner.prefab
+  artifactKey: Guid(287e68d7726d5499f9f7b90ec3635837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obstacle Pack/Prefabs/blade spinner.prefab using Guid(287e68d7726d5499f9f7b90ec3635837) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29bd02e2b21026a8d2f0d5170b9c9aee') in 0.0370877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/HaniJahanDesign/FreePack/Prefabs/HJD_FP_Chest_01.prefab
+  artifactKey: Guid(bcf46106ca4beb942ab6ef799f8830f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HaniJahanDesign/FreePack/Prefabs/HJD_FP_Chest_01.prefab using Guid(bcf46106ca4beb942ab6ef799f8830f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79d1210ab4fc099048ac02d2dada47cb') in 0.0265143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

@@ -1,32 +1,32 @@
 Using pre-set license
-Built from '6000.0/staging' branch; Version is '6000.0.57f1 (b7b9860b7bbd) revision 12040582'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 15605 MB
+Built from '6000.0/staging' branch; Version is '6000.0.58f1 (44b8bf3a3225) revision 4503743'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32645 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-09-25T16:29:59Z
+Date: 2025-09-26T01:08:24Z
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Unity.exe
+D:\Unity\6000.0.58f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker3
 -projectPath
-C:/Users/Andyv/Documents/GitHub/CS4555-3D-Project/Rollaball
+C:/Users/PokeM/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-53900
+53307
 -job-worker-count
-3
+5
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/Andyv/Documents/GitHub/CS4555-3D-Project/Rollaball
-C:/Users/Andyv/Documents/GitHub/CS4555-3D-Project/Rollaball
+Successfully changed project path to: C:/Users/PokeM/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
+C:/Users/PokeM/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -62,15 +62,13 @@ C:/Users/Andyv/Documents/GitHub/CS4555-3D-Project/Rollaball
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3616]  Target information:
+Player connection [30608]  Target information:
 
-Player connection [3616]  * "[IP] 192.168.112.1 [Port] 0 [Flags] 2 [Guid] 911238176 [EditorId] 911238176 [Version] 1048832 [Id] WindowsEditor(7,Andy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [30608]  * "[IP] 192.168.1.83 [Port] 0 [Flags] 2 [Guid] 1159225659 [EditorId] 1159225659 [Version] 1048832 [Id] WindowsEditor(7,Hiyokurenri) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [3616]  * "[IP] 10.85.62.186 [Port] 0 [Flags] 2 [Guid] 911238176 [EditorId] 911238176 [Version] 1048832 [Id] WindowsEditor(7,Andy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [3616] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [3616] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 3
+Player connection [30608] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30608] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -81,61 +79,61 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 5.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.87 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 6000.0.57f1 (b7b9860b7bbd)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Andyv/Documents/GitHub/CS4555-3D-Project/Rollaball/Assets
+Initialize engine version: 6000.0.58f1 (44b8bf3a3225)
+[Subsystems] Discovering subsystems at path D:/Unity/6000.0.58f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/PokeM/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) Graphics (ID=0x1506)
-    Vendor:   ATI
-    VRAM:     7802 MB
-    Driver:   32.0.21025.10016
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e82)
+    Vendor:   NVIDIA
+    VRAM:     7989 MB
+    Driver:   32.0.15.7216
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+Mono path[0] = 'D:/Unity/6000.0.58f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/6000.0.58f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/6000.0.58f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.016655 seconds.
-- Loaded All Assemblies, in  1.891 seconds
+Register platform support module: D:/Unity/6000.0.58f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/6000.0.58f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007334 seconds.
+- Loaded All Assemblies, in  0.912 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.171 seconds
-Domain Reload Profiling: 3055ms
-	BeginReloadAssembly (479ms)
+- Finished resetting the current domain, in  0.881 seconds
+Domain Reload Profiling: 1793ms
+	BeginReloadAssembly (369ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (228ms)
-	RebuildNativeTypeToScriptingClass (56ms)
-	initialDomainReloadingComplete (288ms)
-	LoadAllAssembliesAndSetupDomain (831ms)
-		LoadAssemblies (473ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (92ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (332ms)
+		LoadAssemblies (365ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (818ms)
-			TypeCache.Refresh (813ms)
-				TypeCache.ScanAssembly (762ms)
+		AnalyzeDomain (326ms)
+			TypeCache.Refresh (324ms)
+				TypeCache.ScanAssembly (296ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1173ms)
+	FinalizeReload (882ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1016ms)
+		SetupLoadedEditorAssemblies (781ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (64ms)
-			SetLoadedEditorAssemblies (16ms)
-			BeforeProcessingInitializeOnLoad (227ms)
-			ProcessInitializeOnLoadAttributes (530ms)
-			ProcessInitializeOnLoadMethodAttributes (179ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (207ms)
+			ProcessInitializeOnLoadAttributes (387ms)
+			ProcessInitializeOnLoadMethodAttributes (138ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -144,8 +142,8 @@ Domain Reload Profiling: 3055ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.448 seconds
-Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.296 seconds
+Refreshing native plugins compatible for Editor in 4.80 ms, found 7 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -153,290 +151,158 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.347 seconds
-Domain Reload Profiling: 4786ms
-	BeginReloadAssembly (606ms)
+- Finished resetting the current domain, in  1.870 seconds
+Domain Reload Profiling: 4156ms
+	BeginReloadAssembly (412ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (24ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (89ms)
-	RebuildCommonClasses (144ms)
-	RebuildNativeTypeToScriptingClass (39ms)
-	initialDomainReloadingComplete (159ms)
-	LoadAllAssembliesAndSetupDomain (1490ms)
-		LoadAssemblies (1117ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (99ms)
+	LoadAllAssembliesAndSetupDomain (1648ms)
+		LoadAssemblies (1243ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (725ms)
-			TypeCache.Refresh (560ms)
-				TypeCache.ScanAssembly (522ms)
-			BuildScriptInfoCaches (126ms)
-			ResolveRequiredComponents (31ms)
-	FinalizeReload (2348ms)
+		AnalyzeDomain (673ms)
+			TypeCache.Refresh (524ms)
+				TypeCache.ScanAssembly (487ms)
+			BuildScriptInfoCaches (123ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1871ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1847ms)
+		SetupLoadedEditorAssemblies (1450ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (304ms)
-			ProcessInitializeOnLoadAttributes (1330ms)
-			ProcessInitializeOnLoadMethodAttributes (186ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (356ms)
+			ProcessInitializeOnLoadAttributes (976ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
+Refreshing native plugins compatible for Editor in 34.67 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6074 unused Assets / (5.1 MB). Loaded Objects now: 6775.
-Memory consumption went from 124.6 MB to 119.6 MB.
-Total: 21.412200 ms (FindLiveObjects: 1.740400 ms CreateObjectMapping: 1.629100 ms MarkObjects: 11.608800 ms  DeleteObjects: 6.431100 ms)
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6500 unused Assets / (4.3 MB). Loaded Objects now: 7214.
+Memory consumption went from 140.8 MB to 136.5 MB.
+Total: 65.385100 ms (FindLiveObjects: 1.540300 ms CreateObjectMapping: 2.289000 ms MarkObjects: 11.906000 ms  DeleteObjects: 49.647200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 607206.226837 seconds.
-  path: Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Chest_01.fbx
-  artifactKey: Guid(8ce87987104a2cf4ba4197732c67eb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Chest_01.fbx using Guid(8ce87987104a2cf4ba4197732c67eb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b8214cc71f02c1c038cb6acd55d08a1') in 5.8298833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+  Time since last request: 60384.371181 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/Shared/Prefabs/ParticlesLight.prefab
+  artifactKey: Guid(fa35d75604d172d48b7a6b62a07c7dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/EffectExamples/Shared/Prefabs/ParticlesLight.prefab using Guid(fa35d75604d172d48b7a6b62a07c7dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7135258cca2f65379f75a3dc1064bf3') in 0.1708076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Lever_01.fbx
-  artifactKey: Guid(0521400cb1ef35948b4aeaba7bdc4fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Lever_01.fbx using Guid(0521400cb1ef35948b4aeaba7bdc4fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09ac4ca0c6f1bc58ab0f78673035eae6') in 0.2385667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.739367 seconds.
-  path: Assets/HaniJahanDesign/FreePack/Prefabs/HJD_FP_Chest_01.prefab
-  artifactKey: Guid(bcf46106ca4beb942ab6ef799f8830f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HaniJahanDesign/FreePack/Prefabs/HJD_FP_Chest_01.prefab using Guid(bcf46106ca4beb942ab6ef799f8830f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b14bb149f77ad8a54871461b149e5db7') in 0.0739664 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/HaniJahanDesign/FreePack/Prefabs/HJD_FP_Crate_01.prefab
-  artifactKey: Guid(02bb6eede665d534a96b79960cf0da00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HaniJahanDesign/FreePack/Prefabs/HJD_FP_Crate_01.prefab using Guid(02bb6eede665d534a96b79960cf0da00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4eede725fd2102d0fde98987661d3fb7') in 0.1822532 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/HaniJahanDesign/FreePack/Prefabs/HJD_FP_Door_01.prefab
-  artifactKey: Guid(50215adbee6ce2b449b0f2fc29a5e5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HaniJahanDesign/FreePack/Prefabs/HJD_FP_Door_01.prefab using Guid(50215adbee6ce2b449b0f2fc29a5e5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23f87862312f884d4bda8337f787a4cb') in 0.1070834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/HaniJahanDesign/FreePack/Prefabs/HJD_FP_Ground_Floating_03.prefab
-  artifactKey: Guid(f137b743451013a4786b73c13536442c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HaniJahanDesign/FreePack/Prefabs/HJD_FP_Ground_Floating_03.prefab using Guid(f137b743451013a4786b73c13536442c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0718fd3f2a4cd75de3d4f0e556278ee1') in 0.2739553 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/HaniJahanDesign/FreePack/Prefabs/HJD_FP_Ground_Block_03.prefab
-  artifactKey: Guid(b35799adf40bff54cbe1d6606915c30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HaniJahanDesign/FreePack/Prefabs/HJD_FP_Ground_Block_03.prefab using Guid(b35799adf40bff54cbe1d6606915c30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '177f417d2382d117127775c65768140e') in 0.1279503 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/HaniJahanDesign/FreePack/Textures/HJD_ColorPal_Normal_01.png
-  artifactKey: Guid(ab72fc05053393047bf60e24661fac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HaniJahanDesign/FreePack/Textures/HJD_ColorPal_Normal_01.png using Guid(ab72fc05053393047bf60e24661fac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e48c0d24f49802d67dad90424835196') in 0.6237524 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/HaniJahanDesign/FreePack/Prefabs/HJD_FP_Key_01.prefab
-  artifactKey: Guid(37ea7a68ca5901447b57d75fe9fb14a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HaniJahanDesign/FreePack/Prefabs/HJD_FP_Key_01.prefab using Guid(37ea7a68ca5901447b57d75fe9fb14a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1273c789c2fe868e6444f915b9793a4') in 0.1690679 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 108.990212 seconds.
-  path: Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Button_01.fbx
-  artifactKey: Guid(c0bc74af57227e24e82401a936ba6f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Button_01.fbx using Guid(c0bc74af57227e24e82401a936ba6f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45a802d68b220ae1b4c85dcc7fea6462') in 0.357927 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Hazzard_02.fbx
-  artifactKey: Guid(04e33a1eb0833474f8ebb3d6a3d77b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Hazzard_02.fbx using Guid(04e33a1eb0833474f8ebb3d6a3d77b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c94abbf55467e0287e7ed0743e5d855') in 0.25788 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Ground_Flat_02.fbx
-  artifactKey: Guid(6df1b1d4275da8448ae80c8399274503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Ground_Flat_02.fbx using Guid(6df1b1d4275da8448ae80c8399274503) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a8f78b9723aa3b1384a1344a0174f0a') in 0.0770659 seconds
+  Time since last request: 0.000033 seconds.
+  path: Assets/Obstacle Pack/Models/blade spinner.fbx
+  artifactKey: Guid(6921ab2820b854ad2a9b959bf8a2a522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obstacle Pack/Models/blade spinner.fbx using Guid(6921ab2820b854ad2a9b959bf8a2a522) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95921d13ebca8f102a007ba41dde5809') in 3.4196703 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Chest_01.fbx
-  artifactKey: Guid(8ce87987104a2cf4ba4197732c67eb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Chest_01.fbx using Guid(8ce87987104a2cf4ba4197732c67eb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0feb2fb0399dea6525b4ff2a2ace6e01') in 0.1921801 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+  Time since last request: 0.000087 seconds.
+  path: Assets/HaniJahanDesign/FreePack/Prefabs/HJD_FP_Lever_01.prefab
+  artifactKey: Guid(8b1efc14b5656d84fa8aed0957392df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HaniJahanDesign/FreePack/Prefabs/HJD_FP_Lever_01.prefab using Guid(8b1efc14b5656d84fa8aed0957392df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd008521ef01f647b5fa410d21f4202f0') in 0.3804985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Ground_Block_03.fbx
-  artifactKey: Guid(74796f02aac01a348978cb6f30e7b6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Ground_Block_03.fbx using Guid(74796f02aac01a348978cb6f30e7b6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08eba5210cd9ab87bbddbb62cd2a7f5e') in 0.0864447 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000044 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/Shared/Models/LowMan.fbx
+  artifactKey: Guid(7e15121f5f042ed46aba81406403f2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/EffectExamples/Shared/Models/LowMan.fbx using Guid(7e15121f5f042ed46aba81406403f2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55c14da38540804e164ebc7731eba4bf') in 0.1259427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Ground_Slope_02.fbx
-  artifactKey: Guid(44038a7ba05d4d74c9835abe17134ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Ground_Slope_02.fbx using Guid(44038a7ba05d4d74c9835abe17134ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f9cb663bb1b317b0d26568edd11d61b') in 0.0987066 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Coin_01.fbx
-  artifactKey: Guid(1e609b81486ee3f4586681228e93dbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Coin_01.fbx using Guid(1e609b81486ee3f4586681228e93dbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3befeb15526a93104a1abb3fdafeff1') in 0.0869865 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Ground_Block_02.fbx
-  artifactKey: Guid(48c7b39446db4bd42a2a12872af5449a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Ground_Block_02.fbx using Guid(48c7b39446db4bd42a2a12872af5449a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07bcc90d778b686eb28cdd2fbd2a60e9') in 0.1035628 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Ground_Block_01.fbx
-  artifactKey: Guid(3a0f842a2e96cff40b96e44e43665c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Ground_Block_01.fbx using Guid(3a0f842a2e96cff40b96e44e43665c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '658b16fbe06630015e3f15246ddc20f1') in 0.1486235 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000045 seconds.
+  path: Assets/Obstacle Pack/Prefabs/log_trap.prefab
+  artifactKey: Guid(3be617efde6ad4176bc0c66747635f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obstacle Pack/Prefabs/log_trap.prefab using Guid(3be617efde6ad4176bc0c66747635f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4efb3ae02b218001d2d33844ca4e6b45') in 6.0426345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000072 seconds.
-  path: Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Door_01.fbx
-  artifactKey: Guid(05330103679337045b17c18b0d41577a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Door_01.fbx using Guid(05330103679337045b17c18b0d41577a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe3255e8c649a6e33c61264e2588fa8a') in 0.0996972 seconds
+  path: Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Ground_Block_02.fbx
+  artifactKey: Guid(48c7b39446db4bd42a2a12872af5449a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Ground_Block_02.fbx using Guid(48c7b39446db4bd42a2a12872af5449a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a8b675bc7eb8d02c52485bb04485177') in 0.0413774 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Lever_01.fbx
-  artifactKey: Guid(0521400cb1ef35948b4aeaba7bdc4fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Lever_01.fbx using Guid(0521400cb1ef35948b4aeaba7bdc4fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4f16d9da7e9f871e8d53e578f5d4bbc') in 0.1511014 seconds
+  Time since last request: 0.000043 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/WeaponEffects/Prefabs/RocketTrailEffect.prefab
+  artifactKey: Guid(20c0f7e297297fc468f9740f6bb08cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/EffectExamples/WeaponEffects/Prefabs/RocketTrailEffect.prefab using Guid(20c0f7e297297fc468f9740f6bb08cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39322b347bc04b863b940bee62efa4fc') in 0.2995878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Obstacle Pack/Models/blade.fbx
+  artifactKey: Guid(f29a19d4489b24447876d7d59d4baf9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obstacle Pack/Models/blade.fbx using Guid(f29a19d4489b24447876d7d59d4baf9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92b014b554113151bfd2e7762714a413') in 0.1018907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/Blood/Prefabs/BloodSprayEffect.prefab
+  artifactKey: Guid(abb9f519b142e304d9c45b56afa768bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/EffectExamples/Blood/Prefabs/BloodSprayEffect.prefab using Guid(abb9f519b142e304d9c45b56afa768bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '524f10e23a47d02d0e954f422bf8dfd4') in 0.0977736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/WeaponEffects/Models/ShellCasing.FBX
+  artifactKey: Guid(39af8eb310699cb4dac88a1ce9577c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/EffectExamples/WeaponEffects/Models/ShellCasing.FBX using Guid(39af8eb310699cb4dac88a1ce9577c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8d78f8cb758d1a2f741b5e3fe33c597') in 0.0646788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Hazzard_01.fbx
+  artifactKey: Guid(19da191c2836c2a419b4e8e0f5983cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Hazzard_01.fbx using Guid(19da191c2836c2a419b4e8e0f5983cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33da6307d626c4c22138c56a9ba7e2db') in 0.0688146 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Ground_Floating_03.fbx
-  artifactKey: Guid(7e3bef4d7af1a7e4e80786f258fa985d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HaniJahanDesign/FreePack/Models/HJD_FP_Ground_Floating_03.fbx using Guid(7e3bef4d7af1a7e4e80786f258fa985d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fefb82ded1c4975d571084e0d9dcf934') in 0.1172206 seconds
+  Time since last request: 0.000049 seconds.
+  path: Assets/Obstacle Pack/Prefabs/obstacle poisonthrower.prefab
+  artifactKey: Guid(6173ac709756c400e9f7a0b9932f6e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obstacle Pack/Prefabs/obstacle poisonthrower.prefab using Guid(6173ac709756c400e9f7a0b9932f6e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cedbd0cf409c7659ce31e8eeaff7e8f9') in 0.0451726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Obstacle Pack/Models/obstacle poisonthrower.fbx
+  artifactKey: Guid(dfe5eb226798d44d589ec245dd6903cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obstacle Pack/Models/obstacle poisonthrower.fbx using Guid(dfe5eb226798d44d589ec245dd6903cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '936c2f575d6dc80adbc2bd2d8bbdc85d') in 0.0450208 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  4.555 seconds
-Refreshing native plugins compatible for Editor in 5.48 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.682 seconds
-Domain Reload Profiling: 9225ms
-	BeginReloadAssembly (1146ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (76ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (216ms)
-	RebuildCommonClasses (300ms)
-	RebuildNativeTypeToScriptingClass (126ms)
-	initialDomainReloadingComplete (432ms)
-	LoadAllAssembliesAndSetupDomain (2537ms)
-		LoadAssemblies (2056ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1118ms)
-			TypeCache.Refresh (39ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (1027ms)
-			ResolveRequiredComponents (39ms)
-	FinalizeReload (4683ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (4002ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (1195ms)
-			ProcessInitializeOnLoadAttributes (2385ms)
-			ProcessInitializeOnLoadMethodAttributes (385ms)
-			AfterProcessingInitializeOnLoad (14ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (54ms)
-Refreshing native plugins compatible for Editor in 3.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6072 unused Assets / (4.7 MB). Loaded Objects now: 6830.
-Memory consumption went from 141.5 MB to 136.7 MB.
-Total: 18.694600 ms (FindLiveObjects: 1.686500 ms CreateObjectMapping: 1.687900 ms MarkObjects: 9.834500 ms  DeleteObjects: 5.483000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
 Received Import Request.
-  Time since last request: 48.719912 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_B2.prefab
-  artifactKey: Guid(14f5723f491c5a64d914851138ec166c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_B2.prefab using Guid(14f5723f491c5a64d914851138ec166c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66fa5beeeb2d3ce44b1d7a6cd3286725') in 19.0965281 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_C2.prefab
-  artifactKey: Guid(4de7a2a67eaf3294aba3f667e530de8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_C2.prefab using Guid(4de7a2a67eaf3294aba3f667e530de8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abf07f3ef7f4042208532f27c68baac5') in 0.0834411 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_14.prefab
-  artifactKey: Guid(d2be97095b8b6714481f3b961928dd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_14.prefab using Guid(d2be97095b8b6714481f3b961928dd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76291687fa1b0bdd46274874eb77a741') in 0.1728084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+  Time since last request: 0.000050 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Prefabs/FlamesParticleEffect.prefab
+  artifactKey: Guid(3228a22491941734bb83ad691d17fcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Prefabs/FlamesParticleEffect.prefab using Guid(3228a22491941734bb83ad691d17fcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5619a946f803cbef489bb29281445677') in 0.025885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

@@ -1,80 +1,88 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
 
-
+[RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(CapsuleCollider))]
 public class PlayerController : MonoBehaviour
 {
-    // Rigidbody of the player.
-    private Rigidbody rb;
-    private int count;
-    // Movement along X and Y axes.
+    
+    public Rigidbody rb;
+
+
     private float movementX;
     private float movementY;
 
-    // Speed at which the player moves.
-    public float speed = 10;
-    public TextMeshProUGUI countText;
-    public GameObject winTextObject;
+    // Player stats
+    public float speed = 5f;         
+    public float rotationSpeed = 10f; 
+    public float jumpForce = 5f;
+    public float groundCheckDistance = 0f;
 
-    // Start is called before the first frame update.
+    
+
+    public bool isGrounded;
+
     void Start()
     {
-        // Get and store the Rigidbody component attached to the player.
         rb = GetComponent<Rigidbody>();
-        count = 0;
-        SetCountText();
-        winTextObject.SetActive(false);
+        rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
     }
 
-    // This function is called when a move input is detected.
+    void Update()
+    {
+        // Check if grounded using a Raycast
+        isGrounded = Physics.Raycast(transform.position, Vector3.down, 1f + groundCheckDistance);
+    }
+
+    // Take input, convert to Vector2
     void OnMove(InputValue movementValue)
     {
-        // Convert the input value into a Vector2 for movement.
         Vector2 movementVector = movementValue.Get<Vector2>();
-
-        // Store the X and Y components of the movement.
         movementX = movementVector.x;
         movementY = movementVector.y;
     }
-    void SetCountText() {
-        countText.text = "Count: " + count.ToString();
-        if (count >= 4) { 
-            winTextObject.SetActive(true);
-            Destroy(GameObject.FindGameObjectWithTag("Enemy"));
+
+    // Jump
+    void OnJump(InputValue jumpValue)
+    {
+        if (jumpValue.isPressed && isGrounded)
+        {
+            rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z); // Reset Y velocity
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         }
     }
 
-    // FixedUpdate is called once per fixed frame-rate frame.
-    private void FixedUpdate()
-    {
-        // Create a 3D movement vector using the X and Y inputs.
-        Vector3 movement = new Vector3(movementX, 0.0f, movementY);
+    void FixedUpdate() {
 
-        // Apply force to the Rigidbody to move the player.
-        rb.AddForce(movement * speed);
+        // Still rotates in idle animation if coming into contact with walls/blocks. 
+       
+        // Raw input vector
+        Vector3 inputDir = new Vector3(movementX, 0f, movementY);
+
+        // Movement
+        Vector3 targetVelocity = inputDir.normalized * speed;
+        rb.linearVelocity = new Vector3(targetVelocity.x, rb.linearVelocity.y, targetVelocity.z);
+
+        // Look rotation only if input is significant
+        float deadzone = 0.1f; // ignore very small inputs
+        if (Mathf.Abs(movementX) > deadzone || Mathf.Abs(movementY) > deadzone)
+        {
+            Quaternion targetRotation = Quaternion.LookRotation(inputDir);
+            rb.rotation = Quaternion.Slerp(rb.rotation, targetRotation, rotationSpeed * Time.fixedDeltaTime);
+        }
     }
+
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("PickUp")) {
-            other.gameObject.SetActive(false);
-            SetCountText();
-        }
-        other.gameObject.SetActive(false);
-        count = count + 1;
-
-    }
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (other.gameObject.CompareTag("PickUp"))
         {
-            Destroy(gameObject);
-            winTextObject.gameObject.SetActive(true);
-            winTextObject.GetComponent<TextMeshProUGUI>().text = "You Lose!";
+            other.gameObject.SetActive(false);
         }
     }
+
+
 }

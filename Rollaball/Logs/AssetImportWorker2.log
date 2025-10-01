@@ -10,11 +10,11 @@ C:\Users\minec\OneDrive\Documents\CS 3D game dev class\Unity Hub\6000.0.58f1\Edi
 -batchMode
 -noUpm
 -name
-AssetImportWorker0
+AssetImportWorker2
 -projectPath
 C:/Users/minec/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
 -logFile
-Logs/AssetImportWorker0.log
+Logs/AssetImportWorker2.log
 -srvPort
 60925
 -job-worker-count
@@ -62,12 +62,12 @@ C:/Users/minec/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [39792]  Target information:
+Player connection [49436]  Target information:
 
-Player connection [39792]  * "[IP] 192.168.0.91 [Port] 0 [Flags] 2 [Guid] 2089461033 [EditorId] 2089461033 [Version] 1048832 [Id] WindowsEditor(7,KuroIzu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [49436]  * "[IP] 192.168.0.91 [Port] 0 [Flags] 2 [Guid] 1532476928 [EditorId] 1532476928 [Version] 1048832 [Id] WindowsEditor(7,KuroIzu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [39792] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [39792] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [49436] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [49436] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 15
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,7 +79,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.22 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 3.34 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.58f1 (44b8bf3a3225)
 [Subsystems] Discovering subsystems at path C:/Users/minec/OneDrive/Documents/CS 3D game dev class/Unity Hub/6000.0.58f1/Editor/Data/Resources/UnitySubsystems
@@ -95,19 +95,19 @@ Initialize mono
 Mono path[0] = 'C:/Users/minec/OneDrive/Documents/CS 3D game dev class/Unity Hub/6000.0.58f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/minec/OneDrive/Documents/CS 3D game dev class/Unity Hub/6000.0.58f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Users/minec/OneDrive/Documents/CS 3D game dev class/Unity Hub/6000.0.58f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/minec/OneDrive/Documents/CS 3D game dev class/Unity Hub/6000.0.58f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Users/minec/OneDrive/Documents/CS 3D game dev class/Unity Hub/6000.0.58f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004287 seconds.
-- Loaded All Assemblies, in  0.237 seconds
+Registered in 0.004214 seconds.
+- Loaded All Assemblies, in  0.232 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.195 seconds
-Domain Reload Profiling: 429ms
-	BeginReloadAssembly (78ms)
+- Finished resetting the current domain, in  0.198 seconds
+Domain Reload Profiling: 427ms
+	BeginReloadAssembly (76ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -115,25 +115,25 @@ Domain Reload Profiling: 429ms
 		CreateAndSetChildDomain (0ms)
 	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (94ms)
-		LoadAssemblies (77ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (93ms)
+		LoadAssemblies (74ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (90ms)
-			TypeCache.Refresh (89ms)
+		AnalyzeDomain (92ms)
+			TypeCache.Refresh (90ms)
 				TypeCache.ScanAssembly (82ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (195ms)
+	FinalizeReload (198ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (170ms)
+		SetupLoadedEditorAssemblies (172ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (13ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (34ms)
-			ProcessInitializeOnLoadAttributes (91ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (92ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -142,8 +142,8 @@ Domain Reload Profiling: 429ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.531 seconds
-Refreshing native plugins compatible for Editor in 1.88 ms, found 7 plugins.
+- Loaded All Assemblies, in  0.535 seconds
+Refreshing native plugins compatible for Editor in 2.19 ms, found 7 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -151,9 +151,9 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.437 seconds
-Domain Reload Profiling: 964ms
-	BeginReloadAssembly (104ms)
+- Finished resetting the current domain, in  0.433 seconds
+Domain Reload Profiling: 963ms
+	BeginReloadAssembly (106ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
@@ -162,59 +162,59 @@ Domain Reload Profiling: 964ms
 	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (370ms)
-		LoadAssemblies (248ms)
+	LoadAllAssembliesAndSetupDomain (371ms)
+		LoadAssemblies (251ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (179ms)
 			TypeCache.Refresh (130ms)
 				TypeCache.ScanAssembly (120ms)
-			BuildScriptInfoCaches (41ms)
+			BuildScriptInfoCaches (40ms)
 			ResolveRequiredComponents (6ms)
-	FinalizeReload (437ms)
+	FinalizeReload (433ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (329ms)
+		SetupLoadedEditorAssemblies (323ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (223ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (217ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.84 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 1.89 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6506 unused Assets / (6.1 MB). Loaded Objects now: 7226.
-Memory consumption went from 164.3 MB to 158.2 MB.
-Total: 4.802800 ms (FindLiveObjects: 0.359600 ms CreateObjectMapping: 0.205800 ms MarkObjects: 2.751200 ms  DeleteObjects: 1.485100 ms)
+Unloading 6506 unused Assets / (6.0 MB). Loaded Objects now: 7226.
+Memory consumption went from 156.5 MB to 150.5 MB.
+Total: 4.976500 ms (FindLiveObjects: 0.365800 ms CreateObjectMapping: 0.209500 ms MarkObjects: 2.760800 ms  DeleteObjects: 1.639800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1093128.556351 seconds.
-  path: Assets/MODULAR CASTLE ASSETS/Lumber_Mill.fbx
-  artifactKey: Guid(9de999ead1795334a9227ebe00cccdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MODULAR CASTLE ASSETS/Lumber_Mill.fbx using Guid(9de999ead1795334a9227ebe00cccdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bf424bf644fddf2aa979312cef4eb0e') in 0.3406782 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+  Time since last request: 1093128.540633 seconds.
+  path: Assets/MODULAR CASTLE ASSETS/Wooden_Gate.fbx
+  artifactKey: Guid(178940c0422404642afff3c888dc8fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODULAR CASTLE ASSETS/Wooden_Gate.fbx using Guid(178940c0422404642afff3c888dc8fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b87d3a7556252a5e300ef96b0e4a7836') in 0.3390339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/MODULAR CASTLE ASSETS/Stone_Tower.fbx
-  artifactKey: Guid(6f383fac8de385a479a7f97149fd88ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MODULAR CASTLE ASSETS/Stone_Tower.fbx using Guid(6f383fac8de385a479a7f97149fd88ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ee606eaf14e5506c784c1a605fdf056') in 0.0163223 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+  Time since last request: 0.000025 seconds.
+  path: Assets/MODULAR CASTLE ASSETS/Wooden_Walls.fbx
+  artifactKey: Guid(0fda2c75494cf544fab76674f907a6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODULAR CASTLE ASSETS/Wooden_Walls.fbx using Guid(0fda2c75494cf544fab76674f907a6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd4ebaacc3535886602d3368b96ee346') in 0.0181913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/MODULAR CASTLE ASSETS/Stone_Gate.fbx
-  artifactKey: Guid(8ffe50f2d07b585439c3d9612ef65448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MODULAR CASTLE ASSETS/Stone_Gate.fbx using Guid(8ffe50f2d07b585439c3d9612ef65448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dab22addde28b9498ae84ef5162101ab') in 0.0334901 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+  path: Assets/MODULAR CASTLE ASSETS/Stone_Mine.fbx
+  artifactKey: Guid(14f8b8cadd0e0584faf4ff861f3b3e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODULAR CASTLE ASSETS/Stone_Mine.fbx using Guid(14f8b8cadd0e0584faf4ff861f3b3e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0712d8dd84405c0d96789b57413b584') in 0.0214944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

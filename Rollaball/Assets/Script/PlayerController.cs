@@ -15,6 +15,11 @@ public class PlayerController : MonoBehaviour
     private float movementX;
     private float movementY;
 
+    public float deathY = -20f;     // fall below this Y to respawn
+    public Transform respawnPoint;
+    private Vector3 _spawnPos;
+    private Quaternion _spawnRot;
+
     // Player stats
     public float speed = 5f;         
     public float rotationSpeed = 10f; 
@@ -29,6 +34,8 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
+        _spawnPos = respawnPoint ? respawnPoint.position : transform.position;
+        _spawnRot = respawnPoint ? respawnPoint.rotation : transform.rotation;
     }
 
     void Update()
@@ -48,7 +55,7 @@ public class PlayerController : MonoBehaviour
     // Jump
     void OnJump(InputValue jumpValue)
     {
-        if (jumpValue.isPressed && isGrounded)
+        if (jumpValue.isPressed)
         {
             rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z); // Reset Y velocity
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
@@ -56,9 +63,14 @@ public class PlayerController : MonoBehaviour
     }
 
     void FixedUpdate() {
+        // Respawn if fall below certain Y level
+        if (rb.position.y < deathY)
+        {
+            Respawn();
+        }
 
         // Still rotates in idle animation if coming into contact with walls/blocks. 
-       
+
         // Raw input vector
         Vector3 inputDir = new Vector3(movementX, 0f, movementY);
 
@@ -74,6 +86,18 @@ public class PlayerController : MonoBehaviour
             rb.rotation = Quaternion.Slerp(rb.rotation, targetRotation, rotationSpeed * Time.fixedDeltaTime);
         }
     }
+
+    private void Respawn()
+    {
+        // stop motion
+        rb.linearVelocity = Vector3.zero;
+        rb.angularVelocity = Vector3.zero;
+
+        // teleport back to spawn
+        rb.position = _spawnPos;
+        rb.rotation = _spawnRot;
+    }
+
 
 
     private void OnTriggerEnter(Collider other)

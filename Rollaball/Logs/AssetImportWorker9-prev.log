@@ -1,32 +1,32 @@
 Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.58f1 (44b8bf3a3225) revision 4503743'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 65325 MB
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 15605 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-10-01T20:51:44Z
+Date: 2025-10-15T20:14:55Z
 
 COMMAND LINE ARGUMENTS:
-C:\Users\minec\OneDrive\Documents\CS 3D game dev class\Unity Hub\6000.0.58f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker9
 -projectPath
-C:/Users/minec/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
+C:/Users/Andyv/Downloads/CS4555-3D-Project-terrain-test/CS4555-3D-Project-terrain-test/Rollaball
 -logFile
 Logs/AssetImportWorker9.log
 -srvPort
-56424
+53010
 -job-worker-count
-15
+3
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/minec/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
-C:/Users/minec/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
+Successfully changed project path to: C:/Users/Andyv/Downloads/CS4555-3D-Project-terrain-test/CS4555-3D-Project-terrain-test/Rollaball
+C:/Users/Andyv/Downloads/CS4555-3D-Project-terrain-test/CS4555-3D-Project-terrain-test/Rollaball
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -62,13 +62,15 @@ C:/Users/minec/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22300]  Target information:
+Player connection [21588]  Target information:
 
-Player connection [22300]  * "[IP] 192.168.0.91 [Port] 0 [Flags] 2 [Guid] 1843011418 [EditorId] 1843011418 [Version] 1048832 [Id] WindowsEditor(7,KuroIzu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [21588]  * "[IP] 192.168.112.1 [Port] 0 [Flags] 2 [Guid] 3204675600 [EditorId] 3204675600 [Version] 1048832 [Id] WindowsEditor(7,Andy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [22300] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [22300] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 15
+Player connection [21588]  * "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 3204675600 [EditorId] 3204675600 [Version] 1048832 [Id] WindowsEditor(7,Andy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21588] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21588] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -79,61 +81,61 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 4.33 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 80.89 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.58f1 (44b8bf3a3225)
-[Subsystems] Discovering subsystems at path C:/Users/minec/OneDrive/Documents/CS 3D game dev class/Unity Hub/6000.0.58f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/minec/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.58f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Andyv/Downloads/CS4555-3D-Project-terrain-test/CS4555-3D-Project-terrain-test/Rollaball/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4070 SUPER (ID=0x2783)
-    Vendor:   NVIDIA
-    VRAM:     11999 MB
-    Driver:   32.0.15.8129
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1506)
+    Vendor:   ATI
+    VRAM:     7802 MB
+    Driver:   32.0.21025.10016
 Initialize mono
-Mono path[0] = 'C:/Users/minec/OneDrive/Documents/CS 3D game dev class/Unity Hub/6000.0.58f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Users/minec/OneDrive/Documents/CS 3D game dev class/Unity Hub/6000.0.58f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Users/minec/OneDrive/Documents/CS 3D game dev class/Unity Hub/6000.0.58f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.58f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.58f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.58f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Users/minec/OneDrive/Documents/CS 3D game dev class/Unity Hub/6000.0.58f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Users/minec/OneDrive/Documents/CS 3D game dev class/Unity Hub/6000.0.58f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004711 seconds.
-- Loaded All Assemblies, in  0.251 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.58f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.58f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.045354 seconds.
+- Loaded All Assemblies, in  4.273 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.212 seconds
-Domain Reload Profiling: 461ms
-	BeginReloadAssembly (85ms)
+- Finished resetting the current domain, in  2.925 seconds
+Domain Reload Profiling: 7192ms
+	BeginReloadAssembly (1207ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (99ms)
-		LoadAssemblies (83ms)
+		CreateAndSetChildDomain (6ms)
+	RebuildCommonClasses (237ms)
+	RebuildNativeTypeToScriptingClass (47ms)
+	initialDomainReloadingComplete (416ms)
+	LoadAllAssembliesAndSetupDomain (2358ms)
+		LoadAssemblies (1196ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (96ms)
-			TypeCache.Refresh (95ms)
-				TypeCache.ScanAssembly (86ms)
+		AnalyzeDomain (2342ms)
+			TypeCache.Refresh (2336ms)
+				TypeCache.ScanAssembly (2115ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (213ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (2926ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (184ms)
+		SetupLoadedEditorAssemblies (2504ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (39ms)
-			ProcessInitializeOnLoadAttributes (88ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
+			InitializePlatformSupportModulesInManaged (556ms)
+			SetLoadedEditorAssemblies (37ms)
+			BeforeProcessingInitializeOnLoad (964ms)
+			ProcessInitializeOnLoadAttributes (745ms)
+			ProcessInitializeOnLoadMethodAttributes (203ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -142,8 +144,8 @@ Domain Reload Profiling: 461ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.534 seconds
-Refreshing native plugins compatible for Editor in 1.87 ms, found 7 plugins.
+- Loaded All Assemblies, in  5.464 seconds
+Refreshing native plugins compatible for Editor in 13.14 ms, found 7 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -151,191 +153,161 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.436 seconds
-Domain Reload Profiling: 966ms
-	BeginReloadAssembly (106ms)
+- Finished resetting the current domain, in  6.389 seconds
+Domain Reload Profiling: 11826ms
+	BeginReloadAssembly (961ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (33ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (370ms)
-		LoadAssemblies (250ms)
+		CreateAndSetChildDomain (176ms)
+	RebuildCommonClasses (181ms)
+	RebuildNativeTypeToScriptingClass (51ms)
+	initialDomainReloadingComplete (307ms)
+	LoadAllAssembliesAndSetupDomain (3935ms)
+		LoadAssemblies (2839ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (179ms)
-			TypeCache.Refresh (128ms)
-				TypeCache.ScanAssembly (119ms)
-			BuildScriptInfoCaches (42ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (437ms)
+		AnalyzeDomain (1629ms)
+			TypeCache.Refresh (1087ms)
+				TypeCache.ScanAssembly (969ms)
+			BuildScriptInfoCaches (470ms)
+			ResolveRequiredComponents (43ms)
+	FinalizeReload (6391ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (322ms)
+		SetupLoadedEditorAssemblies (4997ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (218ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (21ms)
+			BeforeProcessingInitializeOnLoad (1151ms)
+			ProcessInitializeOnLoadAttributes (3395ms)
+			ProcessInitializeOnLoadMethodAttributes (399ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 2.07 ms, found 7 plugins.
+		AwakeInstancesAfterBackupRestoration (24ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.35 seconds
+Refreshing native plugins compatible for Editor in 20.17 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6505 unused Assets / (5.5 MB). Loaded Objects now: 7225.
-Memory consumption went from 160.5 MB to 155.0 MB.
-Total: 8.542700 ms (FindLiveObjects: 1.030800 ms CreateObjectMapping: 0.721900 ms MarkObjects: 4.522000 ms  DeleteObjects: 2.267000 ms)
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6659 unused Assets / (6.8 MB). Loaded Objects now: 7407.
+Memory consumption went from 148.2 MB to 141.4 MB.
+Total: 40.978800 ms (FindLiveObjects: 2.260400 ms CreateObjectMapping: 3.066500 ms MarkObjects: 22.682100 ms  DeleteObjects: 12.966800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1088341.035343 seconds.
-  path: Assets/HaniJahanDesign/FreePack/Prefabs/HJD_FP_Door_01.prefab
-  artifactKey: Guid(50215adbee6ce2b449b0f2fc29a5e5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HaniJahanDesign/FreePack/Prefabs/HJD_FP_Door_01.prefab using Guid(50215adbee6ce2b449b0f2fc29a5e5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40ee6d4f41cf25c12d7a638c41fc7bd8') in 0.3171466 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/HaniJahanDesign/FreePack/Prefabs/HJD_FP_Ground_Slope_03.prefab
-  artifactKey: Guid(933e817a0880b6c4a803956125c8d0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HaniJahanDesign/FreePack/Prefabs/HJD_FP_Ground_Slope_03.prefab using Guid(933e817a0880b6c4a803956125c8d0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '326e15317e8a160f53f11f25b3581a50') in 0.0109789 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.054867 seconds.
-  path: Assets/Kenenny Models/Ken-Arena/column.fbx
-  artifactKey: Guid(d24b965ed56f73f468dbcb47c36a255a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Arena/column.fbx using Guid(d24b965ed56f73f468dbcb47c36a255a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ec5b4bc720bed9a4921b3bf797cee3f') in 0.152852 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
+  Time since last request: 32023.327304 seconds.
   path: Assets/Kenenny Models/Ken-Arena/stairs-corner.fbx
   artifactKey: Guid(e9d7739f229fcf8479c9a23559f2b95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Arena/stairs-corner.fbx using Guid(e9d7739f229fcf8479c9a23559f2b95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1cfd65b2b5b4025f85f6a18bbd3b28f') in 0.0227837 seconds
+Start importing Assets/Kenenny Models/Ken-Arena/stairs-corner.fbx using Guid(e9d7739f229fcf8479c9a23559f2b95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8cbf5e10d339f406a73c675fcb81c7d1') in 4.1702301 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Kenenny Models/Ken-Arena/stairs.fbx
-  artifactKey: Guid(ea62a257f809f4e4fbf57fe02cd73f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Arena/stairs.fbx using Guid(ea62a257f809f4e4fbf57fe02cd73f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e9fb9fc066e5b3bddb94159c78dda29') in 0.0139798 seconds
+  Time since last request: 0.000296 seconds.
+  path: Assets/Kenenny Models/Ken-Graveyard/crypt-small-entrance-alternative.fbx
+  artifactKey: Guid(50ccc7345e4a0fe43b33908b909d438e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/Ken-Graveyard/crypt-small-entrance-alternative.fbx using Guid(50ccc7345e4a0fe43b33908b909d438e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'adab4d2058f709453a3f99a8c6b4dd0c') in 0.1110875 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.739984 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/brick-wall-curve.fbx
-  artifactKey: Guid(a159ed1e12d8c194bb13c17ae27f80ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/brick-wall-curve.fbx using Guid(a159ed1e12d8c194bb13c17ae27f80ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '378009259e53bd8151072add2551b8f8') in 0.0125686 seconds
+  Time since last request: 0.000090 seconds.
+  path: Assets/Kenenny Models/Ken-Graveyard/candle.fbx
+  artifactKey: Guid(18f3aafbe2be25045b1d467d7efbcd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/Ken-Graveyard/candle.fbx using Guid(18f3aafbe2be25045b1d467d7efbcd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2b7cb49f351aaf71d425738b2ac9a0b') in 0.1611578 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/crypt.fbx
-  artifactKey: Guid(315057ed995d13941b042cfbd4faf37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/crypt.fbx using Guid(315057ed995d13941b042cfbd4faf37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6145b5f37bd24ad36a3ecab0b9dba8a') in 0.0132919 seconds
+  Time since last request: 0.000082 seconds.
+  path: Assets/Kenenny Models/Ken-Graveyard/pumpkin-tall-carved.fbx
+  artifactKey: Guid(2b3fa69416f4a1c4390337fa45555d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/Ken-Graveyard/pumpkin-tall-carved.fbx using Guid(2b3fa69416f4a1c4390337fa45555d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd568f4b4196635b5a0c4a81ce0cd069e') in 0.1280176 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/iron-fence.fbx
-  artifactKey: Guid(50bb3c4a2ca7bfc4993e5798a5257e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/iron-fence.fbx using Guid(50bb3c4a2ca7bfc4993e5798a5257e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3d9aec727ddbb3eacdcf150915ed0cc') in 0.0137546 seconds
+  Time since last request: 0.000086 seconds.
+  path: Assets/Kenenny Models/Ken-Graveyard/debris.fbx
+  artifactKey: Guid(cab7c242b7edcf541b2e8cfbb9719db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/Ken-Graveyard/debris.fbx using Guid(cab7c242b7edcf541b2e8cfbb9719db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c19c058da6f51b38e80bd1a5bda219e8') in 0.1165514 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/gravestone-cross-large.fbx
-  artifactKey: Guid(637112942271b974e942a68e657024c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/gravestone-cross-large.fbx using Guid(637112942271b974e942a68e657024c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7712eeb72e0403ce1a9339da6c78d62b') in 0.0128401 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.220 seconds
+Refreshing native plugins compatible for Editor in 20.09 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.912 seconds
+Domain Reload Profiling: 8127ms
+	BeginReloadAssembly (777ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (81ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (192ms)
+	RebuildCommonClasses (124ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (106ms)
+	LoadAllAssembliesAndSetupDomain (2165ms)
+		LoadAssemblies (1544ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (944ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (867ms)
+			ResolveRequiredComponents (41ms)
+	FinalizeReload (4914ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3941ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (21ms)
+			BeforeProcessingInitializeOnLoad (891ms)
+			ProcessInitializeOnLoadAttributes (2719ms)
+			ProcessInitializeOnLoadMethodAttributes (277ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (56ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 15.23 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6656 unused Assets / (7.5 MB). Loaded Objects now: 7491.
+Memory consumption went from 166.7 MB to 159.2 MB.
+Total: 92.181800 ms (FindLiveObjects: 2.159800 ms CreateObjectMapping: 3.382300 ms MarkObjects: 58.581400 ms  DeleteObjects: 28.054400 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/pillar-small.fbx
-  artifactKey: Guid(84c0c7399c120da4283e99e3c3eb8287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/pillar-small.fbx using Guid(84c0c7399c120da4283e99e3c3eb8287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3dbaa49759e2e070772307081a50144') in 0.0131402 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/character-vampire.fbx
-  artifactKey: Guid(d4d6a62a998adcc4bb71aa485d8e2993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/character-vampire.fbx using Guid(d4d6a62a998adcc4bb71aa485d8e2993) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4b61238e465b97efe22d4ffc426f03b') in 0.0351046 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 68
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/iron-fence-border-column.fbx
-  artifactKey: Guid(f208c8cf2ea3111469a5a700c3b941d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/iron-fence-border-column.fbx using Guid(f208c8cf2ea3111469a5a700c3b941d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcc08f7e74b0ebac6c19e1156ffb53c9') in 0.0124643 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/hay-bale.fbx
-  artifactKey: Guid(e2c7e4c16bafce34da8c0d2f1b8e25dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/hay-bale.fbx using Guid(e2c7e4c16bafce34da8c0d2f1b8e25dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '015b345582e5593afcc046dcb847e6d8') in 0.0156872 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/crypt-small-entrance.fbx
-  artifactKey: Guid(7a62d441e371b334eb9a5ce18e29e12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/crypt-small-entrance.fbx using Guid(7a62d441e371b334eb9a5ce18e29e12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c9701794bc15f5db06800367e8932ff') in 0.0133184 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/shovel.fbx
-  artifactKey: Guid(d15782237f7904946824842c7f6d7128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/shovel.fbx using Guid(d15782237f7904946824842c7f6d7128) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6412977a13d7feefa73fbb870778ff39') in 0.0117099 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/iron-fence-border.fbx
-  artifactKey: Guid(28c7c38d74550f247919edb67e34ec39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/iron-fence-border.fbx using Guid(28c7c38d74550f247919edb67e34ec39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27550fc4775beeeee1c8e7ffc7a71da4') in 0.0123006 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/gravestone-decorative.fbx
-  artifactKey: Guid(c402ce20fd61bd846bac14f66d1aad89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/gravestone-decorative.fbx using Guid(c402ce20fd61bd846bac14f66d1aad89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62226d8408691802c4bc4f69e94697a7') in 0.014004 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/pumpkin.fbx
-  artifactKey: Guid(2574df3960332d5478220063807ab5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/pumpkin.fbx using Guid(2574df3960332d5478220063807ab5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9572baac0e96bcc2bc4e8f6b7425cec') in 0.012279 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
+Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

@@ -1,8 +1,8 @@
 Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.58f1 (44b8bf3a3225) revision 4503743'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 15605 MB
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 15724 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-10-15T20:11:00Z
+Date: 2025-10-18T20:53:49Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Unity.exe
@@ -12,21 +12,21 @@ C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/Andyv/Downloads/CS4555-3D-Project-terrain-test/CS4555-3D-Project-terrain-test/Rollaball
+C:/Users/minec/Documents/GitHub/CS4555-3D-Project/Rollaball
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-53010
+49169
 -job-worker-count
-3
+5
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/Andyv/Downloads/CS4555-3D-Project-terrain-test/CS4555-3D-Project-terrain-test/Rollaball
-C:/Users/Andyv/Downloads/CS4555-3D-Project-terrain-test/CS4555-3D-Project-terrain-test/Rollaball
+Successfully changed project path to: C:/Users/minec/Documents/GitHub/CS4555-3D-Project/Rollaball
+C:/Users/minec/Documents/GitHub/CS4555-3D-Project/Rollaball
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -62,15 +62,15 @@ C:/Users/Andyv/Downloads/CS4555-3D-Project-terrain-test/CS4555-3D-Project-terrai
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4028]  Target information:
+Player connection [19948]  Target information:
 
-Player connection [4028]  * "[IP] 192.168.112.1 [Port] 0 [Flags] 2 [Guid] 1791585751 [EditorId] 1791585751 [Version] 1048832 [Id] WindowsEditor(7,Andy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [19948]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 878861849 [EditorId] 878861849 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LUTIOBDF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [4028]  * "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 1791585751 [EditorId] 1791585751 [Version] 1048832 [Id] WindowsEditor(7,Andy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [19948]  * "[IP] 192.168.0.62 [Port] 0 [Flags] 2 [Guid] 878861849 [EditorId] 878861849 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LUTIOBDF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [4028] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [4028] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 3
+Player connection [19948] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19948] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -81,61 +81,61 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1011.19 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 389.76 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.58f1 (44b8bf3a3225)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.58f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Andyv/Downloads/CS4555-3D-Project-terrain-test/CS4555-3D-Project-terrain-test/Rollaball/Assets
+[Subsystems] Discovering subsystems at path C:/Users/minec/Documents/GitHub/CS4555-3D-Project/Rollaball/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) Graphics (ID=0x1506)
-    Vendor:   ATI
-    VRAM:     7802 MB
-    Driver:   32.0.21025.10016
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3937 MB
+    Driver:   32.0.15.7640
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.58f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.58f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.58f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.58f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.58f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012144 seconds.
-- Loaded All Assemblies, in  1.881 seconds
+Registered in 0.422242 seconds.
+- Loaded All Assemblies, in 12.323 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.644 seconds
-Domain Reload Profiling: 3518ms
-	BeginReloadAssembly (811ms)
+- Finished resetting the current domain, in  0.550 seconds
+Domain Reload Profiling: 12870ms
+	BeginReloadAssembly (11004ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (201ms)
-	RebuildNativeTypeToScriptingClass (61ms)
-	initialDomainReloadingComplete (197ms)
-	LoadAllAssembliesAndSetupDomain (603ms)
-		LoadAssemblies (786ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (485ms)
+	LoadAllAssembliesAndSetupDomain (769ms)
+		LoadAssemblies (11021ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (591ms)
-			TypeCache.Refresh (586ms)
-				TypeCache.ScanAssembly (543ms)
+		AnalyzeDomain (745ms)
+			TypeCache.Refresh (743ms)
+				TypeCache.ScanAssembly (726ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (1646ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (551ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1472ms)
+		SetupLoadedEditorAssemblies (478ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (72ms)
-			SetLoadedEditorAssemblies (16ms)
-			BeforeProcessingInitializeOnLoad (360ms)
-			ProcessInitializeOnLoadAttributes (814ms)
-			ProcessInitializeOnLoadMethodAttributes (210ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (269ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -144,8 +144,8 @@ Domain Reload Profiling: 3518ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  4.004 seconds
-Refreshing native plugins compatible for Editor in 11.38 ms, found 7 plugins.
+- Loaded All Assemblies, in 12.691 seconds
+Refreshing native plugins compatible for Editor in 3.76 ms, found 7 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -153,591 +153,53 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.305 seconds
-Domain Reload Profiling: 8269ms
-	BeginReloadAssembly (683ms)
+- Finished resetting the current domain, in  1.156 seconds
+Domain Reload Profiling: 13838ms
+	BeginReloadAssembly (291ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (25ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (111ms)
-	RebuildCommonClasses (157ms)
-	RebuildNativeTypeToScriptingClass (48ms)
-	initialDomainReloadingComplete (172ms)
-	LoadAllAssembliesAndSetupDomain (2902ms)
-		LoadAssemblies (1924ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (12247ms)
+		LoadAssemblies (12046ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1368ms)
-			TypeCache.Refresh (1040ms)
-				TypeCache.ScanAssembly (987ms)
-			BuildScriptInfoCaches (279ms)
-			ResolveRequiredComponents (36ms)
-	FinalizeReload (4307ms)
+		AnalyzeDomain (366ms)
+			TypeCache.Refresh (256ms)
+				TypeCache.ScanAssembly (236ms)
+			BuildScriptInfoCaches (73ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (1157ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3451ms)
+		SetupLoadedEditorAssemblies (879ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (22ms)
-			BeforeProcessingInitializeOnLoad (808ms)
-			ProcessInitializeOnLoadAttributes (2349ms)
-			ProcessInitializeOnLoadMethodAttributes (238ms)
-			AfterProcessingInitializeOnLoad (19ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (199ms)
+			ProcessInitializeOnLoadAttributes (592ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 16.90 ms, found 7 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 5.19 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6659 unused Assets / (5.5 MB). Loaded Objects now: 7406.
-Memory consumption went from 148.2 MB to 142.7 MB.
-Total: 36.173700 ms (FindLiveObjects: 4.174100 ms CreateObjectMapping: 4.073600 ms MarkObjects: 18.495000 ms  DeleteObjects: 9.427700 ms)
+Unloading 6661 unused Assets / (4.7 MB). Loaded Objects now: 7408.
+Memory consumption went from 150.1 MB to 145.5 MB.
+Total: 33.584400 ms (FindLiveObjects: 1.716200 ms CreateObjectMapping: 1.648900 ms MarkObjects: 23.153500 ms  DeleteObjects: 7.064000 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 31775.467333 seconds.
-  path: Assets/pz.png
-  artifactKey: Guid(1b4c0278542163740a707779cc9509e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pz.png using Guid(1b4c0278542163740a707779cc9509e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa48a80dd19aca79afb3a1da6ae05b2d') in 0.4110306 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/belfast_sunset_puresky_4k.png
-  artifactKey: Guid(a75623976a9dbd041b2c87182762ad6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/belfast_sunset_puresky_4k.png using Guid(a75623976a9dbd041b2c87182762ad6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1445078c2018c066f72cbfa350b21a76') in 0.061635 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/New Material.mat
-  artifactKey: Guid(3baccfd4a2f2fe14f9c29322d0b3501c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Material.mat using Guid(3baccfd4a2f2fe14f9c29322d0b3501c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cda54d37f481c9fcd34c73467c955b6c') in 2.2060676 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.614340 seconds.
-  path: Assets/Scenes/SampleLevel.unity
-  artifactKey: Guid(074bc38cdc6cf354eb4e9ad7e1eba86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleLevel.unity using Guid(074bc38cdc6cf354eb4e9ad7e1eba86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a53323ac7fe01173262845e4bd79768') in 0.0015006 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.930767 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd65b75f456837a3494a5e6e744543932') in 0.0016828 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.821057 seconds.
-  path: Assets/Scenes/Multiplayer.unity
-  artifactKey: Guid(aa73415acaeb9cb4aa7647728b94496f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Multiplayer.unity using Guid(aa73415acaeb9cb4aa7647728b94496f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f27412fda1e9c36c9df066e39d134b7b') in 0.0015323 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 115.829276 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard
-  artifactKey: Guid(1f5006d884e0c9c42b24e9e91ac0ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard using Guid(1f5006d884e0c9c42b24e9e91ac0ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73042a1ee7dc713b9d6b929f6265e68d') in 0.0016379 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.027684 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/altar-stone.fbx
-  artifactKey: Guid(42812abf28ba50c4c894d56d306cb394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/altar-stone.fbx using Guid(42812abf28ba50c4c894d56d306cb394) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1493d552c3ef70465fe0a72b3e4e4375') in 13.0395584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Kenenny Models/Ken-Arena/weapon-sword.fbx
-  artifactKey: Guid(bfe8b2fde845e3c48a9e45c83de8e797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Arena/weapon-sword.fbx using Guid(bfe8b2fde845e3c48a9e45c83de8e797) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55a518c13e6d5472643d188380eae1da') in 0.131464 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/rocks-tall.fbx
-  artifactKey: Guid(65a106c103328ed43886192ea98e34e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/rocks-tall.fbx using Guid(65a106c103328ed43886192ea98e34e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7da44c0ea69e5261caf755e0de347a8') in 0.111669 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/detail-bowl.fbx
-  artifactKey: Guid(7e3a3e39a0d09254ba3bad4292822ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/detail-bowl.fbx using Guid(7e3a3e39a0d09254ba3bad4292822ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de2eab8b75ecd26770e693f6fc80878d') in 0.1896086 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/crypt-large-roof.fbx
-  artifactKey: Guid(51fd49934792def49a446a037b1f5d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/crypt-large-roof.fbx using Guid(51fd49934792def49a446a037b1f5d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67af52c627631037dd8f862dc590e9c1') in 0.2395202 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/grave.fbx
-  artifactKey: Guid(e4aa9027ab148fe42b8f925476eadca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/grave.fbx using Guid(e4aa9027ab148fe42b8f925476eadca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9740e458dca0408a6d7acc1fd43458f2') in 0.1199965 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/lantern-candle.fbx
-  artifactKey: Guid(7b144c2029c1c4e479da13631c7e5e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/lantern-candle.fbx using Guid(7b144c2029c1c4e479da13631c7e5e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a8b0bcbd42938ac81cf01e3c53db27d') in 0.1352698 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/gravestone-broken.fbx
-  artifactKey: Guid(753278c9a1c38e7449268d8990791a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/gravestone-broken.fbx using Guid(753278c9a1c38e7449268d8990791a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6dd92daf803dbfa71c899fbc23a44f5d') in 0.119818 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/gravestone-flat-open.fbx
-  artifactKey: Guid(917e2133383239d4eb25c4aee7b0524e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/gravestone-flat-open.fbx using Guid(917e2133383239d4eb25c4aee7b0524e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44b49e309dc0894fa7a10bb558ec699e') in 0.1801669 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/cross.fbx
-  artifactKey: Guid(8ce717d9f03df8348b9faa05d512cddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/cross.fbx using Guid(8ce717d9f03df8348b9faa05d512cddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '936bde09128878f45078b96019cbbe69') in 0.1466869 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/gravestone-bevel.fbx
-  artifactKey: Guid(546aca62545986b439da2c4559decd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/gravestone-bevel.fbx using Guid(546aca62545986b439da2c4559decd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92b162dc89f5b4a7778c99da56a9416c') in 0.2631202 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/iron-fence-border-gate.fbx
-  artifactKey: Guid(73860eaae1e2c13459d47f0afb75fe8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/iron-fence-border-gate.fbx using Guid(73860eaae1e2c13459d47f0afb75fe8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbe8594266b1600f0231d2cfa15851f2') in 0.1518359 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Kenenny Models/Ken-Arena/wall-gate.fbx
-  artifactKey: Guid(41f16b9aeb1172b4d960bb1b9d73d203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Arena/wall-gate.fbx using Guid(41f16b9aeb1172b4d960bb1b9d73d203) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0d0b5d7517cde85fe4a817f03dbefd4') in 0.1930295 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/fence.fbx
-  artifactKey: Guid(e24152743e9d60c4d972f43bff21e7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/fence.fbx using Guid(e24152743e9d60c4d972f43bff21e7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b46ab07c077579bddeafb77aa6b679aa') in 0.2110971 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Kenenny Models/Ken-Arena/tree.fbx
-  artifactKey: Guid(0e88da886478c054c8a777191b1880dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Arena/tree.fbx using Guid(0e88da886478c054c8a777191b1880dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91fab416d63e36c179f87a9bb83e130c') in 0.1282253 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/gravestone-flat.fbx
-  artifactKey: Guid(0325fb6d41f4f4f4fbaeae0321130f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/gravestone-flat.fbx using Guid(0325fb6d41f4f4f4fbaeae0321130f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c1365cff71c4b7a3061316466e8324f') in 0.1057667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/pine-fall.fbx
-  artifactKey: Guid(8bba8b27debee7e4ebaa2902a7e687e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/pine-fall.fbx using Guid(8bba8b27debee7e4ebaa2902a7e687e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a699cb06b46eba21a76e1b7ccbbde608') in 0.1233916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/border-pillar.fbx
-  artifactKey: Guid(5645ded89b03bea4e86542c039b3a9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/border-pillar.fbx using Guid(5645ded89b03bea4e86542c039b3a9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d3a421e15291f56faff3feaa8ab8577') in 0.2730288 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/hay-bale.fbx
-  artifactKey: Guid(e2c7e4c16bafce34da8c0d2f1b8e25dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/hay-bale.fbx using Guid(e2c7e4c16bafce34da8c0d2f1b8e25dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4a2880679295a4758dcd9fc40cb6051') in 0.2859723 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/iron-fence-border-curve.fbx
-  artifactKey: Guid(c4a8d04f4a0a975418c3531b27bf9342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/iron-fence-border-curve.fbx using Guid(c4a8d04f4a0a975418c3531b27bf9342) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '294958b5b42cad08c2d5b7c9059eaff1') in 0.2812826 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/stone-wall.fbx
-  artifactKey: Guid(4cb5e0db9add01e429b39f5a09913364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/stone-wall.fbx using Guid(4cb5e0db9add01e429b39f5a09913364) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8234d38598c1b7a583c1dda82a7c66d6') in 0.2681781 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/candle-multiple.fbx
-  artifactKey: Guid(a57d58ce438117e468fa82559e6639ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/candle-multiple.fbx using Guid(a57d58ce438117e468fa82559e6639ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09fe41bfc9df432c281917d353a7fccb') in 0.2700904 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/Kenenny Models/Ken-Arena/border-corner.fbx
-  artifactKey: Guid(da75d6caf97b8714fb85294e3dffe0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Arena/border-corner.fbx using Guid(da75d6caf97b8714fb85294e3dffe0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46a459cbafa1025bbb2aa9de427e8e6a') in 0.1169211 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/shovel.fbx
-  artifactKey: Guid(d15782237f7904946824842c7f6d7128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/shovel.fbx using Guid(d15782237f7904946824842c7f6d7128) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8357bcb45d55d2c0b9ef184a098f31f') in 0.2483329 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/detail-plate.fbx
-  artifactKey: Guid(0cec9493457ae854ba67fd011c927b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/detail-plate.fbx using Guid(0cec9493457ae854ba67fd011c927b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c51eb6939d42e41195825275ed1727c2') in 0.1263876 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/character-skeleton.fbx
-  artifactKey: Guid(6eb298c531bc5714fbbd25cc46413d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/character-skeleton.fbx using Guid(6eb298c531bc5714fbbd25cc46413d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8129a3b66e1226384f9421b004e64c9') in 0.3037247 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 63
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/pillar-square.fbx
-  artifactKey: Guid(1005a0ce82c5adf49b7489ec642e04a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/pillar-square.fbx using Guid(1005a0ce82c5adf49b7489ec642e04a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b08f2ef5ec63b41c634b98127d72d49') in 0.1148051 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Kenenny Models/Ken-Arena/wall.fbx
-  artifactKey: Guid(8ad3513ff4dba5c46827a09af30b71b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Arena/wall.fbx using Guid(8ad3513ff4dba5c46827a09af30b71b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba9edde84eb2622721f99448c6bc0089') in 0.098932 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/gravestone-wide.fbx
-  artifactKey: Guid(20b48098cbf04184b9ca80dc86a7e3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/gravestone-wide.fbx using Guid(20b48098cbf04184b9ca80dc86a7e3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2022a60f1a74182a045139e64de0a45e') in 0.1041054 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/debris-wood.fbx
-  artifactKey: Guid(101c62d0eed56f247b28bbd7f68e043b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/debris-wood.fbx using Guid(101c62d0eed56f247b28bbd7f68e043b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '905c03c6502f8927bffa9e15e29283e5') in 0.2808994 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/urn.fbx
-  artifactKey: Guid(e98a4921de61c4d41a5be79024cfef92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/urn.fbx using Guid(e98a4921de61c4d41a5be79024cfef92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38d4462ff7a84c1c33855f5decfaee5f') in 0.3979509 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/grave-border.fbx
-  artifactKey: Guid(a85fa59cf8071a64db367b08b7f99269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/grave-border.fbx using Guid(a85fa59cf8071a64db367b08b7f99269) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa45e02a304a3f6e1676db267e28f884') in 0.35406 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/pumpkin.fbx
-  artifactKey: Guid(2574df3960332d5478220063807ab5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/pumpkin.fbx using Guid(2574df3960332d5478220063807ab5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71730f9305cd618bc79fe83b126f2fe3') in 0.2083858 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/brick-wall.fbx
-  artifactKey: Guid(2ae20247207936649a3991d6e061a762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/brick-wall.fbx using Guid(2ae20247207936649a3991d6e061a762) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f9e46a5aff909192edff09f0b715068') in 0.1594273 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/Kenenny Models/Ken-Arena/column.fbx
-  artifactKey: Guid(d24b965ed56f73f468dbcb47c36a255a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Arena/column.fbx using Guid(d24b965ed56f73f468dbcb47c36a255a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '702c8ab72a43575905617bef8d63b836') in 0.2588361 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/character-zombie.fbx
-  artifactKey: Guid(f55d6484c6cf0684290d687af2e8678f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/character-zombie.fbx using Guid(f55d6484c6cf0684290d687af2e8678f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '144f192c79ee1f404eb65776b926bfb2') in 0.3778068 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 63
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/road.fbx
-  artifactKey: Guid(5b610249394fd1a4080283d9414edda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/road.fbx using Guid(5b610249394fd1a4080283d9414edda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb9a40cea03eb404689da182a759e37a') in 0.1282557 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/stone-wall-damaged.fbx
-  artifactKey: Guid(71e1a9c87505b2b42b73a47f50d33513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/stone-wall-damaged.fbx using Guid(71e1a9c87505b2b42b73a47f50d33513) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63df2b818fce6153206c041e745b7f15') in 0.1376939 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/cross-column.fbx
-  artifactKey: Guid(6bedac8fa768be64d8ba4acb4895f564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/cross-column.fbx using Guid(6bedac8fa768be64d8ba4acb4895f564) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e3b89e6d3c50ffcc0ed57f0a94dd869') in 0.1309128 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Kenenny Models/Ken-Arena/bricks.fbx
-  artifactKey: Guid(f5b2c92e84c27ba45ad95fc6b1817904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Arena/bricks.fbx using Guid(f5b2c92e84c27ba45ad95fc6b1817904) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b81824edbe8772de5e0bf7a56038817') in 0.136376 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/hay-bale-bundled.fbx
-  artifactKey: Guid(50dd7bd0fc352e842b8aa6cce09f58db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/hay-bale-bundled.fbx using Guid(50dd7bd0fc352e842b8aa6cce09f58db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd72d3da9e7f17345ad4a25673f7e9f0f') in 0.1528877 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/brick-wall-curve-small.fbx
-  artifactKey: Guid(ec50d7e348b15964293411cf7bf98541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/brick-wall-curve-small.fbx using Guid(ec50d7e348b15964293411cf7bf98541) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b9c731fe8f95d9db66ce4fa731b5e56') in 0.1198479 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/trunk.fbx
-  artifactKey: Guid(0061fcc1644bc6d498ea7bfd4f5f5f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/trunk.fbx using Guid(0061fcc1644bc6d498ea7bfd4f5f5f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16ee57c25b2ae020ef234b355be1eea3') in 0.1363601 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/pillar-small.fbx
-  artifactKey: Guid(84c0c7399c120da4283e99e3c3eb8287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/pillar-small.fbx using Guid(84c0c7399c120da4283e99e3c3eb8287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddd3b4aa7d74d4aca2132e84fe42a383') in 0.1250019 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Kenenny Models/Ken-Arena/stairs.fbx
-  artifactKey: Guid(ea62a257f809f4e4fbf57fe02cd73f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Arena/stairs.fbx using Guid(ea62a257f809f4e4fbf57fe02cd73f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd84362d845df92467cf383df4ccc2c8') in 0.1130099 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/iron-fence-curve.fbx
-  artifactKey: Guid(87b52513e9ebab04e9cc8f4b1b9d8a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/iron-fence-curve.fbx using Guid(87b52513e9ebab04e9cc8f4b1b9d8a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a6afa4bcb079b6167f86ae3252663b6') in 0.1546431 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/crypt-door.fbx
-  artifactKey: Guid(99af539ffdc640e40a219c8d34462199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/crypt-door.fbx using Guid(99af539ffdc640e40a219c8d34462199) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c1f550573f39f520c481907237cc35d') in 0.1763272 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/pine-fall-crooked.fbx
-  artifactKey: Guid(040f261f5e3772b43bc98c7df75db53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/pine-fall-crooked.fbx using Guid(040f261f5e3772b43bc98c7df75db53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4562dbc1d2cef0a1f9231a3eaca752f') in 0.1356107 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Kenenny Models/Ken-Arena/weapon-rack.fbx
-  artifactKey: Guid(c415e22710b8cc84fb6e9002f0581f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Arena/weapon-rack.fbx using Guid(c415e22710b8cc84fb6e9002f0581f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b257eeb0e3fbb84417a2c981f7d2e41') in 0.197799 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/pine-crooked.fbx
-  artifactKey: Guid(1bc9557ebd18c0e4d94ad4596b501ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/pine-crooked.fbx using Guid(1bc9557ebd18c0e4d94ad4596b501ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4d343a0176aa63248a4da336f216acc') in 0.1494174 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/lantern-glass.fbx
-  artifactKey: Guid(ea65570fdb29b3142afb4cbd3e4df139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/lantern-glass.fbx using Guid(ea65570fdb29b3142afb4cbd3e4df139) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a3cf2a958397e89f1eb3b9f77d2d02d') in 0.0972166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/pumpkin-carved.fbx
-  artifactKey: Guid(9b613897edf93b1448009ff84d41729b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/pumpkin-carved.fbx using Guid(9b613897edf93b1448009ff84d41729b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f0cb135b4bfce49daf723008e08ff84') in 0.1572466 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Kenenny Models/Ken-Graveyard/fence-gate.fbx
-  artifactKey: Guid(857eca251f8757d4c849909dbe242c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenenny Models/Ken-Graveyard/fence-gate.fbx using Guid(857eca251f8757d4c849909dbe242c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74d4c99802fe281e61eab02766f3beed') in 0.1062607 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.144 seconds
-Refreshing native plugins compatible for Editor in 18.76 ms, found 7 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.845 seconds
-Domain Reload Profiling: 7985ms
-	BeginReloadAssembly (785ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (75ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (200ms)
-	RebuildCommonClasses (130ms)
-	RebuildNativeTypeToScriptingClass (42ms)
-	initialDomainReloadingComplete (108ms)
-	LoadAllAssembliesAndSetupDomain (2073ms)
-		LoadAssemblies (1487ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (922ms)
-			TypeCache.Refresh (23ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (846ms)
-			ResolveRequiredComponents (40ms)
-	FinalizeReload (4847ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (4116ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (18ms)
-			BeforeProcessingInitializeOnLoad (735ms)
-			ProcessInitializeOnLoadAttributes (3043ms)
-			ProcessInitializeOnLoadMethodAttributes (292ms)
-			AfterProcessingInitializeOnLoad (17ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (87ms)
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 18.64 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6656 unused Assets / (7.4 MB). Loaded Objects now: 7494.
-Memory consumption went from 166.7 MB to 159.3 MB.
-Total: 90.785400 ms (FindLiveObjects: 4.516200 ms CreateObjectMapping: 4.439200 ms MarkObjects: 50.521400 ms  DeleteObjects: 31.305100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

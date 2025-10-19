@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\minec\\Documents\\GitHub\\CS4555-3D-Project\\Rollaball\\",
+  "WorkspaceRootPath": "C:\\Users\\PokeM\\OneDrive\\Documents\\GitHub\\CS4555-3D-Project\\Rollaball\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{465A12E5-0917-F68F-5DAA-36E0DFB33C2E}|Assembly-CSharp.csproj|c:\\users\\minec\\documents\\github\\cs4555-3d-project\\rollaball\\assets\\enemydetect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{465A12E5-0917-F68F-5DAA-36E0DFB33C2E}|Assembly-CSharp.csproj|solutionrelative:assets\\enemydetect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PokeM\\OneDrive\\Documents\\GitHub\\CS4555-3D-Project\\Rollaball\\Assets\\Script\\Combat\\Enemy_Ai_New.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\Combat\\Enemy_Ai_New.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PokeM\\OneDrive\\Documents\\GitHub\\CS4555-3D-Project\\Rollaball\\Assets\\Script\\Combat\\Enemy_Combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\Combat\\Enemy_Combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PokeM\\OneDrive\\Documents\\GitHub\\CS4555-3D-Project\\Rollaball\\Assets\\Script\\Combat\\PlayerHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\Combat\\PlayerHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PokeM\\OneDrive\\Documents\\GitHub\\CS4555-3D-Project\\Rollaball\\Assets\\Script\\PlayerCombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\PlayerCombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,27 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EnemyDetect.cs",
-              "DocumentMoniker": "C:\\Users\\minec\\Documents\\GitHub\\CS4555-3D-Project\\Rollaball\\Assets\\EnemyDetect.cs",
-              "RelativeDocumentMoniker": "Assets\\EnemyDetect.cs",
-              "ToolTip": "C:\\Users\\minec\\Documents\\GitHub\\CS4555-3D-Project\\Rollaball\\Assets\\EnemyDetect.cs",
-              "RelativeToolTip": "Assets\\EnemyDetect.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Title": "Enemy_Ai_New.cs",
+              "DocumentMoniker": "C:\\Users\\PokeM\\OneDrive\\Documents\\GitHub\\CS4555-3D-Project\\Rollaball\\Assets\\Script\\Combat\\Enemy_Ai_New.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Combat\\Enemy_Ai_New.cs",
+              "ToolTip": "C:\\Users\\PokeM\\OneDrive\\Documents\\GitHub\\CS4555-3D-Project\\Rollaball\\Assets\\Script\\Combat\\Enemy_Ai_New.cs",
+              "RelativeToolTip": "Assets\\Script\\Combat\\Enemy_Ai_New.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T21:41:35.843Z",
+              "WhenOpened": "2025-10-19T01:45:31.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Enemy_Combat.cs",
+              "DocumentMoniker": "C:\\Users\\PokeM\\OneDrive\\Documents\\GitHub\\CS4555-3D-Project\\Rollaball\\Assets\\Script\\Combat\\Enemy_Combat.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Combat\\Enemy_Combat.cs",
+              "ToolTip": "C:\\Users\\PokeM\\OneDrive\\Documents\\GitHub\\CS4555-3D-Project\\Rollaball\\Assets\\Script\\Combat\\Enemy_Combat.cs",
+              "RelativeToolTip": "Assets\\Script\\Combat\\Enemy_Combat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T01:37:28.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "C:\\Users\\PokeM\\OneDrive\\Documents\\GitHub\\CS4555-3D-Project\\Rollaball\\Assets\\Script\\Combat\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Combat\\PlayerHealth.cs",
+              "ToolTip": "C:\\Users\\PokeM\\OneDrive\\Documents\\GitHub\\CS4555-3D-Project\\Rollaball\\Assets\\Script\\Combat\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Script\\Combat\\PlayerHealth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T01:35:47.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerCombat.cs",
+              "DocumentMoniker": "C:\\Users\\PokeM\\OneDrive\\Documents\\GitHub\\CS4555-3D-Project\\Rollaball\\Assets\\Script\\PlayerCombat.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PlayerCombat.cs",
+              "ToolTip": "C:\\Users\\PokeM\\OneDrive\\Documents\\GitHub\\CS4555-3D-Project\\Rollaball\\Assets\\Script\\PlayerCombat.cs",
+              "RelativeToolTip": "Assets\\Script\\PlayerCombat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T01:26:11.14Z",
               "EditorCaption": ""
             }
           ]

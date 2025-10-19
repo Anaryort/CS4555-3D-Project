@@ -9,6 +9,7 @@ TagManager:
   - FxTemporaire
   - Obstacle
   - Ground
+  - Obstcales
   layers:
   - Default
   - TransparentFX
@@ -16,8 +17,8 @@ TagManager:
   - 
   - Water
   - UI
-  - Ground
-  - 
+  - WhatIsPlayer
+  - WhatIsGround
   - 
   - 
   - 

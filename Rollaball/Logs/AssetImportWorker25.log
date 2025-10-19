@@ -1,0 +1,640 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.58f1 (44b8bf3a3225) revision 4503743'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32645 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-10-19T02:28:43Z
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\6000.0.58f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker25
+-projectPath
+C:/Users/PokeM/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
+-logFile
+Logs/AssetImportWorker25.log
+-srvPort
+53661
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/PokeM/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
+C:/Users/PokeM/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [35648]  Target information:
+
+Player connection [35648]  * "[IP] 192.168.1.83 [Port] 0 [Flags] 2 [Guid] 2977423060 [EditorId] 2977423060 [Version] 1048832 [Id] WindowsEditor(7,Hiyokurenri) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [35648]  * "[IP] 172.17.112.1 [Port] 0 [Flags] 2 [Guid] 2977423060 [EditorId] 2977423060 [Version] 1048832 [Id] WindowsEditor(7,Hiyokurenri) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [35648] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [35648] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 8.43 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.58f1 (44b8bf3a3225)
+[Subsystems] Discovering subsystems at path D:/Unity/6000.0.58f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/PokeM/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e82)
+    Vendor:   NVIDIA
+    VRAM:     7989 MB
+    Driver:   32.0.15.7697
+Initialize mono
+Mono path[0] = 'D:/Unity/6000.0.58f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/6000.0.58f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/6000.0.58f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/6000.0.58f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/6000.0.58f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008133 seconds.
+- Loaded All Assemblies, in  1.314 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.134 seconds
+Domain Reload Profiling: 2447ms
+	BeginReloadAssembly (610ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (101ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (121ms)
+	LoadAllAssembliesAndSetupDomain (449ms)
+		LoadAssemblies (609ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (395ms)
+			TypeCache.Refresh (392ms)
+				TypeCache.ScanAssembly (361ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1135ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1020ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (57ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (209ms)
+			ProcessInitializeOnLoadAttributes (599ms)
+			ProcessInitializeOnLoadMethodAttributes (144ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.983 seconds
+Refreshing native plugins compatible for Editor in 5.82 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.966 seconds
+Domain Reload Profiling: 4942ms
+	BeginReloadAssembly (408ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (91ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (1372ms)
+		LoadAssemblies (880ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (737ms)
+			TypeCache.Refresh (547ms)
+				TypeCache.ScanAssembly (500ms)
+			BuildScriptInfoCaches (158ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (2967ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2553ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (284ms)
+			ProcessInitializeOnLoadAttributes (1984ms)
+			ProcessInitializeOnLoadMethodAttributes (265ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 7.66 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6664 unused Assets / (4.7 MB). Loaded Objects now: 7413.
+Memory consumption went from 150.6 MB to 145.9 MB.
+Total: 52.609300 ms (FindLiveObjects: 1.399500 ms CreateObjectMapping: 2.265600 ms MarkObjects: 42.247600 ms  DeleteObjects: 6.694800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 153814.817215 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Tiles/Snow Tiles/Tile_Snow_Rock_11.fbx
+  artifactKey: Guid(cc6c8405d0f87464d99eb5984a69fc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Tiles/Snow Tiles/Tile_Snow_Rock_11.fbx using Guid(cc6c8405d0f87464d99eb5984a69fc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bc7869506f86ab309a74cf7149a2758') in 3.1205018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Sharp Rocks/Snow Sharp Rocks/Sharp_Snow_Rock_11.fbx
+  artifactKey: Guid(a70dd1292e90f23418496c664211b40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Sharp Rocks/Snow Sharp Rocks/Sharp_Snow_Rock_11.fbx using Guid(a70dd1292e90f23418496c664211b40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '019a16629ca6def312de2c8d15824770') in 0.0607254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/VFX/UnityTechnologies/EffectExamples/FireExplosionEffects/Prefabs/FlamesParticleEffect.prefab
+  artifactKey: Guid(3228a22491941734bb83ad691d17fcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/UnityTechnologies/EffectExamples/FireExplosionEffects/Prefabs/FlamesParticleEffect.prefab using Guid(3228a22491941734bb83ad691d17fcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36e6f5721a6574a87fdba6b064f6666a') in 0.0366847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Block Rocks/Snow Block Rocks/Block_Snow_Rock_38.prefab
+  artifactKey: Guid(e70e992be14bd564ca834b61f466165f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Block Rocks/Snow Block Rocks/Block_Snow_Rock_38.prefab using Guid(e70e992be14bd564ca834b61f466165f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd21c8cd78fd29662f8aae16e07186a58') in 0.0320213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Tiles/Tiles/Tile_Rock_15.prefab
+  artifactKey: Guid(bede02864d978904a8b5a85f4ccfc69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Tiles/Tiles/Tile_Rock_15.prefab using Guid(bede02864d978904a8b5a85f4ccfc69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63918b0d9ff767dba6ecbfef1dbbbfe0') in 0.0321922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Tiles/Tiles/Tile_Rock_19.prefab
+  artifactKey: Guid(299b0452adca95e49bbbbef06271ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Tiles/Tiles/Tile_Rock_19.prefab using Guid(299b0452adca95e49bbbbef06271ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46177adab22db5e16b613369d69e4768') in 0.0349793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Tiles/Snow Tiles/Tile_Snow_Rock_29.fbx
+  artifactKey: Guid(634be29d25f86e847a3bafa65c338ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Tiles/Snow Tiles/Tile_Snow_Rock_29.fbx using Guid(634be29d25f86e847a3bafa65c338ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee166861d80496c38aa3a2cd252c8168') in 0.0589473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Tiles/Tiles/Tile_Rock_22.fbx
+  artifactKey: Guid(b22ec56d2f88f9f43be5044b17ba0c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Tiles/Tiles/Tile_Rock_22.fbx using Guid(b22ec56d2f88f9f43be5044b17ba0c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '400efd118422e65979ce885a422392d2') in 0.0441016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Block Rocks/Snow Block Rocks/Block_Snow_Rock_37.fbx
+  artifactKey: Guid(5b9be3c641f5f8f459e78d57c851c3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Block Rocks/Snow Block Rocks/Block_Snow_Rock_37.fbx using Guid(5b9be3c641f5f8f459e78d57c851c3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8b1250680b9adcdbf7c4577dc050e3b') in 0.0437931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Square Rocks/Snow Square Rocks/Square_Snow_Rock_24.fbx
+  artifactKey: Guid(f6080cc43dcf6cb4088a6af4d38312e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Square Rocks/Snow Square Rocks/Square_Snow_Rock_24.fbx using Guid(f6080cc43dcf6cb4088a6af4d38312e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac63dcf085b7cfe11a58011622111d47') in 0.0445103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Tiles/Moss Tiles/Tile_Moss_Rock_20.fbx
+  artifactKey: Guid(0772dda958db3aa49bb7b8e31d090a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Tiles/Moss Tiles/Tile_Moss_Rock_20.fbx using Guid(0772dda958db3aa49bb7b8e31d090a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a3bbbd2036a57a747151bdc55479a56') in 0.0404061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Tiles/Tiles/Tile_Rock_7.prefab
+  artifactKey: Guid(d7fb49594a72822469838c391bd8b2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Tiles/Tiles/Tile_Rock_7.prefab using Guid(d7fb49594a72822469838c391bd8b2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '677e2c8ef5dbfd0dbb9dbf353d51be0b') in 0.0318799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Tiles/Snow Tiles/Tile_Snow_Rock_24.prefab
+  artifactKey: Guid(e00cc820feaeafe489cc77e1e4530456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Tiles/Snow Tiles/Tile_Snow_Rock_24.prefab using Guid(e00cc820feaeafe489cc77e1e4530456) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8908fe2f31ba98bde6ae137cf82ab25d') in 0.0309702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Sharp Rocks/Snow Sharp Rocks/Sharp_Snow_Rock_10.fbx
+  artifactKey: Guid(006c0796f1f8a3a49814bc66bcf75763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Sharp Rocks/Snow Sharp Rocks/Sharp_Snow_Rock_10.fbx using Guid(006c0796f1f8a3a49814bc66bcf75763) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d16fc0012830c7805bfcd597f8f0daf') in 0.0529363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Terrains/Terrains/Small Terrains/Small_Terrain_5.prefab
+  artifactKey: Guid(2f1445aea52d52e4fa6d3a7609bdf6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Terrains/Terrains/Small Terrains/Small_Terrain_5.prefab using Guid(2f1445aea52d52e4fa6d3a7609bdf6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e83a1c92e07999b6a1119e2fc2bfc9f') in 0.0354237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Tiles/Tiles/Tile_Rock_13.prefab
+  artifactKey: Guid(e03544e91f807ba47bcfa444e68acc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Tiles/Tiles/Tile_Rock_13.prefab using Guid(e03544e91f807ba47bcfa444e68acc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '612212f01227a5ddbe0c27e24dc4e660') in 0.0390166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Tiles/Snow Tiles/Tile_Snow_Rock_17.prefab
+  artifactKey: Guid(800ba2e975ea0f2489e6c7feebabd2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Tiles/Snow Tiles/Tile_Snow_Rock_17.prefab using Guid(800ba2e975ea0f2489e6c7feebabd2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4970811d51684f16044923e6d81ea3d7') in 0.0309366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FBX format/block-grass-overhang-narrow.fbx
+  artifactKey: Guid(00ec7c5c1cfa14b40942e2183d71e013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-grass-overhang-narrow.fbx using Guid(00ec7c5c1cfa14b40942e2183d71e013) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d949cba6e3fea0b88295cc2d8b519aa') in 0.0460395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/FBX format/flag.fbx
+  artifactKey: Guid(bfe3ef0ecf69e974891b62df1e30eb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/flag.fbx using Guid(bfe3ef0ecf69e974891b62df1e30eb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77f997f1431930499ee1e11d97411514') in 0.045726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Tiles/Moss Tiles/Tile_Moss_Rock_12.prefab
+  artifactKey: Guid(00163928549710c4e9a3a1f626b39dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Tiles/Moss Tiles/Tile_Moss_Rock_12.prefab using Guid(00163928549710c4e9a3a1f626b39dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f617a84ce186a035978be7dd33d2f5e6') in 0.0391873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Tiles/Moss Tiles/Tile_Moss_Rock_18.fbx
+  artifactKey: Guid(fd876e77504331f478c5839a4b1201e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Tiles/Moss Tiles/Tile_Moss_Rock_18.fbx using Guid(fd876e77504331f478c5839a4b1201e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39b203a9aa80be3d012bd115f79080c7') in 0.0401278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Tiles/Moss Tiles/Tile_Moss_Rock_7.prefab
+  artifactKey: Guid(a91de2778ff94804abbae0a6cc3c2b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Tiles/Moss Tiles/Tile_Moss_Rock_7.prefab using Guid(a91de2778ff94804abbae0a6cc3c2b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '380da7ed4be6dadc2a1a8808cf10e600') in 0.0306998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Tiles/Moss Tiles/Tile_Moss_Rock_12.fbx
+  artifactKey: Guid(b17f1e34d2e7a194983d77e87a835112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Tiles/Moss Tiles/Tile_Moss_Rock_12.fbx using Guid(b17f1e34d2e7a194983d77e87a835112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad80c2906b1ae8c98f244a53ea3fdefc') in 0.0482219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FBX format/tree.fbx
+  artifactKey: Guid(7b6a9876e7c0a7c4b8255911a9758967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/tree.fbx using Guid(7b6a9876e7c0a7c4b8255911a9758967) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17a60457fcfc09527058a3d3bb3d79b4') in 0.2885329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 84
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Flat Rocks/Flat Rocks/Flat_Rock_14.prefab
+  artifactKey: Guid(812223beea16ba84abbe10ab464b7b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Flat Rocks/Flat Rocks/Flat_Rock_14.prefab using Guid(812223beea16ba84abbe10ab464b7b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4e6ad2c7a2c3ebedfafafa066fc5f2e') in 0.0382441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Square Rocks/Snow Square Rocks/Square_Snow_Rock_14.prefab
+  artifactKey: Guid(6b1533ff454673642acafa2181765b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Square Rocks/Snow Square Rocks/Square_Snow_Rock_14.prefab using Guid(6b1533ff454673642acafa2181765b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b2f7dc644cb75a77c77b675b925eb0d') in 0.0340126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Flat Rocks/Flat Rocks/Flat_Rock_12.fbx
+  artifactKey: Guid(45911f33c5cd283468d49e1a02bded31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Flat Rocks/Flat Rocks/Flat_Rock_12.fbx using Guid(45911f33c5cd283468d49e1a02bded31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10eb33764c0454d0ca97cba494b382d7') in 0.0599215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.342284 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Tiles/Moss Tiles/Tile_Moss_Rock_3.fbx
+  artifactKey: Guid(89bd45f30949a1349bd1a340e7cf2bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Tiles/Moss Tiles/Tile_Moss_Rock_3.fbx using Guid(89bd45f30949a1349bd1a340e7cf2bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7206f02250010e858f8254e70bc791b') in 0.0297317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Tiles/Moss Tiles/Tile_Moss_Rock_5.fbx
+  artifactKey: Guid(fdf8f97526f4b7149b69f030e5956baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Tiles/Moss Tiles/Tile_Moss_Rock_5.fbx using Guid(fdf8f97526f4b7149b69f030e5956baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '121819f092ff9b6d938cbb9d29ba7c35') in 0.0349401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.423045 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Stonehenge Rocks/Stonehenges/Stonehenge_Rock_7.prefab
+  artifactKey: Guid(89877f109842cfc4b977c547c53bee4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Stonehenge Rocks/Stonehenges/Stonehenge_Rock_7.prefab using Guid(89877f109842cfc4b977c547c53bee4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14d806793b49edd10b2e2c618fae36fd') in 0.0214005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Stonehenge Rocks/Snow_Stonehenges/Stonehenge_Snow_Rock_2.fbx
+  artifactKey: Guid(467e462956685974bb55b878f1225775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Stonehenge Rocks/Snow_Stonehenges/Stonehenge_Snow_Rock_2.fbx using Guid(467e462956685974bb55b878f1225775) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15e7f53283f47dc95bca1edefae938f9') in 0.0430951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Stonehenge Rocks/Stonehenges/Stonehenge_Rock_3.fbx
+  artifactKey: Guid(d059a295261794e47a1c0caddabc55bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Stonehenge Rocks/Stonehenges/Stonehenge_Rock_3.fbx using Guid(d059a295261794e47a1c0caddabc55bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fcb5ab0fc94c00f2578d5d93b52a616') in 0.0376806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.359729 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Square Rocks/Snow Square Rocks/Square_Snow_Rock_2.fbx
+  artifactKey: Guid(e1c855fdd4d6cf141afe7f6a5f2bbd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Square Rocks/Snow Square Rocks/Square_Snow_Rock_2.fbx using Guid(e1c855fdd4d6cf141afe7f6a5f2bbd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b682b082fcbd12a0919646ae9ae9384') in 0.0599214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Square Rocks/Square Rocks/Square_Rock_31.fbx
+  artifactKey: Guid(9ced73e4831dc30419809749e275fd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Square Rocks/Square Rocks/Square_Rock_31.fbx using Guid(9ced73e4831dc30419809749e275fd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a81334fddd317102524c68b62a200d47') in 0.0441448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.167879 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Square Rocks/Square Rocks/Square_Rock_1.prefab
+  artifactKey: Guid(363f0af85109a4341b343c1a41a8c406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Square Rocks/Square Rocks/Square_Rock_1.prefab using Guid(363f0af85109a4341b343c1a41a8c406) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae14abfde047c22857754d28cc878aed') in 0.0211237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Square Rocks/Square Rocks/Square_Rock_3.fbx
+  artifactKey: Guid(ab36f80bccd8038498bdaccd4f8c3874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Square Rocks/Square Rocks/Square_Rock_3.fbx using Guid(ab36f80bccd8038498bdaccd4f8c3874) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef99b84a47648e435392d3973ca4394a') in 0.0379989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Square Rocks/Square Rocks/Square_Rock_7.fbx
+  artifactKey: Guid(147fe01655c31cb4f8f2b1a15492841c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Square Rocks/Square Rocks/Square_Rock_7.fbx using Guid(147fe01655c31cb4f8f2b1a15492841c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3e6998faa29bd67269235797a3a3ca0') in 0.0354116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023161 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Square Rocks/Moss Square Rocks/Square_Moss_Rock_7.prefab
+  artifactKey: Guid(8393a7ed5feaef5498d2d10b4d43b0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Square Rocks/Moss Square Rocks/Square_Moss_Rock_7.prefab using Guid(8393a7ed5feaef5498d2d10b4d43b0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cb7f3ad17023497412325691cf53024') in 0.0192969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Square Rocks/Moss Square Rocks/Square_Moss_Rock_9.fbx
+  artifactKey: Guid(c76eca56b14f40744b33b0fc5078f7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Square Rocks/Moss Square Rocks/Square_Moss_Rock_9.fbx using Guid(c76eca56b14f40744b33b0fc5078f7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9dee457fe98ac2faa64ad1772fb5df51') in 0.0409424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Square Rocks/Moss Square Rocks/Square_Moss_Rock_13.fbx
+  artifactKey: Guid(a9795212e9eea2148a5daf4103588ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Square Rocks/Moss Square Rocks/Square_Moss_Rock_13.fbx using Guid(a9795212e9eea2148a5daf4103588ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87aa6b6892ad1dd0484be6e33bcf07a4') in 0.0436754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Square Rocks/Moss Square Rocks/Square_Moss_Rock_17.fbx
+  artifactKey: Guid(59ad7fa8b00a0a14692e9152cd646117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Square Rocks/Moss Square Rocks/Square_Moss_Rock_17.fbx using Guid(59ad7fa8b00a0a14692e9152cd646117) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc6ce664d2730931d9d064dfd44a64a0') in 0.0455969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Square Rocks/Moss Square Rocks/Square_Moss_Rock_22.fbx
+  artifactKey: Guid(65501576eab93b74481dc73480d35bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Square Rocks/Moss Square Rocks/Square_Moss_Rock_22.fbx using Guid(65501576eab93b74481dc73480d35bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c29f3d4ba4e990f1fa8e42dc3e6758c3') in 0.0411007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Square Rocks/Moss Square Rocks/Square_Moss_Rock_27.prefab
+  artifactKey: Guid(745192aaa0fdfb347afaf1ff13dfa9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Square Rocks/Moss Square Rocks/Square_Moss_Rock_27.prefab using Guid(745192aaa0fdfb347afaf1ff13dfa9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd69f948236518b5b77c45863b2d1e1ba') in 0.0306609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Square Rocks/Moss Square Rocks/Square_Moss_Rock_31.fbx
+  artifactKey: Guid(034d7ad003dead54aa5a542135761274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Square Rocks/Moss Square Rocks/Square_Moss_Rock_31.fbx using Guid(034d7ad003dead54aa5a542135761274) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8420571060bbf85485e1109c8d8e9be2') in 0.0500873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Square Rocks/Moss Square Rocks/Square_Moss_Rock_1.prefab
+  artifactKey: Guid(f936df07003ee084a9e05ee39c78534c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Square Rocks/Moss Square Rocks/Square_Moss_Rock_1.prefab using Guid(f936df07003ee084a9e05ee39c78534c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dadfce13071c95b9a9a3f160885dbec9') in 0.021038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Square Rocks/Moss Square Rocks/Square_Moss_Rock_3.prefab
+  artifactKey: Guid(5a8efc907bb43994589e1932979cd2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Prefabs/Rocks/Square Rocks/Moss Square Rocks/Square_Moss_Rock_3.prefab using Guid(5a8efc907bb43994589e1932979cd2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0a2d8f40cce93306a7d22994bb1ed85') in 0.0285766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Sharp Rocks/Snow Sharp Rocks/Sharp_Snow_Rock_9.fbx
+  artifactKey: Guid(e87892f2d1185fe4793945b1d07c2a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Sharp Rocks/Snow Sharp Rocks/Sharp_Snow_Rock_9.fbx using Guid(e87892f2d1185fe4793945b1d07c2a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d5e7a431146b7e309574bd80f8b6104') in 0.0401051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.817 seconds
+Refreshing native plugins compatible for Editor in 5.60 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.062 seconds
+Domain Reload Profiling: 3875ms
+	BeginReloadAssembly (586ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (35ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (110ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (1088ms)
+		LoadAssemblies (967ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (450ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (381ms)
+			ResolveRequiredComponents (44ms)
+	FinalizeReload (2063ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1729ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (355ms)
+			ProcessInitializeOnLoadAttributes (1205ms)
+			ProcessInitializeOnLoadMethodAttributes (148ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (40ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 10.03 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6663 unused Assets / (4.7 MB). Loaded Objects now: 7499.
+Memory consumption went from 170.9 MB to 166.2 MB.
+Total: 24.574500 ms (FindLiveObjects: 1.864100 ms CreateObjectMapping: 2.696900 ms MarkObjects: 12.844200 ms  DeleteObjects: 7.167300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

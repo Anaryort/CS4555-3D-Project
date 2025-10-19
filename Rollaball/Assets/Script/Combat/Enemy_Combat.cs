@@ -3,11 +3,16 @@ using UnityEngine;
 public class Enemy_Combat : MonoBehaviour
 {
     public int dmg = 1;
-    private void OncollisionEnter2D(Collision2D collision)
+
+    private void OnCollisionEnter2D(Collision2D collision) // capital "C"!
     {
-        if(collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
-            collision.gameObject.GetComponent<PlayerHealth>().ChangeHealth(-dmg);
+            PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(dmg); // use TakeDamage instead of ChangeHealth
+            }
         }
     }
 }

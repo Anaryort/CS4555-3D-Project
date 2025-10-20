@@ -25,15 +25,15 @@ public class NPC_Talk : MonoBehaviour
     [Tooltip("Where to measure distance/FOV from. Default = child with NavMeshAgent.")]
     public Transform interactOrigin;
     public float interactRadius = 3.5f;
-    [Range(1f,180f)] public float interactFOV = 110f; // must be inside this cone
+    [Range(1f, 180f)] public float interactFOV = 110f; // must be inside this cone
     public bool requireLineOfSight = false;
     public LayerMask losMask = ~0;                 // what can block LOS
 
     public KeyCode interactKey = KeyCode.F;        // fallback for old input
-    public KeyCode closeKey    = KeyCode.Escape;
+    public KeyCode closeKey = KeyCode.Escape;
 
     [Header("Dialogue Lines")]
-    [TextArea(2,4)]
+    [TextArea(2, 4)]
     public string[] lines = { "Hello there, traveler.", "Nice weather we’re having, huh?", "Safe roads to you." };
 
     [Header("Facing While Talking")]
@@ -50,21 +50,22 @@ public class NPC_Talk : MonoBehaviour
 
     void Awake()
     {
-        if (!agent)   agent   = GetComponentInChildren<NavMeshAgent>(true);
+        if (!agent) agent = GetComponentInChildren<NavMeshAgent>(true);
         if (!interactOrigin) interactOrigin = agent ? agent.transform : transform;
         if (!player)
         {
             var p = GameObject.FindGameObjectWithTag("Player");
             if (p) player = p.transform;
         }
-        if (!ui) ui = FindObjectOfType<DialogueUI>(true);
+        if (!ui) ui = Object.FindFirstObjectByType<DialogueUI>(FindObjectsInactive.Include);
 
         if (!player) Debug.LogWarning($"{name}: Player not set (drag it or tag 'Player').");
-        if (!ui)     Debug.LogWarning($"{name}: DialogueUI not set (panel/prompt won't show).");
-        if (!agent)  Debug.LogWarning($"{name}: NavMeshAgent not set (drag child agent).");
+        if (!ui) Debug.LogWarning($"{name}: DialogueUI not set (panel/prompt won't show).");
+        if (!agent) Debug.LogWarning($"{name}: NavMeshAgent not set (drag child agent).");
 
         radiusSqr = interactRadius * interactRadius;
     }
+
 
     void Update()
     {
@@ -155,7 +156,7 @@ public class NPC_Talk : MonoBehaviour
 #if ENABLE_INPUT_SYSTEM
         if (playerInput) playerInput.enabled = false;
 #endif
-        if (playerRigidbody) playerRigidbody.velocity = Vector3.zero;
+        if (playerRigidbody) playerRigidbody.linearVelocity = Vector3.zero;
 
         if (ui)
         {
@@ -178,7 +179,7 @@ public class NPC_Talk : MonoBehaviour
         lineIndex++;
         if (lineIndex >= lines.Length) { EndDialogue(); return; }
         if (ui) ui.SetText(lines[lineIndex]);
-        else    Debug.Log($"{name} [DIALOGUE]: {lines[lineIndex]}");
+        else Debug.Log($"{name} [DIALOGUE]: {lines[lineIndex]}");
     }
 
     void EndDialogue()
@@ -231,8 +232,8 @@ public class NPC_Talk : MonoBehaviour
         Vector3 f = origin.forward; f.y = 0f; f.Normalize();
         float half = interactFOV * 0.5f * Mathf.Deg2Rad;
         Vector3 left = Quaternion.Euler(0, -interactFOV * 0.5f, 0) * f;
-        Vector3 right = Quaternion.Euler(0,  interactFOV * 0.5f, 0) * f;
-        Gizmos.DrawLine(c, c + left  * interactRadius);
+        Vector3 right = Quaternion.Euler(0, interactFOV * 0.5f, 0) * f;
+        Gizmos.DrawLine(c, c + left * interactRadius);
         Gizmos.DrawLine(c, c + right * interactRadius);
     }
 }

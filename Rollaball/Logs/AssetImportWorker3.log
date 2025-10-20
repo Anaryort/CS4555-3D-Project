@@ -1,32 +1,32 @@
 Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.58f1 (44b8bf3a3225) revision 4503743'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 65325 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32645 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-10-19T20:35:07Z
+Date: 2025-10-20T03:55:05Z
 
 COMMAND LINE ARGUMENTS:
-C:\Users\minec\OneDrive\Documents\CS 3D game dev class\Unity Hub\6000.0.58f1\Editor\Unity.exe
+D:\Unity\6000.0.58f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker3
 -projectPath
-C:/Users/minec/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
+C:/Users/PokeM/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-62171
+55884
 -job-worker-count
-15
+5
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/minec/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
-C:/Users/minec/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
+Successfully changed project path to: C:/Users/PokeM/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
+C:/Users/PokeM/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -62,13 +62,15 @@ C:/Users/minec/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1916]  Target information:
+Player connection [19272]  Target information:
 
-Player connection [1916]  * "[IP] 192.168.0.91 [Port] 0 [Flags] 2 [Guid] 3633955054 [EditorId] 3633955054 [Version] 1048832 [Id] WindowsEditor(7,KuroIzu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [19272]  * "[IP] 192.168.1.83 [Port] 0 [Flags] 2 [Guid] 751774401 [EditorId] 751774401 [Version] 1048832 [Id] WindowsEditor(7,Hiyokurenri) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [1916] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [1916] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 15
+Player connection [19272]  * "[IP] 172.17.112.1 [Port] 0 [Flags] 2 [Guid] 751774401 [EditorId] 751774401 [Version] 1048832 [Id] WindowsEditor(7,Hiyokurenri) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19272] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19272] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -79,61 +81,61 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 5.65 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 9.97 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.58f1 (44b8bf3a3225)
-[Subsystems] Discovering subsystems at path C:/Users/minec/OneDrive/Documents/CS 3D game dev class/Unity Hub/6000.0.58f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/minec/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/6000.0.58f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/PokeM/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4070 SUPER (ID=0x2783)
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e82)
     Vendor:   NVIDIA
-    VRAM:     11999 MB
-    Driver:   32.0.15.8129
+    VRAM:     7989 MB
+    Driver:   32.0.15.7697
 Initialize mono
-Mono path[0] = 'C:/Users/minec/OneDrive/Documents/CS 3D game dev class/Unity Hub/6000.0.58f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Users/minec/OneDrive/Documents/CS 3D game dev class/Unity Hub/6000.0.58f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Users/minec/OneDrive/Documents/CS 3D game dev class/Unity Hub/6000.0.58f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Mono path[0] = 'D:/Unity/6000.0.58f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/6000.0.58f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/6000.0.58f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Users/minec/OneDrive/Documents/CS 3D game dev class/Unity Hub/6000.0.58f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Users/minec/OneDrive/Documents/CS 3D game dev class/Unity Hub/6000.0.58f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004767 seconds.
-- Loaded All Assemblies, in  0.305 seconds
+Register platform support module: D:/Unity/6000.0.58f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/6000.0.58f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007122 seconds.
+- Loaded All Assemblies, in  0.769 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.239 seconds
-Domain Reload Profiling: 542ms
-	BeginReloadAssembly (106ms)
+- Finished resetting the current domain, in  0.763 seconds
+Domain Reload Profiling: 1532ms
+	BeginReloadAssembly (282ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (122ms)
-		LoadAssemblies (101ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (307ms)
+		LoadAssemblies (281ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (120ms)
-			TypeCache.Refresh (119ms)
-				TypeCache.ScanAssembly (109ms)
+		AnalyzeDomain (302ms)
+			TypeCache.Refresh (300ms)
+				TypeCache.ScanAssembly (275ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (239ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (764ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (216ms)
+		SetupLoadedEditorAssemblies (650ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (104ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (373ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -142,8 +144,8 @@ Domain Reload Profiling: 542ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.724 seconds
-Refreshing native plugins compatible for Editor in 4.93 ms, found 7 plugins.
+- Loaded All Assemblies, in  1.930 seconds
+Refreshing native plugins compatible for Editor in 35.66 ms, found 8 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -151,39 +153,39 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.662 seconds
-Domain Reload Profiling: 1379ms
-	BeginReloadAssembly (138ms)
+- Finished resetting the current domain, in  3.483 seconds
+Domain Reload Profiling: 5402ms
+	BeginReloadAssembly (431ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (15ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (499ms)
-		LoadAssemblies (313ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (1326ms)
+		LoadAssemblies (873ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (260ms)
-			TypeCache.Refresh (200ms)
-				TypeCache.ScanAssembly (190ms)
-			BuildScriptInfoCaches (50ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (662ms)
+		AnalyzeDomain (720ms)
+			TypeCache.Refresh (528ms)
+				TypeCache.ScanAssembly (491ms)
+			BuildScriptInfoCaches (162ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (3484ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (509ms)
+		SetupLoadedEditorAssemblies (2668ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (91ms)
-			ProcessInitializeOnLoadAttributes (350ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (19ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (21ms)
+			BeforeProcessingInitializeOnLoad (896ms)
+			ProcessInitializeOnLoadAttributes (1602ms)
+			ProcessInitializeOnLoadMethodAttributes (137ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -191,259 +193,189 @@ WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshad
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 3.94 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 13.01 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6666 unused Assets / (4.7 MB). Loaded Objects now: 7421.
-Memory consumption went from 166.1 MB to 161.4 MB.
-Total: 9.255600 ms (FindLiveObjects: 0.496400 ms CreateObjectMapping: 1.081200 ms MarkObjects: 5.183300 ms  DeleteObjects: 2.493700 ms)
+Unloading 7362 unused Assets / (4.7 MB). Loaded Objects now: 8136.
+Memory consumption went from 167.8 MB to 163.1 MB.
+Total: 75.935500 ms (FindLiveObjects: 46.576000 ms CreateObjectMapping: 4.244200 ms MarkObjects: 17.444300 ms  DeleteObjects: 7.668500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 141767.495922 seconds.
-  path: Assets/FBX format/block-snow-narrow.fbx
-  artifactKey: Guid(86b9a3510a490064b87466f2ba2c1a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX format/block-snow-narrow.fbx using Guid(86b9a3510a490064b87466f2ba2c1a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd53cda0d59ac13e7a5e2ea72045d9496') in 0.4817892 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 245402.167914 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Transparent center/panel-transparent-center-020.png
+  artifactKey: Guid(37d7589e62d5ce448b296cbe82861b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Transparent center/panel-transparent-center-020.png using Guid(37d7589e62d5ce448b296cbe82861b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4956a4c0e97825062dfe9616d855fb5') in 0.4389458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/FBX format/coin-bronze.fbx
-  artifactKey: Guid(5f5fc83d5d61fff4d8808521c4e6f8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX format/coin-bronze.fbx using Guid(5f5fc83d5d61fff4d8808521c4e6f8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce6b2c29f01d9602beae633fcf5b5bf4') in 0.0156755 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000053 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Panel/panel-018.png
+  artifactKey: Guid(a65298e25acfc3e41bc6290a2b9ef444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Panel/panel-018.png using Guid(a65298e25acfc3e41bc6290a2b9ef444) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '738e82aed2fc083fa9f835e6011b509c') in 0.0355927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/FBX format/block-snow-large-slope-steep-narrow.fbx
-  artifactKey: Guid(be75897f358785e409e6609097d16a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX format/block-snow-large-slope-steep-narrow.fbx using Guid(be75897f358785e409e6609097d16a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73a766fb0a89b1e10580f95fb93de081') in 0.0145036 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000036 seconds.
+  path: Assets/HaniJahanDesign/FreePack/Textures/HJD_ColorPal_Normal_01.png
+  artifactKey: Guid(ab72fc05053393047bf60e24661fac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HaniJahanDesign/FreePack/Textures/HJD_ColorPal_Normal_01.png using Guid(ab72fc05053393047bf60e24661fac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88fb195f3f4182d78ad876bc732b0432') in 0.0417441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/FBX format/block-grass-large-tall.fbx
-  artifactKey: Guid(9d04e1f83b757bc42b6c56f6f3294c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX format/block-grass-large-tall.fbx using Guid(9d04e1f83b757bc42b6c56f6f3294c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '233733106fbde6e47663a40c7640945b') in 0.0141847 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/castle_wall_slates/castle_wall_slates_albedo_4k.png
+  artifactKey: Guid(e40790a3af0842741a0c12ee85b80018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/castle_wall_slates/castle_wall_slates_albedo_4k.png using Guid(e40790a3af0842741a0c12ee85b80018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac71927ea24f2f9bbe6a45c132b09520') in 0.3963459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/FBX format/block-snow-large-slope-narrow.fbx
-  artifactKey: Guid(49cd354c56f632148bb6f39a2d7a18d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX format/block-snow-large-slope-narrow.fbx using Guid(49cd354c56f632148bb6f39a2d7a18d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ca19d225ab599e89edb9cb22f6333a0') in 0.0156909 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000043 seconds.
+  path: Assets/VFX/UnityTechnologies/EffectExamples/Blood/Textures/BloodPoolAlbedo.tif
+  artifactKey: Guid(b4e688a60e266c340b1f84c510a4c102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/UnityTechnologies/EffectExamples/Blood/Textures/BloodPoolAlbedo.tif using Guid(b4e688a60e266c340b1f84c510a4c102) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31efcfcbba857054b21100801ae0d1e8') in 0.035651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/FBX format/block-grass-corner-low.fbx
-  artifactKey: Guid(2982b237ddbc2b543b27549d58aea4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX format/block-grass-corner-low.fbx using Guid(2982b237ddbc2b543b27549d58aea4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70f80daa9d637b83503d0f235dd206da') in 0.0161255 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000032 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Panel/panel-005.png
+  artifactKey: Guid(d230257781628af4888b45fd6d738b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Panel/panel-005.png using Guid(d230257781628af4888b45fd6d738b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bdccdfb8586b5ce3ac6fe067bbd485a') in 0.0414427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/FBX format/coin-gold.fbx
-  artifactKey: Guid(de2c2197f28f7a24abf6b99dca5c2079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX format/coin-gold.fbx using Guid(de2c2197f28f7a24abf6b99dca5c2079) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f1d46847d0df4c441008c924114d628') in 0.0161854 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000037 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_2/rock_2_ao_4k.png
+  artifactKey: Guid(da10b00124429d3478855f83b4935660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_2/rock_2_ao_4k.png using Guid(da10b00124429d3478855f83b4935660) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f21bbefbd63650a95c3970814abc0e7') in 0.0697328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/FBX format/button-square.fbx
-  artifactKey: Guid(09405a950bf14334c934b486deb7b203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX format/button-square.fbx using Guid(09405a950bf14334c934b486deb7b203) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78536f3380a93e6d93c3b108a884377d') in 0.028638 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Transparent center/panel-transparent-center-007.png
+  artifactKey: Guid(56886d930028e564282a29d7bf057186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Transparent center/panel-transparent-center-007.png using Guid(56886d930028e564282a29d7bf057186) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd43a4927d62a8d59f8c62f34fa621f56') in 0.0367237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/FBX format/block-snow-low-long.fbx
-  artifactKey: Guid(0419487d829d074429d8dd646a9c7641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX format/block-snow-low-long.fbx using Guid(0419487d829d074429d8dd646a9c7641) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01cfe23eddcf372a27bd10a19597f66a') in 0.0149536 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000044 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Transparent center/panel-transparent-center-025.png
+  artifactKey: Guid(02bc832630660e54882ae4b6c18a78cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Transparent center/panel-transparent-center-025.png using Guid(02bc832630660e54882ae4b6c18a78cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e6ba52167da3705e8a2fd4049152b58') in 0.0867274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.659 seconds
-Refreshing native plugins compatible for Editor in 2.43 ms, found 7 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.702 seconds
-Domain Reload Profiling: 1359ms
-	BeginReloadAssembly (165ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (437ms)
-		LoadAssemblies (322ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (179ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (159ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (703ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (588ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (136ms)
-			ProcessInitializeOnLoadAttributes (390ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 3.66 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6663 unused Assets / (8.1 MB). Loaded Objects now: 7505.
-Memory consumption went from 195.8 MB to 187.7 MB.
-Total: 7.853900 ms (FindLiveObjects: 0.543000 ms CreateObjectMapping: 0.243500 ms MarkObjects: 4.995800 ms  DeleteObjects: 2.070600 ms)
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_04/rock_04_AO_4k.png
+  artifactKey: Guid(bfbe75282f3abc842ba7e58091a780a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_04/rock_04_AO_4k.png using Guid(bfbe75282f3abc842ba7e58091a780a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc6c2fd25b51219a4d138438aec8e0f4') in 0.0634074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.655 seconds
-Refreshing native plugins compatible for Editor in 1.90 ms, found 7 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.589 seconds
-Domain Reload Profiling: 1241ms
-	BeginReloadAssembly (172ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (419ms)
-		LoadAssemblies (317ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (166ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (145ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (589ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (464ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (114ms)
-			ProcessInitializeOnLoadAttributes (299ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.32 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6662 unused Assets / (6.7 MB). Loaded Objects now: 7507.
-Memory consumption went from 195.6 MB to 188.9 MB.
-Total: 5.650700 ms (FindLiveObjects: 0.402400 ms CreateObjectMapping: 0.242700 ms MarkObjects: 3.052100 ms  DeleteObjects: 1.952500 ms)
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Panel/panel-012.png
+  artifactKey: Guid(0988c3dd8d831884ab576c4886bdd1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Panel/panel-012.png using Guid(0988c3dd8d831884ab576c4886bdd1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0583f3741712dbdb922b0d388ac3dcf1') in 0.0321249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.580 seconds
-Refreshing native plugins compatible for Editor in 4.10 ms, found 7 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.657 seconds
-Domain Reload Profiling: 1236ms
-	BeginReloadAssembly (150ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (371ms)
-		LoadAssemblies (288ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (150ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (135ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (657ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (508ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (124ms)
-			ProcessInitializeOnLoadAttributes (325ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.21 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6662 unused Assets / (7.8 MB). Loaded Objects now: 7509.
-Memory consumption went from 195.7 MB to 187.9 MB.
-Total: 4.955300 ms (FindLiveObjects: 0.372500 ms CreateObjectMapping: 0.248500 ms MarkObjects: 2.623000 ms  DeleteObjects: 1.710700 ms)
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Panel/panel-000.png
+  artifactKey: Guid(cf21b724f23932f448de985ec5c1f27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Panel/panel-000.png using Guid(cf21b724f23932f448de985ec5c1f27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed6cc44c03589989e719b7304bd14d45') in 0.0975585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/VFX/UnityTechnologies/EffectExamples/FireExplosionEffects/Textures/FlameParticleSheet.tif
+  artifactKey: Guid(838696ee09635f647b630a61fac71a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/UnityTechnologies/EffectExamples/FireExplosionEffects/Textures/FlameParticleSheet.tif using Guid(838696ee09635f647b630a61fac71a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fcae7071e7733016ecaf8b6de1c1526') in 0.0952268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_04/rock_04_nor_4k.png
+  artifactKey: Guid(7ebeadb7e2c06864bb0dd375daefc752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_04/rock_04_nor_4k.png using Guid(7ebeadb7e2c06864bb0dd375daefc752) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60ff1ccff2c04dc14dc179a483c12d23') in 0.3258053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Transparent border/panel-transparent-border-016.png
+  artifactKey: Guid(dccd89ffd77c6d24f93c6e6865b3e19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Transparent border/panel-transparent-border-016.png using Guid(dccd89ffd77c6d24f93c6e6865b3e19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a22cacfa2296c46fcbbf2908977ff12') in 0.0160546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Panel/panel-001.png
+  artifactKey: Guid(6cd50ebbc7d67424481a018b39e42f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Panel/panel-001.png using Guid(6cd50ebbc7d67424481a018b39e42f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cab61e72aac23654a44a264b4aa5ad7') in 0.0263293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Panel/panel-031.png
+  artifactKey: Guid(e95d6e68ee82e5043a1d8e69d588e5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Panel/panel-031.png using Guid(e95d6e68ee82e5043a1d8e69d588e5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '020b3d6bfc6336ed707b3e8824706b22') in 0.1058595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Obstacle Pack/Materials-Pallettes/my palette.png
+  artifactKey: Guid(f0a7fcee2a876463b9eeedfbff5a2956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obstacle Pack/Materials-Pallettes/my palette.png using Guid(f0a7fcee2a876463b9eeedfbff5a2956) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9f918e30eaa087a493921eda4cc54ff') in 0.052052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_05/rock_05_disp_4k.png
+  artifactKey: Guid(c7d5f77241a285448a2e76f5c4572127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_05/rock_05_disp_4k.png using Guid(c7d5f77241a285448a2e76f5c4572127) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e32d411baca5110a4658b1adacc30cd') in 0.0482815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Transparent center/panel-transparent-center-027.png
+  artifactKey: Guid(a58372d6c418bbb47a0370dc2fd7a1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Transparent center/panel-transparent-center-027.png using Guid(a58372d6c418bbb47a0370dc2fd7a1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '558712d8429a830c7186c31a40f42b4f') in 0.0257175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/VFX/UnityTechnologies/EffectExamples/Blood/Textures/BloodStreamAlbedo.tif
+  artifactKey: Guid(1a55072e908ebe74e962a97efbc17416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/UnityTechnologies/EffectExamples/Blood/Textures/BloodStreamAlbedo.tif using Guid(1a55072e908ebe74e962a97efbc17416) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a5e8d5fb8c291b82314a42cf531f753') in 0.0155864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Kenenny Models/Ken-Arena/Textures/colormap.png
+  artifactKey: Guid(90af130db19ae4a49b137662092589e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/Ken-Arena/Textures/colormap.png using Guid(90af130db19ae4a49b137662092589e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08fb9bad9bb75f9d45ba5bb1d961047f') in 0.0319532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

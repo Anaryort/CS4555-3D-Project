@@ -1,32 +1,32 @@
 Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.58f1 (44b8bf3a3225) revision 4503743'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 65325 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32645 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-10-19T20:35:07Z
+Date: 2025-10-20T03:55:03Z
 
 COMMAND LINE ARGUMENTS:
-C:\Users\minec\OneDrive\Documents\CS 3D game dev class\Unity Hub\6000.0.58f1\Editor\Unity.exe
+D:\Unity\6000.0.58f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/minec/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
+C:/Users/PokeM/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-62171
+55884
 -job-worker-count
-15
+5
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/minec/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
-C:/Users/minec/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
+Successfully changed project path to: C:/Users/PokeM/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
+C:/Users/PokeM/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -62,13 +62,15 @@ C:/Users/minec/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [34932]  Target information:
+Player connection [30604]  Target information:
 
-Player connection [34932]  * "[IP] 192.168.0.91 [Port] 0 [Flags] 2 [Guid] 2132546588 [EditorId] 2132546588 [Version] 1048832 [Id] WindowsEditor(7,KuroIzu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [30604]  * "[IP] 192.168.1.83 [Port] 0 [Flags] 2 [Guid] 1055376802 [EditorId] 1055376802 [Version] 1048832 [Id] WindowsEditor(7,Hiyokurenri) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [34932] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [34932] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 15
+Player connection [30604]  * "[IP] 172.17.112.1 [Port] 0 [Flags] 2 [Guid] 1055376802 [EditorId] 1055376802 [Version] 1048832 [Id] WindowsEditor(7,Hiyokurenri) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30604] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30604] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -79,61 +81,61 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.30 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 7.08 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.58f1 (44b8bf3a3225)
-[Subsystems] Discovering subsystems at path C:/Users/minec/OneDrive/Documents/CS 3D game dev class/Unity Hub/6000.0.58f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/minec/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/6000.0.58f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/PokeM/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4070 SUPER (ID=0x2783)
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e82)
     Vendor:   NVIDIA
-    VRAM:     11999 MB
-    Driver:   32.0.15.8129
+    VRAM:     7989 MB
+    Driver:   32.0.15.7697
 Initialize mono
-Mono path[0] = 'C:/Users/minec/OneDrive/Documents/CS 3D game dev class/Unity Hub/6000.0.58f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Users/minec/OneDrive/Documents/CS 3D game dev class/Unity Hub/6000.0.58f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Users/minec/OneDrive/Documents/CS 3D game dev class/Unity Hub/6000.0.58f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
+Mono path[0] = 'D:/Unity/6000.0.58f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/6000.0.58f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/6000.0.58f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Users/minec/OneDrive/Documents/CS 3D game dev class/Unity Hub/6000.0.58f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Users/minec/OneDrive/Documents/CS 3D game dev class/Unity Hub/6000.0.58f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003447 seconds.
-- Loaded All Assemblies, in  0.271 seconds
+Register platform support module: D:/Unity/6000.0.58f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/6000.0.58f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004631 seconds.
+- Loaded All Assemblies, in  0.485 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.239 seconds
-Domain Reload Profiling: 508ms
-	BeginReloadAssembly (83ms)
+- Finished resetting the current domain, in  0.417 seconds
+Domain Reload Profiling: 902ms
+	BeginReloadAssembly (180ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (127ms)
-		LoadAssemblies (81ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (195ms)
+		LoadAssemblies (179ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (125ms)
-			TypeCache.Refresh (124ms)
-				TypeCache.ScanAssembly (116ms)
+		AnalyzeDomain (191ms)
+			TypeCache.Refresh (190ms)
+				TypeCache.ScanAssembly (168ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (239ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (417ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (212ms)
+		SetupLoadedEditorAssemblies (348ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (109ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (174ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -142,8 +144,8 @@ Domain Reload Profiling: 508ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.760 seconds
-Refreshing native plugins compatible for Editor in 1.91 ms, found 7 plugins.
+- Loaded All Assemblies, in  1.967 seconds
+Refreshing native plugins compatible for Editor in 7.01 ms, found 8 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -151,364 +153,417 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.656 seconds
-Domain Reload Profiling: 1407ms
-	BeginReloadAssembly (127ms)
+- Finished resetting the current domain, in  2.076 seconds
+Domain Reload Profiling: 4033ms
+	BeginReloadAssembly (382ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (531ms)
-		LoadAssemblies (343ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (94ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (1378ms)
+		LoadAssemblies (808ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (259ms)
-			TypeCache.Refresh (184ms)
-				TypeCache.ScanAssembly (172ms)
-			BuildScriptInfoCaches (63ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (656ms)
+		AnalyzeDomain (798ms)
+			TypeCache.Refresh (516ms)
+				TypeCache.ScanAssembly (481ms)
+			BuildScriptInfoCaches (247ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (2077ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (506ms)
+		SetupLoadedEditorAssemblies (1698ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (97ms)
-			ProcessInitializeOnLoadAttributes (352ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (322ms)
+			ProcessInitializeOnLoadAttributes (1226ms)
+			ProcessInitializeOnLoadMethodAttributes (128ms)
 			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 2.06 ms, found 7 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 11.41 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6666 unused Assets / (8.1 MB). Loaded Objects now: 7421.
-Memory consumption went from 166.2 MB to 158.0 MB.
-Total: 6.613200 ms (FindLiveObjects: 0.415200 ms CreateObjectMapping: 0.255100 ms MarkObjects: 3.748200 ms  DeleteObjects: 2.193600 ms)
+Unloading 7362 unused Assets / (4.7 MB). Loaded Objects now: 8136.
+Memory consumption went from 167.8 MB to 163.2 MB.
+Total: 30.198300 ms (FindLiveObjects: 8.709900 ms CreateObjectMapping: 2.276500 ms MarkObjects: 12.814300 ms  DeleteObjects: 6.396100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 141767.015211 seconds.
-  path: Assets/FBX format/block-grass-overhang-large-slope-steep-narrow.fbx
-  artifactKey: Guid(7f3e16ae69b5b6e44aa2b55a21208669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX format/block-grass-overhang-large-slope-steep-narrow.fbx using Guid(7f3e16ae69b5b6e44aa2b55a21208669) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f55b9a0e387f6dce5ce8dd55657c7c3') in 0.3965656 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 245397.372216 seconds.
+  path: Assets/VFX/NamuFX/_SharedAssets/Images/Noise/Noise17.png
+  artifactKey: Guid(b4d498f8448ccbe42927a9c7c9ee0829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/NamuFX/_SharedAssets/Images/Noise/Noise17.png using Guid(b4d498f8448ccbe42927a9c7c9ee0829) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8deb3a0f82c99fcd4abcf02a37d62570') in 0.2742954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/FBX format/block-snow-overhang-low-long.fbx
-  artifactKey: Guid(ed2df5a369d5c734b92024286978a949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX format/block-snow-overhang-low-long.fbx using Guid(ed2df5a369d5c734b92024286978a949) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f6ab8213eec8c129e5bde2cb39fa896') in 0.0206786 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000038 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Panel/panel-021.png
+  artifactKey: Guid(a401c13dc0bca5e49a9558edaeb681b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Panel/panel-021.png using Guid(a401c13dc0bca5e49a9558edaeb681b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b6b5032865c3e32e6bbc5630900e36d') in 0.0528588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/FBX format/block-grass-edge.fbx
-  artifactKey: Guid(06d58f32416a1f648af67dc400f469b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX format/block-grass-edge.fbx using Guid(06d58f32416a1f648af67dc400f469b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef384a6616dc18db67ad9192586db4af') in 0.0205391 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/FBX format/block-snow-overhang-narrow.fbx
-  artifactKey: Guid(e53fd20c77e55c94388371fa36b95843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX format/block-snow-overhang-narrow.fbx using Guid(e53fd20c77e55c94388371fa36b95843) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43a3079b28e3017a5e7b5214b238659e') in 0.0195143 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Health/Heart.png
-  artifactKey: Guid(9a8e023b5e66b0d478386a07d1627765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Health/Heart.png using Guid(9a8e023b5e66b0d478386a07d1627765) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43ef2bc9d1d24f02d7473954adc4c685') in 0.0241637 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/FBX format/block-grass-low-long.fbx
-  artifactKey: Guid(b7a9089ce16db8747b4eb218df94074f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX format/block-grass-low-long.fbx using Guid(b7a9089ce16db8747b4eb218df94074f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '770137d6a1ef675c3491c93373c410d5') in 0.0180648 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/FBX format/block-moving-large.fbx
-  artifactKey: Guid(2627591d38bd5fb4196c613261045533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX format/block-moving-large.fbx using Guid(2627591d38bd5fb4196c613261045533) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c86ead4d0151b7571ea70a3e3eee3e5c') in 0.0140438 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/FBX format/block-grass-overhang-low-large.fbx
-  artifactKey: Guid(97a1749f433053e4898e5384391b4e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX format/block-grass-overhang-low-large.fbx using Guid(97a1749f433053e4898e5384391b4e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28d7e0558a18befbfd2e5360e2637478') in 0.0172525 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/FBX format/block-snow-low-large.fbx
-  artifactKey: Guid(fb7afff66b981c14d809031efd2de3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX format/block-snow-low-large.fbx using Guid(fb7afff66b981c14d809031efd2de3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e64e58def747cf2bd2db27597a294c4') in 0.0160253 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/FBX format/block-moving.fbx
-  artifactKey: Guid(a1de6ad7f1a6221438b0b1ec03635b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX format/block-moving.fbx using Guid(a1de6ad7f1a6221438b0b1ec03635b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '592df5209bd05116c7cce37795444921') in 0.0135237 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000035 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Transparent center/panel-transparent-center-000.png
+  artifactKey: Guid(fd0d93cef50109c478644702def0a54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Transparent center/panel-transparent-center-000.png using Guid(fd0d93cef50109c478644702def0a54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73a97e07d5e51076d772471e132436dc') in 0.0454174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/FBX format/block-snow-low-hexagon.fbx
-  artifactKey: Guid(87d9813c97d3138429fdf91513e9cc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX format/block-snow-low-hexagon.fbx using Guid(87d9813c97d3138429fdf91513e9cc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '788b5efa1b6c56242fd5852e6e0da14f') in 0.0149108 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  path: Assets/Kenenny Models/KennyUIEle/Double/Transparent border/panel-transparent-border-007.png
+  artifactKey: Guid(4751ff2dc536a2f4d9a5b3ff3397c57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Transparent border/panel-transparent-border-007.png using Guid(4751ff2dc536a2f4d9a5b3ff3397c57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c88a2762a09db864aa0515828f41416f') in 0.0377627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/FBX format/block-grass-low-narrow.fbx
-  artifactKey: Guid(829a581d9fefaf8489c26bf2b7f8839b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX format/block-grass-low-narrow.fbx using Guid(829a581d9fefaf8489c26bf2b7f8839b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fc8be71dc47e5d81dc12be1fd403a89') in 0.0168723 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000053 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Panel/panel-025.png
+  artifactKey: Guid(a7030e97d9ead7d4dae989867d9768c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Panel/panel-025.png using Guid(a7030e97d9ead7d4dae989867d9768c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d29d4adcdb4b57dda3b161ab571ffdb') in 0.1387211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/FBX format/block-snow-curve.fbx
-  artifactKey: Guid(c3fb4e52fe235d04da6991a503136082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX format/block-snow-curve.fbx using Guid(c3fb4e52fe235d04da6991a503136082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d32a8a31458df14862317d4b2a6b13e') in 0.0166229 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Panel/panel-011.png
+  artifactKey: Guid(e70c9d5e07f031f41b83082d2af490cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Panel/panel-011.png using Guid(e70c9d5e07f031f41b83082d2af490cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f5d80f25a4316bbc6b63cca7779cb1c') in 0.0400673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/FBX format/block-snow-overhang-edge.fbx
-  artifactKey: Guid(be8b90d21b2ceae4488eb50ec6b33b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX format/block-snow-overhang-edge.fbx using Guid(be8b90d21b2ceae4488eb50ec6b33b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6eb4c73ee8c8de8eb21c53792f17bcf2') in 0.0139034 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/FBX format/chest.fbx
-  artifactKey: Guid(4ad6638603f85be45b2ff2ff020b0d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX format/chest.fbx using Guid(4ad6638603f85be45b2ff2ff020b0d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8a29ca5297424eee489c48e7c1d86cd') in 0.0212157 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/FBX format/block-snow-long.fbx
-  artifactKey: Guid(8d8d46e38bfc3ee418966de0deae1bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX format/block-snow-long.fbx using Guid(8d8d46e38bfc3ee418966de0deae1bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '101d5d2f2e0e2b894b3fd12b1bc8510c') in 0.0137349 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000039 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Transparent border/panel-transparent-border-014.png
+  artifactKey: Guid(0dfa3c95f352a334e9ee212e28d66ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Transparent border/panel-transparent-border-014.png using Guid(0dfa3c95f352a334e9ee212e28d66ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75d4008f6780a7ccdc4d21aff69206c5') in 0.0285438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/FBX format/block-grass-large.fbx
-  artifactKey: Guid(f28ef25ba95a63d4aad02ff34718b1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX format/block-grass-large.fbx using Guid(f28ef25ba95a63d4aad02ff34718b1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '398bf3c297de668f8933ef146c0e5606') in 0.0143176 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  path: Assets/HaniJahanDesign/FreePack/Textures/HJD_ColorPal_Normal_02.png
+  artifactKey: Guid(6a0cdfedb408f6747a3195377da16c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HaniJahanDesign/FreePack/Textures/HJD_ColorPal_Normal_02.png using Guid(6a0cdfedb408f6747a3195377da16c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef7633f77df81b4a13220e51c3050b9c') in 0.0318737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/VFX/UnityTechnologies/EffectExamples/WeaponEffects/Textures/BloodStreakAlbedo.tif
+  artifactKey: Guid(07a10375da67ac9429e4694a4e70a774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/UnityTechnologies/EffectExamples/WeaponEffects/Textures/BloodStreakAlbedo.tif using Guid(07a10375da67ac9429e4694a4e70a774) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21a0c26fb56baae83001e4353b69be1b') in 0.0506656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/VFX/UnityTechnologies/EffectExamples/Blood/Textures/BloodDropAlbedo.tif
+  artifactKey: Guid(fd9fde9ce6505d546952963a514b1909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/UnityTechnologies/EffectExamples/Blood/Textures/BloodDropAlbedo.tif using Guid(fd9fde9ce6505d546952963a514b1909) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '275c86767a2f20b3346b936530143bf6') in 0.0303197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de67f622d6fe093c7389a4642cd7f96d') in 0.9936512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/castle_wall_varriation/castle_wall_varriation_nor_4k.png
+  artifactKey: Guid(876ac4c273d3b2e44901c1c27a034ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/castle_wall_varriation/castle_wall_varriation_nor_4k.png using Guid(876ac4c273d3b2e44901c1c27a034ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb87cebc26ba28902de7371f196d5aa8') in 0.1017314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Transparent border/panel-transparent-border-006.png
+  artifactKey: Guid(82bc722b2ba73a847a911cf76c754834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Transparent border/panel-transparent-border-006.png using Guid(82bc722b2ba73a847a911cf76c754834) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab574751c654245a96b3c76cc495826c') in 0.0746742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/VFX/UnityTechnologies/EffectExamples/Scenes/Menu/ReflectionProbe-1.exr
+  artifactKey: Guid(169a8370c9af86f46bac118280da2234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/UnityTechnologies/EffectExamples/Scenes/Menu/ReflectionProbe-1.exr using Guid(169a8370c9af86f46bac118280da2234) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15d4b7a9a38596e7702d591f6c69edeb') in 0.1568391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Panel/panel-020.png
+  artifactKey: Guid(78e0aef6570762748b22deaa5bd5adb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Panel/panel-020.png using Guid(78e0aef6570762748b22deaa5bd5adb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21520ce1f9b15b0ee3fc727c75b5b679') in 0.039133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/VFX/UnityTechnologies/EffectExamples/WaterEffects/Textures/CloudsParticleNormals.tif
+  artifactKey: Guid(aa748bb25f802de4fb3622d6963a538e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/UnityTechnologies/EffectExamples/WaterEffects/Textures/CloudsParticleNormals.tif using Guid(aa748bb25f802de4fb3622d6963a538e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6fc7264270774a8060166854841b227') in 0.1090617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Transparent center/panel-transparent-center-024.png
+  artifactKey: Guid(429e6bb764e0c1e4abc36327fd67f1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Transparent center/panel-transparent-center-024.png using Guid(429e6bb764e0c1e4abc36327fd67f1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1af7ca8d0e0034d891b774b6329522f3') in 0.1066629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/VFX/UnityTechnologies/EffectExamples/Blood/Textures/BloodDropNormals.tif
+  artifactKey: Guid(e2e48048625d63c41a7219b81562326d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/UnityTechnologies/EffectExamples/Blood/Textures/BloodDropNormals.tif using Guid(e2e48048625d63c41a7219b81562326d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b643504dc45f6df20067bac97bf2dd2') in 0.0515648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_3/rock_3_SpecSmoothness.png
+  artifactKey: Guid(3202703eac08dae429e16cb01f21f683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_3/rock_3_SpecSmoothness.png using Guid(3202703eac08dae429e16cb01f21f683) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'edef3f44df7f234694a9646adaa87df4') in 0.5150582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Transparent border/panel-transparent-border-012.png
+  artifactKey: Guid(44bb1968bfa362948aaab4eb8f184b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Transparent border/panel-transparent-border-012.png using Guid(44bb1968bfa362948aaab4eb8f184b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '706728985b23f0745eca70f4f51bb729') in 0.0688358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_01/rock_01_AO_4k.png
+  artifactKey: Guid(8b2e6e2d988b31d4d985779b70119183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_01/rock_01_AO_4k.png using Guid(8b2e6e2d988b31d4d985779b70119183) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '323667a55967cf373427bb3faf0275d1') in 0.1243504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Whaleride/Hand Painted Rocks Road (Blocky)/road_rocks_blocky_NRM.png
+  artifactKey: Guid(c5fa454ade829484fa8c258f2f587ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Whaleride/Hand Painted Rocks Road (Blocky)/road_rocks_blocky_NRM.png using Guid(c5fa454ade829484fa8c258f2f587ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3393b79dc4041ca0650d8fd2405038f6') in 0.1997203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Transparent center/panel-transparent-center-016.png
+  artifactKey: Guid(5db00567d6f0efb4c9257e295cd851c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Transparent center/panel-transparent-center-016.png using Guid(5db00567d6f0efb4c9257e295cd851c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1b184f71cf595620dfc550416ab40ff') in 0.0463296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Panel/panel-024.png
+  artifactKey: Guid(46d7fd43e8d97f04c901706a34f74465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Panel/panel-024.png using Guid(46d7fd43e8d97f04c901706a34f74465) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cbdd3ec6713d14c6ab4e9213e900940') in 0.0148689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_2/rock_2_SpecSmoothness.png
+  artifactKey: Guid(9afb9a8d5ff6b634a967d75d292c7480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_2/rock_2_SpecSmoothness.png using Guid(9afb9a8d5ff6b634a967d75d292c7480) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79a0b7f0aca39c284cc3b4627cba8366') in 0.1270798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Transparent border/panel-transparent-border-023.png
+  artifactKey: Guid(08a1cf0044d7f484a8bb376af7d5afe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Transparent border/panel-transparent-border-023.png using Guid(08a1cf0044d7f484a8bb376af7d5afe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6359b9fb1f1b9d406c0ee9dd5b9f398') in 0.0513563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Transparent border/panel-transparent-border-030.png
+  artifactKey: Guid(c3ad599d470e38647bd49ad9f3328524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Transparent border/panel-transparent-border-030.png using Guid(c3ad599d470e38647bd49ad9f3328524) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56ecd6afbce982ef084868e5541b13db') in 0.0289494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_01/rock_01_spec_4k.png
+  artifactKey: Guid(2de434db6324b484589d18d81405837c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_01/rock_01_spec_4k.png using Guid(2de434db6324b484589d18d81405837c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd55d8cda4b5a7d50bd221397e21a40d1') in 0.1301572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Transparent center/panel-transparent-center-026.png
+  artifactKey: Guid(f9d6dfd378fccfd428ecaa90b37b8470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Transparent center/panel-transparent-center-026.png using Guid(f9d6dfd378fccfd428ecaa90b37b8470) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33c74738971cfc9a64c82c0a0128bec5') in 0.0395429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/VFX/UnityTechnologies/EffectExamples/WeaponEffects/Textures/BulletHoleRockNormals.tif
+  artifactKey: Guid(b7b496609dfcf7d4089ca1e508b14f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/UnityTechnologies/EffectExamples/WeaponEffects/Textures/BulletHoleRockNormals.tif using Guid(b7b496609dfcf7d4089ca1e508b14f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f436254adc7ec3ed542efd258096c01') in 0.0916037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Panel/panel-022.png
+  artifactKey: Guid(d48419de39a8bcd46a4a9ee257ec607d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Panel/panel-022.png using Guid(d48419de39a8bcd46a4a9ee257ec607d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eed6d22871c38829b61e7014ad1f7730') in 0.0369257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/castle_wall_slates/castle_wall_slates_diff_4k.png
+  artifactKey: Guid(ce2eeefbca069114ca4687dcc387a8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/castle_wall_slates/castle_wall_slates_diff_4k.png using Guid(ce2eeefbca069114ca4687dcc387a8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dd65c82f9ddddfbd569faa3290b9fe3') in 0.0500685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/VFX/UnityTechnologies/EffectExamples/WeaponEffects/Textures/FleshBulletHoleNormals.tif
+  artifactKey: Guid(372fe723afe65ed41a5b38da5faf82a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/UnityTechnologies/EffectExamples/WeaponEffects/Textures/FleshBulletHoleNormals.tif using Guid(372fe723afe65ed41a5b38da5faf82a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de0624b2145419672824a5101e9b7556') in 0.0972053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/VFX/NamuFX/_SharedAssets/Images/Noise/Noise06.tga
+  artifactKey: Guid(39efe14379ba4ba46bcd842eccc4a611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/NamuFX/_SharedAssets/Images/Noise/Noise06.tga using Guid(39efe14379ba4ba46bcd842eccc4a611) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1281542e49c77a451a2df0e3b87032ca') in 0.1150392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/VFX/UnityTechnologies/EffectExamples/WeaponEffects/Textures/FleshBulletHoleAlbedo.tif
+  artifactKey: Guid(5ef8c65d978f7f74e8a6cb763425f6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/UnityTechnologies/EffectExamples/WeaponEffects/Textures/FleshBulletHoleAlbedo.tif using Guid(5ef8c65d978f7f74e8a6cb763425f6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1554097136b2d0a540907967fd009c08') in 0.0411791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Kenenny Models/KennyUIEle/Double/Transparent center/panel-transparent-center-023.png
+  artifactKey: Guid(b3696731e22dac14981fc5bb7e13ca0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KennyUIEle/Double/Transparent center/panel-transparent-center-023.png using Guid(b3696731e22dac14981fc5bb7e13ca0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6085c339a5110fdcfd0f43246bd0adf8') in 0.0186633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_3/rock_3_bump_4k.png
+  artifactKey: Guid(14939381e94fc554daef6e560a9e5d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_3/rock_3_bump_4k.png using Guid(14939381e94fc554daef6e560a9e5d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac4c22261c060a7753ca77d5fcd3f3ea') in 0.0657878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/TextureHaven/rock_4k/rock_4k_textures/rock_2/rock_2_spec_4k.png
+  artifactKey: Guid(08e0ea3ccffb245488abe7410d2e0ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureHaven/rock_4k/rock_4k_textures/rock_2/rock_2_spec_4k.png using Guid(08e0ea3ccffb245488abe7410d2e0ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7d68e1554803ea73f07f2f21d383aba') in 0.0527472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.643 seconds
-Refreshing native plugins compatible for Editor in 1.89 ms, found 7 plugins.
+- Loaded All Assemblies, in  1.358 seconds
+Refreshing native plugins compatible for Editor in 5.39 ms, found 8 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.704 seconds
-Domain Reload Profiling: 1345ms
-	BeginReloadAssembly (179ms)
+- Finished resetting the current domain, in  1.520 seconds
+Domain Reload Profiling: 2876ms
+	BeginReloadAssembly (438ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (36ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (398ms)
-		LoadAssemblies (321ms)
+		CreateAndSetChildDomain (134ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (822ms)
+		LoadAssemblies (659ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (156ms)
-			TypeCache.Refresh (5ms)
+		AnalyzeDomain (347ms)
+			TypeCache.Refresh (15ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (140ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (704ms)
+			BuildScriptInfoCaches (308ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1521ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (592ms)
+		SetupLoadedEditorAssemblies (1264ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (119ms)
-			ProcessInitializeOnLoadAttributes (408ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (274ms)
+			ProcessInitializeOnLoadAttributes (870ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 3.50 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 8.13 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6663 unused Assets / (7.1 MB). Loaded Objects now: 7509.
-Memory consumption went from 195.9 MB to 188.8 MB.
-Total: 6.914300 ms (FindLiveObjects: 0.853600 ms CreateObjectMapping: 0.335500 ms MarkObjects: 3.209600 ms  DeleteObjects: 2.514700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.629 seconds
-Refreshing native plugins compatible for Editor in 4.06 ms, found 7 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.582 seconds
-Domain Reload Profiling: 1208ms
-	BeginReloadAssembly (161ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (411ms)
-		LoadAssemblies (325ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (163ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (147ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (582ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (475ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (318ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 4.28 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6662 unused Assets / (6.5 MB). Loaded Objects now: 7511.
-Memory consumption went from 195.7 MB to 189.2 MB.
-Total: 7.303400 ms (FindLiveObjects: 0.406300 ms CreateObjectMapping: 0.277700 ms MarkObjects: 4.592600 ms  DeleteObjects: 2.026100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.570 seconds
-Refreshing native plugins compatible for Editor in 6.23 ms, found 7 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.658 seconds
-Domain Reload Profiling: 1228ms
-	BeginReloadAssembly (148ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (20ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (371ms)
-		LoadAssemblies (280ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (152ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (133ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (659ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (518ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (117ms)
-			ProcessInitializeOnLoadAttributes (338ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.29 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6662 unused Assets / (7.7 MB). Loaded Objects now: 7513.
-Memory consumption went from 195.8 MB to 188.1 MB.
-Total: 7.796100 ms (FindLiveObjects: 0.428600 ms CreateObjectMapping: 0.272200 ms MarkObjects: 4.489400 ms  DeleteObjects: 2.605100 ms)
+Unloading 7358 unused Assets / (8.1 MB). Loaded Objects now: 8213.
+Memory consumption went from 175.1 MB to 167.0 MB.
+Total: 22.084100 ms (FindLiveObjects: 1.620900 ms CreateObjectMapping: 2.363500 ms MarkObjects: 11.989800 ms  DeleteObjects: 6.108600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0

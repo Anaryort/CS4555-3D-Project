@@ -22,11 +22,11 @@ public class InventorySlot : MonoBehaviour, IPointerClickHandler
         {
             if (eventData.button == PointerEventData.InputButton.Left)
             {
-                // Stat handle here
+                // Stat handle here i.e if(itemSO.currentHealth > 0 && file.Instance.currentHealth >= file.Instance
                 inventoryManager.UseItem(this);
             }
 
-            else if (eventData.button == PointerEventData.InputButton.Right) ;
+            else if (eventData.button == PointerEventData.InputButton.Right)
             {
                 inventoryManager.DropItem(this);
             }

@@ -8,11 +8,14 @@ public class Loot : MonoBehaviour
     public Animator anim;
     public bool canBePickedUp = true;
     public int quantity;
+
     public static event Action<ItemSO, int> OnItemLooted;
+
     private void OnValidate()
     {
         if (itemSO == null)
             return;
+
         UpdateApperence();
     }
 
@@ -32,17 +35,19 @@ public class Loot : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!other.CompareTag("Player"))
-            return;
-
-        canBePickedUp = true;
-
-        if (canBePickedUp)
+        if (other.CompareTag("Player") && canBePickedUp == true)
         {
-            anim.Play("LootAnim"); // typo fixed from "LooAnim"
+            anim.Play("LooAnim");
             OnItemLooted?.Invoke(itemSO, quantity);
             Destroy(gameObject, 0.5f);
         }
     }
 
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            canBePickedUp = true;
+        }
+    }
 }

@@ -13,5 +13,11 @@ MonoBehaviour:
   m_Name: Health
   m_EditorClassIdentifier: 
   itemName: Heart
-  itemDesc: Health
+  itemDescription: This is a heart.
   icon: {fileID: 21300000, guid: 9a8e023b5e66b0d478386a07d1627765, type: 3}
+  stackSize: 3
+  isGold: 0
+  currentHealth: 10
+  maxHealth: 0
+  speed: 0
+  duration: 0

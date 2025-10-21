@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: Shrink
   m_EditorClassIdentifier: 
   itemName: Shrink
-  itemDesc: Temp
+  itemDescription: This item shrinks you.
   icon: {fileID: 21300000, guid: 1e4cdc0aafa22184ab96dc28930ac167, type: 3}
   stackSize: 3
   isGold: 0
   currentHealth: 0
   maxHealth: 0
-  duration: 0
+  speed: 0
+  duration: 4

@@ -4,7 +4,7 @@ using UnityEngine;
 public class ItemSO : ScriptableObject
 {
     public string itemName;
-    public string itemDesc;
+    public string itemDescription;
     public Sprite icon;
     public int stackSize = 3;
     public bool isGold;
@@ -12,6 +12,7 @@ public class ItemSO : ScriptableObject
     [Header("Stats")]
     public int currentHealth;
     public int maxHealth;
+    public int speed;
 
     [Header("Temp")]
     public float duration;

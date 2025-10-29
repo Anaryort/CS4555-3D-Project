@@ -1,32 +1,32 @@
 Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.58f1 (44b8bf3a3225) revision 4503743'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32645 MB
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'en' Physical Memory: 15605 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-10-20T22:09:45Z
+Date: 2025-10-29T17:50:23Z
 
 COMMAND LINE ARGUMENTS:
-D:\Unity\6000.0.58f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/PokeM/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
+C:/Users/Andyv/Documents/GitHub/CS4555-3D-Project/Rollaball
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54922
+51680
 -job-worker-count
-5
+3
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/PokeM/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
-C:/Users/PokeM/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
+Successfully changed project path to: C:/Users/Andyv/Documents/GitHub/CS4555-3D-Project/Rollaball
+C:/Users/Andyv/Documents/GitHub/CS4555-3D-Project/Rollaball
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -62,15 +62,13 @@ C:/Users/PokeM/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9044]  Target information:
+Player connection [9232]  Target information:
 
-Player connection [9044]  * "[IP] 192.168.1.83 [Port] 0 [Flags] 2 [Guid] 2712590104 [EditorId] 2712590104 [Version] 1048832 [Id] WindowsEditor(7,Hiyokurenri) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [9232]  * "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 1654007667 [EditorId] 1654007667 [Version] 1048832 [Id] WindowsEditor(7,Andy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [9044]  * "[IP] 172.17.112.1 [Port] 0 [Flags] 2 [Guid] 2712590104 [EditorId] 2712590104 [Version] 1048832 [Id] WindowsEditor(7,Hiyokurenri) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [9044] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [9044] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 5
+Player connection [9232] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9232] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -81,61 +79,61 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 12.03 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 20.75 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.58f1 (44b8bf3a3225)
-[Subsystems] Discovering subsystems at path D:/Unity/6000.0.58f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/PokeM/OneDrive/Documents/GitHub/CS4555-3D-Project/Rollaball/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.58f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Andyv/Documents/GitHub/CS4555-3D-Project/Rollaball/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e82)
-    Vendor:   NVIDIA
-    VRAM:     7989 MB
-    Driver:   32.0.15.7697
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1506)
+    Vendor:   ATI
+    VRAM:     7802 MB
+    Driver:   32.0.21025.10016
 Initialize mono
-Mono path[0] = 'D:/Unity/6000.0.58f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/6000.0.58f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Unity/6000.0.58f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.58f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.58f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.58f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/6000.0.58f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/Unity/6000.0.58f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006405 seconds.
-- Loaded All Assemblies, in  0.555 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.58f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.58f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007950 seconds.
+- Loaded All Assemblies, in  1.059 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.489 seconds
-Domain Reload Profiling: 1043ms
-	BeginReloadAssembly (213ms)
+- Finished resetting the current domain, in  1.050 seconds
+Domain Reload Profiling: 2101ms
+	BeginReloadAssembly (348ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (61ms)
-	LoadAllAssembliesAndSetupDomain (217ms)
-		LoadAssemblies (212ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (98ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (139ms)
+	LoadAllAssembliesAndSetupDomain (427ms)
+		LoadAssemblies (340ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (213ms)
-			TypeCache.Refresh (211ms)
-				TypeCache.ScanAssembly (193ms)
+		AnalyzeDomain (419ms)
+			TypeCache.Refresh (415ms)
+				TypeCache.ScanAssembly (380ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (489ms)
+	FinalizeReload (1052ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (418ms)
+		SetupLoadedEditorAssemblies (905ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (37ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (199ms)
-			ProcessInitializeOnLoadMethodAttributes (77ms)
+			InitializePlatformSupportModulesInManaged (57ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (199ms)
+			ProcessInitializeOnLoadAttributes (483ms)
+			ProcessInitializeOnLoadMethodAttributes (151ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -144,8 +142,8 @@ Domain Reload Profiling: 1043ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.199 seconds
-Refreshing native plugins compatible for Editor in 4.47 ms, found 8 plugins.
+- Loaded All Assemblies, in  2.586 seconds
+Refreshing native plugins compatible for Editor in 14.16 ms, found 8 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -153,68 +151,516 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.316 seconds
-Domain Reload Profiling: 2508ms
-	BeginReloadAssembly (286ms)
+- Finished resetting the current domain, in  3.021 seconds
+Domain Reload Profiling: 5593ms
+	BeginReloadAssembly (503ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (21ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (806ms)
-		LoadAssemblies (554ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (109ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (130ms)
+	LoadAllAssembliesAndSetupDomain (1801ms)
+		LoadAssemblies (1134ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (407ms)
-			TypeCache.Refresh (293ms)
-				TypeCache.ScanAssembly (274ms)
-			BuildScriptInfoCaches (95ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1317ms)
+		AnalyzeDomain (939ms)
+			TypeCache.Refresh (691ms)
+				TypeCache.ScanAssembly (654ms)
+			BuildScriptInfoCaches (206ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (3022ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1066ms)
+		SetupLoadedEditorAssemblies (2417ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (200ms)
-			ProcessInitializeOnLoadAttributes (775ms)
-			ProcessInitializeOnLoadMethodAttributes (77ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (433ms)
+			ProcessInitializeOnLoadAttributes (1781ms)
+			ProcessInitializeOnLoadMethodAttributes (176ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 7.57 ms, found 8 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 15.66 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7364 unused Assets / (8.3 MB). Loaded Objects now: 8138.
-Memory consumption went from 167.9 MB to 159.6 MB.
-Total: 24.426200 ms (FindLiveObjects: 1.252700 ms CreateObjectMapping: 2.156300 ms MarkObjects: 12.923500 ms  DeleteObjects: 8.092200 ms)
+Unloading 7365 unused Assets / (9.4 MB). Loaded Objects now: 8139.
+Memory consumption went from 163.7 MB to 154.3 MB.
+Total: 29.183500 ms (FindLiveObjects: 1.818500 ms CreateObjectMapping: 2.904200 ms MarkObjects: 13.839700 ms  DeleteObjects: 10.616700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 311237.771977 seconds.
-  path: Assets/VFX/UnityTechnologies/EffectExamples/Shared/Prefabs/Extinguish.prefab
-  artifactKey: Guid(ec68cf3d27ad1bf48a4b4d3af84e4ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/UnityTechnologies/EffectExamples/Shared/Prefabs/Extinguish.prefab using Guid(ec68cf3d27ad1bf48a4b4d3af84e4ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de2c1b79231b85cb26896023937b5fd3') in 0.9428476 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+  Time since last request: 24911.981392 seconds.
+  path: Assets/Scenes/Multiplayer.unity
+  artifactKey: Guid(885c0520516949647893e6252358aeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Multiplayer.unity using Guid(885c0520516949647893e6252358aeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c1257f8e0045d56494229dbd587d08b') in 0.0171966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Input/InputSystem_Actions.inputactions
-  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Input/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18505f787eac1a59a9ef07dbe589aff3') in 0.009833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+  Time since last request: 469.381438 seconds.
+  path: Assets/FBX format/arrows.fbx
+  artifactKey: Guid(366cd851ef61d0f4cac9a7ba4baec6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/arrows.fbx using Guid(366cd851ef61d0f4cac9a7ba4baec6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '613e38db4ef96fd0444450c84f3e2fd8') in 3.5748636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/FBX format/block-grass-overhang-large-tall.fbx
+  artifactKey: Guid(db9a1bdec5038704a929fd22936f1b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-grass-overhang-large-tall.fbx using Guid(db9a1bdec5038704a929fd22936f1b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f359c9ce4557e8aa1bd8c774651b49c') in 0.1324585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/FBX format/block-grass-large-tall.fbx
+  artifactKey: Guid(9d04e1f83b757bc42b6c56f6f3294c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-grass-large-tall.fbx using Guid(9d04e1f83b757bc42b6c56f6f3294c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9444e4e69575c5510218f63c4983ddfe') in 0.1291752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/FBX format/block-grass-overhang-large-slope.fbx
+  artifactKey: Guid(9d8ba4cc2a974c146aefccc96a0792bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-grass-overhang-large-slope.fbx using Guid(9d8ba4cc2a974c146aefccc96a0792bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06bac64e0cc6b6f501069a8a370d60a6') in 0.1142896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/FBX format/block-grass-low-narrow.fbx
+  artifactKey: Guid(829a581d9fefaf8489c26bf2b7f8839b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-grass-low-narrow.fbx using Guid(829a581d9fefaf8489c26bf2b7f8839b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96e5dd8b7a6e0bef3d92b8d0c00ea0ed') in 0.2195388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/FBX format/block-grass-overhang-long.fbx
+  artifactKey: Guid(4e9fa5665a109d14cbbdd03c9456e056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-grass-overhang-long.fbx using Guid(4e9fa5665a109d14cbbdd03c9456e056) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5f6865f0234f787c0747a06358c0e7a') in 0.2302975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/FBX format/block-snow-corner.fbx
+  artifactKey: Guid(15ffce387e44d164691557c808e05f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-snow-corner.fbx using Guid(15ffce387e44d164691557c808e05f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36830ebb68cc3e9ac0fd70bdd2ef429c') in 0.197278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/FBX format/block-snow-hexagon.fbx
+  artifactKey: Guid(24e547e1a65cc3f429ef72a5120cea3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-snow-hexagon.fbx using Guid(24e547e1a65cc3f429ef72a5120cea3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a83e209e93ece11ee555a6fba5f25f1') in 0.2397153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/FBX format/block-grass-overhang-edge.fbx
+  artifactKey: Guid(abe71f031b721fb42b3f9b2a13eeea74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-grass-overhang-edge.fbx using Guid(abe71f031b721fb42b3f9b2a13eeea74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82ff7bd60a85c65d1bb5bab393e84e42') in 0.081458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/FBX format/block-grass-corner-low.fbx
+  artifactKey: Guid(2982b237ddbc2b543b27549d58aea4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-grass-corner-low.fbx using Guid(2982b237ddbc2b543b27549d58aea4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a26ff3a2e095a62f3639fd26a553f556') in 0.1231281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/FBX format/block-grass-overhang-narrow.fbx
+  artifactKey: Guid(00ec7c5c1cfa14b40942e2183d71e013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-grass-overhang-narrow.fbx using Guid(00ec7c5c1cfa14b40942e2183d71e013) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31c34b55f127849c38f29613d28041a5') in 0.0956332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/FBX format/block-grass-hexagon.fbx
+  artifactKey: Guid(9aa015b71e6b7424686571050d3fb1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-grass-hexagon.fbx using Guid(9aa015b71e6b7424686571050d3fb1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9861ab469776e6ef18e05fee6c8c1d8e') in 0.1017455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/FBX format/block-grass-overhang-large-slope-steep.fbx
+  artifactKey: Guid(b532fc91f797d1b4b97f6bb7406a4455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-grass-overhang-large-slope-steep.fbx using Guid(b532fc91f797d1b4b97f6bb7406a4455) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e84062e8b7fa84c73d25d95bfae93dc') in 0.1087459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/FBX format/block-snow-large.fbx
+  artifactKey: Guid(4cd2d85ed768a944d950ce3e30238e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-snow-large.fbx using Guid(4cd2d85ed768a944d950ce3e30238e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af85e67c5765ab093978fae4a5cb5c2e') in 0.1228973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/FBX format/block-grass-corner-overhang-low.fbx
+  artifactKey: Guid(aaf194060e39c3d489d4dbec5deb5d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-grass-corner-overhang-low.fbx using Guid(aaf194060e39c3d489d4dbec5deb5d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3f6a3895a70ef6af33002770588be8b') in 0.2003869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/FBX format/block-grass-low-long.fbx
+  artifactKey: Guid(b7a9089ce16db8747b4eb218df94074f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-grass-low-long.fbx using Guid(b7a9089ce16db8747b4eb218df94074f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '992fb18c3ec370017409dd38b9bbf608') in 0.1326224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/FBX format/block-snow-curve-low.fbx
+  artifactKey: Guid(3725feed515bc184abfd6a902954644d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-snow-curve-low.fbx using Guid(3725feed515bc184abfd6a902954644d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38206aff9382aa3f7c33666fe4520dd9') in 0.1613399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/FBX format/block-moving-large.fbx
+  artifactKey: Guid(2627591d38bd5fb4196c613261045533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-moving-large.fbx using Guid(2627591d38bd5fb4196c613261045533) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf12105bc74b23fa5de09fd7bfd1e056') in 0.1187319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/FBX format/block-snow-corner-overhang.fbx
+  artifactKey: Guid(4b5ab853f7f8d3f4e81fc43408791753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-snow-corner-overhang.fbx using Guid(4b5ab853f7f8d3f4e81fc43408791753) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e17e753f7a66409ec50c131d1ad13896') in 0.1310717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/FBX format/barrel.fbx
+  artifactKey: Guid(37220db0e49a1134a9f4d27539c88a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/barrel.fbx using Guid(37220db0e49a1134a9f4d27539c88a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '578863459897418c6970cf5e711172ba') in 0.1164943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Kenenny Models
+  artifactKey: Guid(feafc84457defef489509ddb2d2cdb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models using Guid(feafc84457defef489509ddb2d2cdb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '586c1b04eccba538eeb9e6638d96d17c') in 0.0031148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/FBX format/block-grass.fbx
+  artifactKey: Guid(d9cc74cfb57975f4195cfbcfa084e7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-grass.fbx using Guid(d9cc74cfb57975f4195cfbcfa084e7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c68ffaa02c00e5d2317e365eec70354b') in 0.0993396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/FBX format/block-grass-large-slope-narrow.fbx
+  artifactKey: Guid(1e622a7a3e2452d44a0f5a8b0d2fd406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-grass-large-slope-narrow.fbx using Guid(1e622a7a3e2452d44a0f5a8b0d2fd406) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a0066af85ccd268af025a995fc079a6') in 0.0904984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/FBX format/block-grass-overhang-hexagon.fbx
+  artifactKey: Guid(3198c4ed54c05b3418b3b684b5b0a069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-grass-overhang-hexagon.fbx using Guid(3198c4ed54c05b3418b3b684b5b0a069) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '862aae1efadda96fd4e50e512668be9d') in 0.1114647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/FBX format/block-grass-corner-overhang.fbx
+  artifactKey: Guid(0bd9fbf33568e3f48b0979cb120bd697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-grass-corner-overhang.fbx using Guid(0bd9fbf33568e3f48b0979cb120bd697) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f73bddafe5fac7bbd0dfc5adf1200dbb') in 0.110275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/FBX format/block-snow.fbx
+  artifactKey: Guid(9898ba4c4236f31488d626cc8e2f1eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-snow.fbx using Guid(9898ba4c4236f31488d626cc8e2f1eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ed879b1f725e831059948d53dc0eb53') in 0.343213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/FBX format/block-grass-long.fbx
+  artifactKey: Guid(e96fcbf940012684ea5e0f7d9a157bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-grass-long.fbx using Guid(e96fcbf940012684ea5e0f7d9a157bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e93439df5efccaca49c0e4ff32bb816') in 0.1526157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/FBX format/block-grass-large.fbx
+  artifactKey: Guid(f28ef25ba95a63d4aad02ff34718b1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-grass-large.fbx using Guid(f28ef25ba95a63d4aad02ff34718b1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a8456bd6eee54a4aebf0e3af0967e70') in 0.0963266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/FBX format/block-grass-corner.fbx
+  artifactKey: Guid(44396f773af1dc743b7364bd3ab4a722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/block-grass-corner.fbx using Guid(44396f773af1dc743b7364bd3ab4a722) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f67c7fb65699cc5d0889cd38ffffefa6') in 0.1434729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.547765 seconds.
+  path: Assets/Kenenny Models/KenUINew/button_brown.png
+  artifactKey: Guid(94f1a7cd5966c6243b6e36f6f5b8d411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KenUINew/button_brown.png using Guid(94f1a7cd5966c6243b6e36f6f5b8d411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c21dc8175ce7e24b6c80358e9ae81359') in 0.1152852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Kenenny Models/KenUINew/checkbox_beige_checked.png
+  artifactKey: Guid(92be32259dcbf0544a0745df258b657a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KenUINew/checkbox_beige_checked.png using Guid(92be32259dcbf0544a0745df258b657a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62702fd54e11ae3d653555cbc9fff7ba') in 0.0652969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Kenenny Models/KenUINew/checkbox_grey_checked.png
+  artifactKey: Guid(454ca59585b1bdc4a9721de2fb7f4901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KenUINew/checkbox_grey_checked.png using Guid(454ca59585b1bdc4a9721de2fb7f4901) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19b74200f3cbf8fa10709d715e1f5ab2') in 0.0620889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Kenenny Models/KenUINew/checkbox_brown_cross.png
+  artifactKey: Guid(74026509d46c2234d9da1c518a89ae97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KenUINew/checkbox_brown_cross.png using Guid(74026509d46c2234d9da1c518a89ae97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1527debf57eec012d14f097c7a742c28') in 0.0704997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Kenenny Models/KenUINew/minimap_compass_future_w.png
+  artifactKey: Guid(fc6fc0773451c5d4c8c3c495a2046caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KenUINew/minimap_compass_future_w.png using Guid(fc6fc0773451c5d4c8c3c495a2046caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7a9b102c34f253b9d1e38a3dbdb356c') in 0.0999318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Kenenny Models/KenUINew/minimap_compass_toon_n.png
+  artifactKey: Guid(bb9477a2e84effb498ca53f7ba9d0cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KenUINew/minimap_compass_toon_n.png using Guid(bb9477a2e84effb498ca53f7ba9d0cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1339c0afcb854c60c1ccad948f7e571f') in 0.1018266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Kenenny Models/KenUINew/minimap_arrow_c.png
+  artifactKey: Guid(c11d573609afb454680a11ab6392644a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KenUINew/minimap_arrow_c.png using Guid(c11d573609afb454680a11ab6392644a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc8e1356b0db4788839b83353a6f4f38') in 0.1327266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Kenenny Models/KenUINew/checkbox_brown_empty.png
+  artifactKey: Guid(a8110312f13d3a44f9a845124fa15dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KenUINew/checkbox_brown_empty.png using Guid(a8110312f13d3a44f9a845124fa15dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1cc3d65ad26549f6b4926ec6a0e838cd') in 0.1219731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.686638 seconds.
+  path: Assets/Kenenny Models/Ken-Dun/corridor-intersection.fbx
+  artifactKey: Guid(f91f9ab35fa14e645b13ab410e76e51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/Ken-Dun/corridor-intersection.fbx using Guid(f91f9ab35fa14e645b13ab410e76e51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '391a209c61dd1da2a990969e7f51b092') in 0.1169939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Kenenny Models/Ken-Dun/template-floor-layer-raised.fbx
+  artifactKey: Guid(affae13800c57154d888462456c90dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/Ken-Dun/template-floor-layer-raised.fbx using Guid(affae13800c57154d888462456c90dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bfa47ad2cde44e58e9de0c4bc044f82') in 0.1361619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Kenenny Models/Ken-Dun/room-corner.fbx
+  artifactKey: Guid(12056f9efa943cb49a66436619137789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/Ken-Dun/room-corner.fbx using Guid(12056f9efa943cb49a66436619137789) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38f5a9427131f93cb07e5113aad98d5b') in 0.1070675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Kenenny Models/Ken-Dun/template-floor-detail-a.fbx
+  artifactKey: Guid(c7ac7a81d0662464ab3f3dcadf8ea6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/Ken-Dun/template-floor-detail-a.fbx using Guid(c7ac7a81d0662464ab3f3dcadf8ea6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2163a100358a4ea49e900ea6aa7b3d9d') in 0.131868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Kenenny Models/Ken-Dun/gate-door.fbx
+  artifactKey: Guid(a12dd47bf99a02c4e9a2f3bd314f2a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/Ken-Dun/gate-door.fbx using Guid(a12dd47bf99a02c4e9a2f3bd314f2a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e7192014da34e8e80a0410e238f32f4') in 0.2006067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Kenenny Models/Ken-Dun/template-floor-detail.fbx
+  artifactKey: Guid(e2b8ff06f94ad5e41b857d99bb370fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/Ken-Dun/template-floor-detail.fbx using Guid(e2b8ff06f94ad5e41b857d99bb370fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fc3c7c367b582ebe4a61fc683fa0644') in 0.1879639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Kenenny Models/Ken-Dun/gate.fbx
+  artifactKey: Guid(e39da6b0396f6494cb2aa1d4334cd64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/Ken-Dun/gate.fbx using Guid(e39da6b0396f6494cb2aa1d4334cd64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e506d83c4d9995d7ccf7831abcfffb6d') in 0.1190077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Kenenny Models/Ken-Dun/room-large-variation.fbx
+  artifactKey: Guid(af46015e98af72047bb7e205366b9cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/Ken-Dun/room-large-variation.fbx using Guid(af46015e98af72047bb7e205366b9cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '985d4358a19bf6416e78d2c2c3dea830') in 0.138703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.837637 seconds.
+  path: Assets/Kenenny Models/KenUINew/panel_brown_arrows_detail.png
+  artifactKey: Guid(eb1053a3bc2fd214087fcf9ada2fa987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KenUINew/panel_brown_arrows_detail.png using Guid(eb1053a3bc2fd214087fcf9ada2fa987) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6f01ca4c1c9981d623db78c096a16a9') in 0.0522413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Kenenny Models/KenUINew/panel_brown_dark.png
+  artifactKey: Guid(586b6050e0300ae4d8f58666eab10f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KenUINew/panel_brown_dark.png using Guid(586b6050e0300ae4d8f58666eab10f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '286ee6e7cfb69ba792e470029d7f5df7') in 0.0821623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Kenenny Models/KenUINew/panel_grey_bolts_detail_a.png
+  artifactKey: Guid(421bbc3c91cb3d74d91cfe4afe8f3dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KenUINew/panel_grey_bolts_detail_a.png using Guid(421bbc3c91cb3d74d91cfe4afe8f3dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ba6489e1a62a5cc54796f1f61c8b998') in 0.074998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Kenenny Models/KenUINew/pattern_diagonal_grey_large.png
+  artifactKey: Guid(10c4668bfc998b74fb82876fe07d4040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/KenUINew/pattern_diagonal_grey_large.png using Guid(10c4668bfc998b74fb82876fe07d4040) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce3278610b45bc06ba24a5f27997a271') in 0.0735397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.599867 seconds.
+  path: Assets/Kenenny Models/PNG/arrowBlue_right.png
+  artifactKey: Guid(d6319de4f5be57444a732b1b77454721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/PNG/arrowBlue_right.png using Guid(d6319de4f5be57444a732b1b77454721) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4c9af334418b9d7aaf9872dcc2021e2') in 0.0720426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Kenenny Models/PNG/barBack_horizontalRight.png
+  artifactKey: Guid(16fdb9ba5e16e434abd162791c8c77f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/PNG/barBack_horizontalRight.png using Guid(16fdb9ba5e16e434abd162791c8c77f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d0ae337b65d802539ce10fd88ea179f') in 0.0232283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Kenenny Models/PNG/barBlue_verticalTop.png
+  artifactKey: Guid(238b7a253d62c1840a1b19c1e8a1aa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/PNG/barBlue_verticalTop.png using Guid(238b7a253d62c1840a1b19c1e8a1aa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ba6fb76129c7a36c562f7d26a9a9f73') in 0.0436404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Kenenny Models/PNG/barGreen_verticalTop.png
+  artifactKey: Guid(32a30099ec55cb240959ab6e344bca33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/PNG/barGreen_verticalTop.png using Guid(32a30099ec55cb240959ab6e344bca33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cd6eef1600b017aed0fb1e635efe60f') in 0.1325031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Kenenny Models/PNG/buttonLong_blue_pressed.png
+  artifactKey: Guid(73a0753c37474574ba9500877a51a34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/PNG/buttonLong_blue_pressed.png using Guid(73a0753c37474574ba9500877a51a34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '327fbc65e13cda2f28aa6bdfed7f15b7') in 0.0657142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Kenenny Models/PNG/buttonSquare_blue.png
+  artifactKey: Guid(0f15ce99482b31249b35a630a84561ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/PNG/buttonSquare_blue.png using Guid(0f15ce99482b31249b35a630a84561ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be4a2b4f5bc6acb076ea80ed1f4412fd') in 0.1068225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Kenenny Models/PNG/barRed_verticalMid.png
+  artifactKey: Guid(e6731933fbb94194988ca1ebfa3097a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/PNG/barRed_verticalMid.png using Guid(e6731933fbb94194988ca1ebfa3097a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1eb0722ff5e81fdea2b6c14f032ebcd0') in 0.0664362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Kenenny Models/PNG/buttonSquare_beige.png
+  artifactKey: Guid(760da1bc6f9c10640bc2275d82bb41fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenenny Models/PNG/buttonSquare_beige.png using Guid(760da1bc6f9c10640bc2275d82bb41fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab0330fc093c5b46b006d0d17bc9a6e2') in 0.0865084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

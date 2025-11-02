@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player1Animation : MonoBehaviour
+public class Player2Animation : MonoBehaviour
 {
     Animator anim;
 
@@ -37,14 +37,14 @@ public class Player1Animation : MonoBehaviour
         bool isWalking = anim.GetBool(isWalkingHash);
 
         // Movement keys
-        bool forwardPress = Input.GetKey("w");
-        bool backPress = Input.GetKey("s");
-        bool leftPress = Input.GetKey("a");
-        bool rightPress = Input.GetKey("d");
+        bool forwardPress = Input.GetKey(KeyCode.UpArrow);
+        bool backPress = Input.GetKey(KeyCode.DownArrow);
+        bool leftPress = Input.GetKey(KeyCode.LeftArrow);
+        bool rightPress = Input.GetKey(KeyCode.RightArrow);
 
         // Combat keys (booleans)
-        bool punchPress = Input.GetKey(KeyCode.E);
-        bool kickPress = Input.GetKey(KeyCode.Q);
+        bool punchPress = Input.GetKey(KeyCode.RightShift);
+        bool kickPress = Input.GetKey(KeyCode.Slash);
 
         // Shift for run
         bool runPress = Input.GetKey(KeyCode.LeftShift);
@@ -86,6 +86,7 @@ public class Player1Animation : MonoBehaviour
 
         //   PUNCH 
         anim.SetBool(isPunchingHash, punchPress);
+
 
         //   KICK 
         anim.SetBool(isKickingHash, kickPress);

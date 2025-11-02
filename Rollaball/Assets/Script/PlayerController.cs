@@ -1,77 +1,122 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-[RequireComponent(typeof(Rigidbody))]
-[RequireComponent(typeof(CapsuleCollider))]
 public class PlayerController : MonoBehaviour
 {
-    public Rigidbody rb;
+    public enum ControlGroup { P1, P2 }
 
-    private float movementX;
-    private float movementY;
+    [Header("Which keyboard group controls this character?")]
+    public ControlGroup controlGroup = ControlGroup.P1;
 
-    [Header("Movement Settings")]
-    public float speed = 5f;
-    public float rotationSpeed = 10f;
-    public float jumpForce = 5f;
-    public float groundCheckDistance = 0f;
+    [Tooltip("If true, will auto-select P2 when this object is tagged 'Player2' or its name contains '2'.")]
+    public bool autoDetectGroup = true;
 
-    [HideInInspector] public bool isGrounded;
+    [Header("Movement")]
+    public float speed = 6f;
+    public float rotationSpeed = 10f; // 0 to disable facing movement dir
 
-    void Start()
+    [Header("Jump")]
+    public float jumpForce = 7f;
+    public Transform groundCheck;
+    public float groundCheckRadius = 0.2f;
+    public LayerMask groundMask = ~0;
+
+    private Rigidbody rb;
+    private InputAction moveAction;
+    private InputAction jumpAction;
+
+    private float movementX, movementY;
+    private bool jumpQueued;
+
+    void Awake() => rb = GetComponent<Rigidbody>();
+
+    void OnEnable()
     {
-        rb = GetComponent<Rigidbody>();
-        rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
+        // auto-detect P1 and P2
+        if (autoDetectGroup)
+        {
+            if (name.Contains("2") || tag == "Player2")      controlGroup = ControlGroup.P2;
+            else if (name.Contains("1") || tag == "Player1") controlGroup = ControlGroup.P1;
+        }
+
+        // Build per-player input actions
+        moveAction = new InputAction("Move", InputActionType.Value);
+        var comp = moveAction.AddCompositeBinding("2DVector");
+
+        if (controlGroup == ControlGroup.P1)
+        {
+            comp.With("Up", "<Keyboard>/w")
+                .With("Down", "<Keyboard>/s")
+                .With("Left", "<Keyboard>/a")
+                .With("Right", "<Keyboard>/d");
+            jumpAction = new InputAction("Jump", InputActionType.Button, "<Keyboard>/space");
+        }
+        else
+        {
+            comp.With("Up", "<Keyboard>/upArrow")
+                .With("Down", "<Keyboard>/downArrow")
+                .With("Left", "<Keyboard>/leftArrow")
+                .With("Right", "<Keyboard>/rightArrow");
+            jumpAction = new InputAction("Jump", InputActionType.Button, "<Keyboard>/rightCtrl");
+        }
+
+        moveAction.Enable();
+        jumpAction.Enable();
+    }
+
+    void OnDisable()
+    {
+        moveAction?.Disable();
+        jumpAction?.Disable();
     }
 
     void Update()
     {
-        // Check if grounded using a Raycast
-        isGrounded = Physics.Raycast(transform.position, Vector3.down, 1f + groundCheckDistance);
-    }
+        Vector2 dir = moveAction.ReadValue<Vector2>();
+        movementX = dir.x;
+        movementY = dir.y;
 
-    // Take input, convert to Vector2
-    void OnMove(InputValue movementValue)
-    {
-        Vector2 movementVector = movementValue.Get<Vector2>();
-        movementX = movementVector.x;
-        movementY = movementVector.y;
-    }
-
-    // Jump
-    void OnJump(InputValue jumpValue)
-    {
-        if (jumpValue.isPressed && isGrounded)
-        {
-            rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z); // Reset Y velocity
-            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-        }
+        if (jumpAction.WasPressedThisFrame())
+            jumpQueued = true;
     }
 
     void FixedUpdate()
     {
-        // Raw input vector
-        Vector3 inputDir = new Vector3(movementX, 0f, movementY);
+        // Move on XZ plane
+        var v = rb.velocity;
+        v.x = movementX * speed;
+        v.z = movementY * speed;
+        rb.velocity = v;
 
-        // Movement
-        Vector3 targetVelocity = inputDir.normalized * speed;
-        rb.linearVelocity = new Vector3(targetVelocity.x, rb.linearVelocity.y, targetVelocity.z);
-
-        // Look rotation only if input is significant
-        float deadzone = 0.1f; // ignore very small inputs
-        if (Mathf.Abs(movementX) > deadzone || Mathf.Abs(movementY) > deadzone)
+        // Face movement direction (optional)
+        Vector3 look = new Vector3(movementX, 0f, movementY);
+        if (rotationSpeed > 0f && look.sqrMagnitude > 0.0001f)
         {
-            Quaternion targetRotation = Quaternion.LookRotation(inputDir);
-            rb.rotation = Quaternion.Slerp(rb.rotation, targetRotation, rotationSpeed * Time.fixedDeltaTime);
+            Quaternion target = Quaternion.LookRotation(look);
+            rb.MoveRotation(Quaternion.Slerp(rb.rotation, target, rotationSpeed * Time.fixedDeltaTime));
         }
+
+        // Jump
+        if (jumpQueued && IsGrounded())
+        {
+            rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.VelocityChange);
+        }
+        jumpQueued = false;
     }
 
-    private void OnTriggerEnter(Collider other)
+    bool IsGrounded()
     {
-        if (other.gameObject.CompareTag("PickUp"))
-        {
-            other.gameObject.SetActive(false);
-        }
+        if (!groundCheck) return true;
+        return Physics.CheckSphere(groundCheck.position, groundCheckRadius, groundMask, QueryTriggerInteraction.Ignore);
     }
+
+#if UNITY_EDITOR
+    void OnDrawGizmosSelected()
+    {
+        if (!groundCheck) return;
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
+    }
+#endif
 }

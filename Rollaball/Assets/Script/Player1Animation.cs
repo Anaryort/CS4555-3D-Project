@@ -46,6 +46,9 @@ public class Player1Animation : MonoBehaviour
         bool punchPress = Input.GetKey(KeyCode.E);
         bool kickPress = Input.GetKey(KeyCode.Q);
 
+        bool punchPressP2 = Input.GetKey(KeyCode.RightShift);
+
+
         // Shift for run
         bool runPress = Input.GetKey(KeyCode.LeftShift);
 
@@ -64,28 +67,30 @@ public class Player1Animation : MonoBehaviour
         if (isRunning && (!movePress || !runPress))
             anim.SetBool(isRunningHash, false);
 
-        //   JUMP / FALL  
-        if (!playerController.isGrounded)
-        {
-            if (playerController.rb.linearVelocity.y > 0.1f) // going up
-            {
-                anim.SetBool(isJumpingHash, true);
-                anim.SetBool(isFallingHash, false);
-            }
-            else if (playerController.rb.linearVelocity.y < -0.1f) // going down
-            {
-                anim.SetBool(isJumpingHash, false);
-                anim.SetBool(isFallingHash, true);
-            }
-        }
-        else
-        {
-            anim.SetBool(isJumpingHash, false);
-            anim.SetBool(isFallingHash, false);
-        }
+        // //   JUMP / FALL  
+        // if (!playerController.isGrounded)
+        // {
+        //     if (playerController.rb.linearVelocity.y > 0.1f) // going up
+        //     {
+        //         anim.SetBool(isJumpingHash, true);
+        //         anim.SetBool(isFallingHash, false);
+        //     }
+        //     else if (playerController.rb.linearVelocity.y < -0.1f) // going down
+        //     {
+        //         anim.SetBool(isJumpingHash, false);
+        //         anim.SetBool(isFallingHash, true);
+        //     }
+        // }
+        // else
+        // {
+        //     anim.SetBool(isJumpingHash, false);
+        //     anim.SetBool(isFallingHash, false);
+        // }
 
         //   PUNCH 
         anim.SetBool(isPunchingHash, punchPress);
+        anim.SetBool(isPunchingHash, punchPressP2);
+
 
         //   KICK 
         anim.SetBool(isKickingHash, kickPress);

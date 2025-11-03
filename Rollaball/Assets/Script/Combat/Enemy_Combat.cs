@@ -4,7 +4,8 @@ public class Enemy_Combat : MonoBehaviour
 {
     public int dmg = 1;
 
-    private void OnCollisionEnter2D(Collision2D collision) // capital "C"!
+
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {

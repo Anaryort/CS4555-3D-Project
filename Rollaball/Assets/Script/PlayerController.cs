@@ -83,10 +83,10 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         // Move on XZ plane
-        var v = rb.velocity;
+        var v = rb.linearVelocity;
         v.x = movementX * speed;
         v.z = movementY * speed;
-        rb.velocity = v;
+        rb.linearVelocity = v;
 
         // Face movement direction (optional)
         Vector3 look = new Vector3(movementX, 0f, movementY);
@@ -99,7 +99,7 @@ public class PlayerController : MonoBehaviour
         // Jump
         if (jumpQueued && IsGrounded())
         {
-            rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
+            rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
             rb.AddForce(Vector3.up * jumpForce, ForceMode.VelocityChange);
         }
         jumpQueued = false;

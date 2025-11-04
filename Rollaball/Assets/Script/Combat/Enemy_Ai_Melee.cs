@@ -4,7 +4,10 @@ using UnityEngine.AI;
 public class Enemy_Ai_Melee : MonoBehaviour
 {
     public NavMeshAgent agent;
-    public Transform player;
+
+    public Transform player1;
+    public Transform player2;
+    private Transform currentTarget;
 
     public LayerMask whatIsGround, whatIsPlayer;
 
@@ -13,32 +16,77 @@ public class Enemy_Ai_Melee : MonoBehaviour
     // Patroling
     public Vector3 walkPoint;
     bool walkPointSet;
-    public float walkPointRange;
+    public float walkPointRange = 10f;
 
     // Attacking
-    public float timeBetweenAttacks;
+    public float timeBetweenAttacks = 1.5f;
     bool alreadyAttacked;
-    public int attackDamage = 10;   // Damage dealt per hit
+    public int attackDamage = 10;
 
     // States
-    public float sightRange, attackRange;
+    public float sightRange = 10f;
+    public float attackRange = 2f;
     public bool playerInSightRange, playerInAttackRange;
 
     private void Awake()
     {
-        player = GameObject.Find("Player").transform;
+        // Try to find both players by name or tag
+        GameObject p1 = GameObject.Find("Player1");
+        GameObject p2 = GameObject.Find("Player2");
+
+        if (p1 != null) player1 = p1.transform;
+        if (p2 != null) player2 = p2.transform;
+
         agent = GetComponent<NavMeshAgent>();
     }
 
     private void Update()
     {
+        if (player1 == null && player2 == null)
+            return;
+
+        // Find nearest player
+        currentTarget = GetClosestPlayer();
+
         // Check for sight and attack range
         playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
-        playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
+        playerInAttackRange = currentTarget != null &&
+                              Vector3.Distance(transform.position, currentTarget.position) <= attackRange;
 
-        if (!playerInSightRange && !playerInAttackRange) Patroling();
-        if (playerInSightRange && !playerInAttackRange) ChasePlayer();
-        if (playerInAttackRange && playerInSightRange) AttackPlayer();
+        if (!playerInSightRange && !playerInAttackRange)
+            Patroling();
+        else if (playerInSightRange && !playerInAttackRange)
+            ChasePlayer();
+        else if (playerInAttackRange && playerInSightRange)
+            AttackPlayer();
+    }
+
+    private Transform GetClosestPlayer()
+    {
+        Transform closest = null;
+        float closestDist = Mathf.Infinity;
+
+        if (player1 != null)
+        {
+            float dist = Vector3.Distance(transform.position, player1.position);
+            if (dist < closestDist)
+            {
+                closestDist = dist;
+                closest = player1;
+            }
+        }
+
+        if (player2 != null)
+        {
+            float dist = Vector3.Distance(transform.position, player2.position);
+            if (dist < closestDist)
+            {
+                closestDist = dist;
+                closest = player2;
+            }
+        }
+
+        return closest;
     }
 
     private void Patroling()
@@ -50,7 +98,6 @@ public class Enemy_Ai_Melee : MonoBehaviour
 
         Vector3 distanceToWalkPoint = transform.position - walkPoint;
 
-        // Walkpoint reached
         if (distanceToWalkPoint.magnitude < 1f)
             walkPointSet = false;
     }
@@ -68,20 +115,22 @@ public class Enemy_Ai_Melee : MonoBehaviour
 
     private void ChasePlayer()
     {
-        agent.SetDestination(player.position);
+        if (currentTarget != null)
+            agent.SetDestination(currentTarget.position);
     }
 
     private void AttackPlayer()
     {
-        // Stop moving while attacking
+        if (currentTarget == null) return;
+
+        // Stop moving
         agent.SetDestination(transform.position);
 
-        transform.LookAt(player);
+        transform.LookAt(currentTarget);
 
         if (!alreadyAttacked)
         {
-            // Melee attack
-            PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
+            PlayerHealth playerHealth = currentTarget.GetComponent<PlayerHealth>();
             if (playerHealth != null)
             {
                 playerHealth.TakeDamage(attackDamage);
@@ -101,8 +150,10 @@ public class Enemy_Ai_Melee : MonoBehaviour
     {
         health -= damage;
 
-        if (health <= 0) Invoke(nameof(DestroyEnemy), 0.5f);
+        if (health <= 0)
+            Invoke(nameof(DestroyEnemy), 0.5f);
     }
+
     private void DestroyEnemy()
     {
         Destroy(gameObject);

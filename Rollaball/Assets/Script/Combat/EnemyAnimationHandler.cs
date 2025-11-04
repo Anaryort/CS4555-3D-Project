@@ -22,8 +22,9 @@ public class EnemyAnimationHandler : MonoBehaviour
 
     private void Update()
     {
-        if (enemyAI == null || animator == null)
-            return;
+        if (animator == null) return;
+
+        if (animator.GetBool("isDead")) return;
 
         UpdateAnimationState();
     }
@@ -44,5 +45,16 @@ public class EnemyAnimationHandler : MonoBehaviour
             animator.SetBool("isAttacking", isAttacking);
             animator.SetBool("isIdle", isIdle);
         }
+    }
+
+    public void PlayDeath()
+    {
+        animator.SetBool("isDead", true);
+
+        if (agent != null)
+            agent.isStopped = true;
+
+        if (enemyAI != null)
+            enemyAI.enabled = false;
     }
 }

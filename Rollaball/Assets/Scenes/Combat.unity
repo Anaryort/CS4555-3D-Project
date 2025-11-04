@@ -1410,6 +1410,70 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d4d6a62a998adcc4bb71aa485d8e2993, type: 3}
   m_PrefabInstance: {fileID: 1513501016}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &803360303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803360296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75fe7af7827ae1a48ae4508198c00c5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &803360304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803360296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31433b7983ba81f47bf07a77cf8f7379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 0}
+  player1: {fileID: 0}
+  player2: {fileID: 0}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 0
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 0
+  health: 0
+  walkPoint: {x: 0, y: 0, z: 0}
+  walkPointRange: 10
+  timeBetweenAttacks: 1.5
+  attackDamage: 10
+  sightRange: 10
+  attackRange: 2
+  playerInSightRange: 0
+  playerInAttackRange: 0
+--- !u!95 &803360305
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803360296}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 38dcbe76479f2c3408526212dc62c293, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &809243474
 GameObject:
   m_ObjectHideFlags: 0
@@ -3118,6 +3182,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d4d6a62a998adcc4bb71aa485d8e2993, type: 3}
       insertIndex: -1
       addedObject: {fileID: 803360297}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d4d6a62a998adcc4bb71aa485d8e2993, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 803360305}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d4d6a62a998adcc4bb71aa485d8e2993, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 803360304}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d4d6a62a998adcc4bb71aa485d8e2993, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 803360303}
   m_SourcePrefab: {fileID: 100100000, guid: d4d6a62a998adcc4bb71aa485d8e2993, type: 3}
 --- !u!1 &1544410251
 GameObject:

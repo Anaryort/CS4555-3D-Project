@@ -88,7 +88,6 @@ public class PlayerController : MonoBehaviour
         v.z = movementY * speed;
         rb.linearVelocity = v;
 
-        // Face movement direction (optional)
         Vector3 look = new Vector3(movementX, 0f, movementY);
         if (rotationSpeed > 0f && look.sqrMagnitude > 0.0001f)
         {

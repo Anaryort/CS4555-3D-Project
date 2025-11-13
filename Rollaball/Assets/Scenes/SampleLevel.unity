@@ -15394,7 +15394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31d45b6365a95f94d90371f7374f9699, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 1374948445}
 --- !u!114 &1289986051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18479,14 +18479,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c87e5582986afa4c956a65bad41df01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 0}
-  deathY: -20
-  respawnPoint: {fileID: 0}
+  controlGroup: 0
+  autoDetectGroup: 1
   speed: 10
   rotationSpeed: 10
   jumpForce: 6
-  groundCheckDistance: 0
-  isGrounded: 0
+  groundCheck: {fileID: 0}
+  groundCheckRadius: 0.2
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &1553620060
 MonoBehaviour:
   m_ObjectHideFlags: 0

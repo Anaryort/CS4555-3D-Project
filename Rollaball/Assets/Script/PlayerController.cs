@@ -21,6 +21,10 @@ public class PlayerController : MonoBehaviour
     public float groundCheckRadius = 0.2f;
     public LayerMask groundMask = ~0;
 
+    [Header("Jump Cooldown")]
+    public float jumpCooldown = 0.5f;
+    private float lastJumpTime = -999f;
+
     private Rigidbody rb;
     private InputAction moveAction;
     private InputAction jumpAction;
@@ -82,12 +86,13 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Move on XZ plane
+        // Movement on XZ plane
         var v = rb.linearVelocity;
         v.x = movementX * speed;
         v.z = movementY * speed;
         rb.linearVelocity = v;
 
+        // Facing movement direction
         Vector3 look = new Vector3(movementX, 0f, movementY);
         if (rotationSpeed > 0f && look.sqrMagnitude > 0.0001f)
         {
@@ -95,12 +100,15 @@ public class PlayerController : MonoBehaviour
             rb.MoveRotation(Quaternion.Slerp(rb.rotation, target, rotationSpeed * Time.fixedDeltaTime));
         }
 
-        // Jump
-        if (jumpQueued && IsGrounded())
+        // Jump with cooldown
+        if (jumpQueued && IsGrounded() && Time.time >= lastJumpTime + jumpCooldown)
         {
             rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
             rb.AddForce(Vector3.up * jumpForce, ForceMode.VelocityChange);
+
+            lastJumpTime = Time.time;
         }
+
         jumpQueued = false;
     }
 

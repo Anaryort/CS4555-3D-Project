@@ -2,7 +2,7 @@ Using pre-set license
 Built from '6000.0/respin/6000.0.60f1-f02d6f9f9009' branch; Version is '6000.0.60f1 (61dfb374e36f) revision 6414259'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'en' Physical Memory: 31800 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-11-13T18:31:21Z
+Date: 2025-11-14T02:24:59Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.0.60f1\Editor\Unity.exe
@@ -16,7 +16,7 @@ C:/Users/Troy/Documents/GitHub/CS4555-3D-Project/Rollaball
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50100
+56534
 -job-worker-count
 11
 -background-job-worker-count
@@ -62,14 +62,14 @@ C:/Users/Troy/Documents/GitHub/CS4555-3D-Project/Rollaball
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11244]  Target information:
+Player connection [12296]  Target information:
 
-Player connection [11244]  * "[IP] 192.168.1.160 [Port] 0 [Flags] 2 [Guid] 2589837523 [EditorId] 2589837523 [Version] 1048832 [Id] WindowsEditor(7,Hiyokurenri) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12296]  * "[IP] 192.168.1.160 [Port] 0 [Flags] 2 [Guid] 4106560964 [EditorId] 4106560964 [Version] 1048832 [Id] WindowsEditor(7,Hiyokurenri) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [11244]  * "[IP] 172.21.112.1 [Port] 0 [Flags] 2 [Guid] 2589837523 [EditorId] 2589837523 [Version] 1048832 [Id] WindowsEditor(7,Hiyokurenri) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12296]  * "[IP] 172.21.112.1 [Port] 0 [Flags] 2 [Guid] 4106560964 [EditorId] 4106560964 [Version] 1048832 [Id] WindowsEditor(7,Hiyokurenri) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [11244] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [11244] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12296] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12296] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -81,7 +81,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.02 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 3.38 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.60f1 (61dfb374e36f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.60f1/Editor/Data/Resources/UnitySubsystems
@@ -97,43 +97,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.60f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.60f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.60f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.60f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002148 seconds.
-- Loaded All Assemblies, in  0.230 seconds
+Registered in 0.002171 seconds.
+- Loaded All Assemblies, in  0.253 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.198 seconds
-Domain Reload Profiling: 426ms
-	BeginReloadAssembly (75ms)
+- Finished resetting the current domain, in  0.209 seconds
+Domain Reload Profiling: 461ms
+	BeginReloadAssembly (90ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (90ms)
-		LoadAssemblies (73ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (99ms)
+		LoadAssemblies (88ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (88ms)
-			TypeCache.Refresh (87ms)
-				TypeCache.ScanAssembly (78ms)
+		AnalyzeDomain (98ms)
+			TypeCache.Refresh (96ms)
+				TypeCache.ScanAssembly (88ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (198ms)
+	FinalizeReload (210ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (179ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (36ms)
-			ProcessInitializeOnLoadAttributes (97ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (90ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -142,47 +142,47 @@ Domain Reload Profiling: 426ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.610 seconds
-Refreshing native plugins compatible for Editor in 2.38 ms, found 8 plugins.
+- Loaded All Assemblies, in  0.554 seconds
+Refreshing native plugins compatible for Editor in 3.49 ms, found 8 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.672 seconds
-Domain Reload Profiling: 1277ms
-	BeginReloadAssembly (113ms)
+- Finished resetting the current domain, in  0.483 seconds
+Domain Reload Profiling: 1033ms
+	BeginReloadAssembly (100ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (22ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (440ms)
-		LoadAssemblies (287ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (399ms)
+		LoadAssemblies (255ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (213ms)
-			TypeCache.Refresh (155ms)
-				TypeCache.ScanAssembly (143ms)
-			BuildScriptInfoCaches (48ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (673ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (136ms)
+			BuildScriptInfoCaches (44ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (483ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (544ms)
+		SetupLoadedEditorAssemblies (371ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
+			InitializePlatformSupportModulesInManaged (1ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (106ms)
-			ProcessInitializeOnLoadAttributes (382ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -190,28 +190,108 @@ WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshad
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 3.03 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 2.21 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7391 unused Assets / (8.2 MB). Loaded Objects now: 8164.
-Memory consumption went from 174.5 MB to 166.3 MB.
-Total: 9.600700 ms (FindLiveObjects: 0.728500 ms CreateObjectMapping: 0.204400 ms MarkObjects: 4.864800 ms  DeleteObjects: 3.802200 ms)
+Unloading 7391 unused Assets / (6.8 MB). Loaded Objects now: 8167.
+Memory consumption went from 180.4 MB to 173.6 MB.
+Total: 5.752300 ms (FindLiveObjects: 0.629300 ms CreateObjectMapping: 0.198600 ms MarkObjects: 3.128900 ms  DeleteObjects: 1.794600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 496355.993042 seconds.
-  path: Assets/Script/Combat/Enemy.cs
-  artifactKey: Guid(0f0841b38435d874e996d23027a7e1a0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Script/Combat/Enemy.cs using Guid(0f0841b38435d874e996d23027a7e1a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dfa55a80028b544d3a4e7ed7beb77e82') in 0.1103964 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 524766.465034 seconds.
+  path: Assets/VFX/UnityTechnologies/EffectExamples/Shared/Materials/Background.mat
+  artifactKey: Guid(0ae8aab4ae40e7741a636cf6e5136a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/UnityTechnologies/EffectExamples/Shared/Materials/Background.mat using Guid(0ae8aab4ae40e7741a636cf6e5136a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1774c324f9b52634c9c97949cb0fd725') in 0.2722809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Script/SceneTransition.cs
-  artifactKey: Guid(cb186fb529f0da04b94d207eed164c76) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Script/SceneTransition.cs using Guid(cb186fb529f0da04b94d207eed164c76) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '460d706a81467f855cf877d32b6af762') in 0.0096813 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 20.846939 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Terrains/Mountains/NoLOD/Mountain_L_02.fbx
+  artifactKey: Guid(09f3dc2338bef2149adfb3f049903e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Terrains/Mountains/NoLOD/Mountain_L_02.fbx using Guid(09f3dc2338bef2149adfb3f049903e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11b1cf04b4bf2cc4c42af68f4f9b821f') in 0.0493665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Block Rocks/Snow Block Rocks/Block_Snow_Rock_10.fbx
+  artifactKey: Guid(5b220fa2b54c5504bb6ff1acbb128d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Block Rocks/Snow Block Rocks/Block_Snow_Rock_10.fbx using Guid(5b220fa2b54c5504bb6ff1acbb128d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfe2753000a759bf4ab96981544619f0') in 0.0244189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Terrains/Terrains/Terrains/Terrain_2.fbx
+  artifactKey: Guid(6a52152cba66e5741bb6e2f7f2defd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Terrains/Terrains/Terrains/Terrain_2.fbx using Guid(6a52152cba66e5741bb6e2f7f2defd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42d5285c3b6fb1cf5cff982e3b043b9d') in 0.0269177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Tiles/Snow Tiles/Tile_Snow_Rock_22.fbx
+  artifactKey: Guid(91442878e0f4a104d93c9a4298c45631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Tiles/Snow Tiles/Tile_Snow_Rock_22.fbx using Guid(91442878e0f4a104d93c9a4298c45631) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89cd7b413fac129f275aab0bebb69cb3') in 0.0267255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Terrains/Mountains/NoLOD/Mountain_L_12.fbx
+  artifactKey: Guid(b680430582d888249ab8767032952de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Terrains/Mountains/NoLOD/Mountain_L_12.fbx using Guid(b680430582d888249ab8767032952de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89acf4f7a842ef6c4aefd5fe3439a241') in 0.0270204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Tiles/Snow Tiles/Tile_Snow_Rock_25.fbx
+  artifactKey: Guid(b49d816202aa56d4ea7847b6e7b45dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Tiles/Snow Tiles/Tile_Snow_Rock_25.fbx using Guid(b49d816202aa56d4ea7847b6e7b45dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca8651516f18ba65bdcf888d3052917a') in 0.0169935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Block Rocks/Snow Block Rocks/Block_Snow_Rock_11.fbx
+  artifactKey: Guid(9887ab60450fbfc4aa6fdf92835ab669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Block Rocks/Snow Block Rocks/Block_Snow_Rock_11.fbx using Guid(9887ab60450fbfc4aa6fdf92835ab669) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94390503bddb90d70f1af74688f0b06d') in 0.0334419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Tiles/Snow Tiles/Tile_Snow_Rock_21.fbx
+  artifactKey: Guid(3028e812f2424a741a5074dbfd644ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Tiles/Snow Tiles/Tile_Snow_Rock_21.fbx using Guid(3028e812f2424a741a5074dbfd644ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '300fae69d3f38e0586c60c11919492c8') in 0.0245719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Block Rocks/Snow Block Rocks/Block_Snow_Rock_12.fbx
+  artifactKey: Guid(403baffcdbbbbbc4a8c0f2a6a6fcb217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Block Rocks/Snow Block Rocks/Block_Snow_Rock_12.fbx using Guid(403baffcdbbbbbc4a8c0f2a6a6fcb217) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abe5d5a61407f94f62ab4f3b82ea1550') in 0.0199074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Block Rocks/Snow Block Rocks/Block_Snow_Rock_13.fbx
+  artifactKey: Guid(0d03eea8396df3145a4c94a72ed2838e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Rocks/Block Rocks/Snow Block Rocks/Block_Snow_Rock_13.fbx using Guid(0d03eea8396df3145a4c94a72ed2838e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'deb7a2b7b1e019407c5be56d4fc14862') in 0.0197195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Terrains/Mountains/NoLOD/Mountain_L_11.fbx
+  artifactKey: Guid(53df8ca26c9290f49a430a8499d8ef3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQP STUDIOS/Rocks and Terrains Pack - Low Poly/Models/Terrains/Mountains/NoLOD/Mountain_L_11.fbx using Guid(53df8ca26c9290f49a430a8499d8ef3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e46b7fc9eab43447ab1d6a1c8d263aa') in 0.0212384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

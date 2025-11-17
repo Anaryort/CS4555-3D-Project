@@ -6,39 +6,42 @@ using UnityEngine.InputSystem;
 
 public class NPC_Talk : MonoBehaviour
 {
+    [Header("Players")]
+    public Transform[] players;          // Player 1 + Player 2
+    private Transform activePlayer;      // the one currently interacting
+
     [Header("Refs")]
-    public Transform player;                 // drag your Player; or tag "Player"
-    public DialogueUI ui;                    // drag DialogueUI from the scene
-    public NavMeshAgent agent;               // drag the child agent (Aias (1))
+    public DialogueUI ui;                // Dialogue UI panel
+    public NavMeshAgent agent;           // NPC agent
 
     [Header("Pause NPC movement while talking")]
-    public MonoBehaviour[] pauseNpcWhileTalking; // e.g., NPC_Patrol, NPC_Wander
+    public MonoBehaviour[] pauseNpcWhileTalking;
 
     [Header("Disable Player control while talking")]
-    public MonoBehaviour[] disablePlayerScripts;  // e.g., your PlayerMovement script(s)
+    public MonoBehaviour[] disablePlayerScripts;
 #if ENABLE_INPUT_SYSTEM
-    public PlayerInput playerInput;               // if using the new Input System
+    public PlayerInput[] playerInputs;   // optional: one PlayerInput per player
 #endif
-    public Rigidbody playerRigidbody;             // optional: zero velocity on open
+
+    public KeyCode interactKey = KeyCode.F;
+    public KeyCode closeKey = KeyCode.Escape;
+
+    public Rigidbody[] playerRigidbodies; // one rigidbody per player (optional)
 
     [Header("Interaction (front-of-NPC)")]
-    [Tooltip("Where to measure distance/FOV from. Default = child with NavMeshAgent.")]
     public Transform interactOrigin;
     public float interactRadius = 3.5f;
-    [Range(1f, 180f)] public float interactFOV = 110f; // must be inside this cone
+    [Range(1f, 180f)] public float interactFOV = 110f;
     public bool requireLineOfSight = false;
-    public LayerMask losMask = ~0;                 // what can block LOS
-
-    public KeyCode interactKey = KeyCode.F;        // fallback for old input
-    public KeyCode closeKey = KeyCode.Escape;
+    public LayerMask losMask = ~0;
 
     [Header("Dialogue Lines")]
     [TextArea(2, 4)]
-    public string[] lines = { "Hello there, traveler.", "Nice weather we’re having, huh?", "Safe roads to you." };
+    public string[] lines;
 
     [Header("Facing While Talking")]
     public float faceRotateSpeed = 10f;
-    public float modelYawOffset = 0f;              // 90 or -90 if model faces sideways
+    public float modelYawOffset = 0f;
 
     [Header("Debug")]
     public bool logState = true;
@@ -46,88 +49,113 @@ public class NPC_Talk : MonoBehaviour
 
     // internals
     bool talking, canInteract;
+    int lineIndex = 0;
     float radiusSqr;
 
     void Awake()
     {
         if (!agent) agent = GetComponentInChildren<NavMeshAgent>(true);
         if (!interactOrigin) interactOrigin = agent ? agent.transform : transform;
-        if (!player)
-        {
-            var p = GameObject.FindGameObjectWithTag("Player");
-            if (p) player = p.transform;
-        }
         if (!ui) ui = Object.FindFirstObjectByType<DialogueUI>(FindObjectsInactive.Include);
-
-        if (!player) Debug.LogWarning($"{name}: Player not set (drag it or tag 'Player').");
-        if (!ui) Debug.LogWarning($"{name}: DialogueUI not set (panel/prompt won't show).");
-        if (!agent) Debug.LogWarning($"{name}: NavMeshAgent not set (drag child agent).");
 
         radiusSqr = interactRadius * interactRadius;
     }
 
-
     void Update()
     {
-        if (!player) return;
+        //-------------------- MULTI-PLAYER SEARCH --------------------
+        activePlayer = null;
+        float bestDist = float.MaxValue;
 
-        // ----- FRONT-OF-NPC TEST -----
-        Transform origin = interactOrigin ? interactOrigin : transform;
-
-        Vector3 npcPos = origin.position; npcPos.y = 0f;
-        Vector3 playerPos = player.position; playerPos.y = 0f;
-
-        Vector3 toPlayer = playerPos - npcPos;
-        bool inRadius = toPlayer.sqrMagnitude <= radiusSqr;
-
-        bool inFOV = true;
-        if (toPlayer.sqrMagnitude > 0.0001f)
-            inFOV = Vector3.Angle(origin.forward, toPlayer) <= interactFOV * 0.5f;
-
-        bool losOk = true;
-        if (requireLineOfSight)
+        foreach (var p in players)
         {
-            Vector3 eye = origin.position + Vector3.up * 1.4f;
-            Vector3 chest = player.position + Vector3.up * 1.0f;
-            if (Physics.Raycast(eye, (chest - eye).normalized, out var hit, Vector3.Distance(eye, chest), losMask))
+            if (!p) continue;
+
+            Vector3 npcPos = interactOrigin.position;
+            Vector3 playerPos = p.position;
+
+            Vector3 toPlayer = playerPos - npcPos;
+            float distSqr = toPlayer.sqrMagnitude;
+
+            if (distSqr > radiusSqr)
+                continue;
+
+            // FOV check
+            bool inFOV = Vector3.Angle(interactOrigin.forward, toPlayer) <= interactFOV * 0.5f;
+            if (!inFOV) continue;
+
+            // LOS check
+            bool losOk = true;
+            if (requireLineOfSight)
             {
-                // blocked by something that isn't the player
-                if (hit.transform != player && !hit.transform.IsChildOf(player)) losOk = false;
+                Vector3 eye = npcPos + Vector3.up * 1.4f;
+                Vector3 chest = p.position + Vector3.up * 1.0f;
+
+                if (Physics.Raycast(eye, (chest - eye).normalized, out var hit,
+                    Vector3.Distance(eye, chest), losMask))
+                {
+                    if (hit.transform != p && !hit.transform.IsChildOf(p))
+                        losOk = false;
+                }
+            }
+
+            if (!losOk) continue;
+
+            // pick nearest
+            if (distSqr < bestDist)
+            {
+                bestDist = distSqr;
+                activePlayer = p;
             }
         }
 
-        canInteract = inRadius && inFOV && losOk;
+        canInteract = activePlayer != null;
+        if (ui)
+            ui.SetPrompt(!talking && canInteract);
 
-        // Prompt only when eligible and not already talking
-        if (ui) ui.SetPrompt(!talking && canInteract);
-
+        //--------------------------------------------------------------
         // Start talking
+        //--------------------------------------------------------------
         if (!talking && canInteract && PressedInteract())
         {
             BeginDialogue();
             return;
         }
 
-        // While talking: keep NPC facing the player, advance/close
-        if (talking && agent)
+        //--------------------------------------------------------------
+        // While talking
+        //--------------------------------------------------------------
+        if (talking && activePlayer && agent)
         {
-            Vector3 to = (player.position - agent.transform.position);
+            // rotate NPC to face player
+            Vector3 to = (activePlayer.position - agent.transform.position);
             to.y = 0f;
-            if (to.sqrMagnitude > 0.0001f)
+            if (to.sqrMagnitude > 0.01f)
             {
                 var look = Quaternion.LookRotation(to) * Quaternion.Euler(0f, modelYawOffset, 0f);
-                agent.transform.rotation = Quaternion.Slerp(agent.transform.rotation, look, faceRotateSpeed * Time.deltaTime);
+                agent.transform.rotation = Quaternion.Slerp(
+                    agent.transform.rotation,
+                    look,
+                    faceRotateSpeed * Time.deltaTime
+                );
             }
 
+            // advance line
             if (PressedInteract()) NextLine();
+
+            // close
             if (PressedClose()) EndDialogue();
         }
     }
 
+    //------------------------------------------------------------------
+    // Input Handling
+    //------------------------------------------------------------------
     bool PressedInteract()
     {
 #if ENABLE_INPUT_SYSTEM
-        if (Keyboard.current != null && Keyboard.current.fKey.wasPressedThisFrame) return true;
+        if (Keyboard.current != null && Keyboard.current.fKey.wasPressedThisFrame)
+            return true;
 #endif
         return Input.GetKeyDown(interactKey);
     }
@@ -135,51 +163,74 @@ public class NPC_Talk : MonoBehaviour
     bool PressedClose()
     {
 #if ENABLE_INPUT_SYSTEM
-        if (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame) return true;
+        if (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame)
+            return true;
 #endif
         return Input.GetKeyDown(closeKey);
     }
 
+    //------------------------------------------------------------------
+    // Dialogue Logic
+    //------------------------------------------------------------------
     void BeginDialogue()
     {
         talking = true;
 
         if (agent)
         {
-            agent.updateRotation = false; // we rotate manually while talking
+            agent.updateRotation = false;
             agent.isStopped = true;
             agent.ResetPath();
         }
-        foreach (var m in pauseNpcWhileTalking) if (m) m.enabled = false;
 
-        foreach (var s in disablePlayerScripts) if (s) s.enabled = false;
+        foreach (var m in pauseNpcWhileTalking)
+            if (m) m.enabled = false;
+
+        // Disable ONLY the interacting player's movement scripts
+        foreach (var s in disablePlayerScripts)
+            if (s && (s.transform == activePlayer || s.transform.IsChildOf(activePlayer)))
+                s.enabled = false;
+
 #if ENABLE_INPUT_SYSTEM
-        if (playerInput) playerInput.enabled = false;
+        // disable PlayerInput only for the active player
+        foreach (var pi in playerInputs)
+            if (pi && pi.transform == activePlayer)
+                pi.enabled = false;
 #endif
-        if (playerRigidbody) playerRigidbody.linearVelocity = Vector3.zero;
 
+        // zero velocity of active player if available
+        foreach (var rb in playerRigidbodies)
+            if (rb && rb.transform == activePlayer)
+                rb.linearVelocity = Vector3.zero;
+
+        // UI
         if (ui)
         {
             ui.SetPrompt(false);
             ui.SetPanel(true);
             ui.SetText(lines != null && lines.Length > 0 ? lines[0] : "");
         }
-        else
-        {
-            Debug.Log($"{name} [DIALOGUE]: {(lines != null && lines.Length > 0 ? lines[0] : "(no lines)")} ");
-        }
 
-        if (logState) Debug.Log($"{name}: Dialogue started");
+        if (logState)
+            Debug.Log($"{name}: Dialogue started with {activePlayer.name}");
+
+        lineIndex = 0;
     }
 
-    int lineIndex = 0;
     void NextLine()
     {
-        if (lines == null || lines.Length == 0) { EndDialogue(); return; }
+        if (lines == null || lines.Length == 0)
+        {
+            EndDialogue(); return;
+        }
+
         lineIndex++;
-        if (lineIndex >= lines.Length) { EndDialogue(); return; }
+        if (lineIndex >= lines.Length)
+        {
+            EndDialogue(); return;
+        }
+
         if (ui) ui.SetText(lines[lineIndex]);
-        else Debug.Log($"{name} [DIALOGUE]: {lines[lineIndex]}");
     }
 
     void EndDialogue()
@@ -187,7 +238,8 @@ public class NPC_Talk : MonoBehaviour
         talking = false;
         lineIndex = 0;
 
-        foreach (var m in pauseNpcWhileTalking) if (m) m.enabled = true;
+        foreach (var m in pauseNpcWhileTalking)
+            if (m) m.enabled = true;
 
         if (agent)
         {
@@ -195,23 +247,34 @@ public class NPC_Talk : MonoBehaviour
             agent.isStopped = false;
         }
 
-        foreach (var s in disablePlayerScripts) if (s) s.enabled = true;
+        // Re-enable scripts only for the active player
+        foreach (var s in disablePlayerScripts)
+            if (s && (s.transform == activePlayer || s.transform.IsChildOf(activePlayer)))
+                s.enabled = true;
+
 #if ENABLE_INPUT_SYSTEM
-        if (playerInput) playerInput.enabled = true;
+        foreach (var pi in playerInputs)
+            if (pi && pi.transform == activePlayer)
+                pi.enabled = true;
 #endif
 
         if (ui)
         {
             ui.SetPanel(false);
-            ui.SetPrompt(canInteract); // show again if still eligible
+            ui.SetPrompt(canInteract);
         }
 
-        if (logState) Debug.Log($"{name}: Dialogue ended");
+        if (logState)
+            Debug.Log($"{name}: Dialogue ended with {activePlayer.name}");
     }
 
+    //------------------------------------------------------------------
+    // Gizmos
+    //------------------------------------------------------------------
     void OnDrawGizmosSelected()
     {
         if (!drawGizmo) return;
+
         Transform origin = interactOrigin ? interactOrigin : transform;
         Vector3 c = origin.position; c.y = 0f;
 
@@ -230,9 +293,9 @@ public class NPC_Talk : MonoBehaviour
         // FOV wedge
         Gizmos.color = new Color(1f, 0.6f, 0f, 0.9f);
         Vector3 f = origin.forward; f.y = 0f; f.Normalize();
-        float half = interactFOV * 0.5f * Mathf.Deg2Rad;
         Vector3 left = Quaternion.Euler(0, -interactFOV * 0.5f, 0) * f;
         Vector3 right = Quaternion.Euler(0, interactFOV * 0.5f, 0) * f;
+
         Gizmos.DrawLine(c, c + left * interactRadius);
         Gizmos.DrawLine(c, c + right * interactRadius);
     }

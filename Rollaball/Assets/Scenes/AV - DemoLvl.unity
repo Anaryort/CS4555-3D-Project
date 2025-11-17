@@ -43856,13 +43856,13 @@ MonoBehaviour:
   autoDetectGroup: 1
   speed: 10
   rotationSpeed: 10
-  jumpForce: 6
+  jumpForce: 7
   groundCheck: {fileID: 0}
   groundCheckRadius: 0.001
   groundMask:
     serializedVersion: 2
     m_Bits: 128
-  jumpCooldown: 0.5
+  jumpCooldown: 1.1
 --- !u!54 &915798932
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -82512,13 +82512,13 @@ MonoBehaviour:
   autoDetectGroup: 1
   speed: 10
   rotationSpeed: 10
-  jumpForce: 6
+  jumpForce: 7
   groundCheck: {fileID: 0}
   groundCheckRadius: 0.2
   groundMask:
     serializedVersion: 2
     m_Bits: 0
-  jumpCooldown: 0.5
+  jumpCooldown: 1.1
 --- !u!54 &1688738931
 Rigidbody:
   m_ObjectHideFlags: 0

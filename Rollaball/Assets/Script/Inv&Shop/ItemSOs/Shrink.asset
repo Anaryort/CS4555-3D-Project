@@ -20,4 +20,5 @@ MonoBehaviour:
   currentHealth: 0
   maxHealth: 0
   speed: 0
+  jumpForce: 10
   duration: 4

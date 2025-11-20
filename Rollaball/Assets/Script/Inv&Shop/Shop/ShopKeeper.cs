@@ -26,7 +26,7 @@ public class ShopKeeper : MonoBehaviour
             {
                 if (!isShopOpen)
                 {
-                    Time.timeScale = 1;
+                    Time.timeScale = 0;
                     isShopOpen = true;
                     OnShopStateChanged?.Invoke(shopManager, true);
                     shopCanvasGroup.alpha = 1;
@@ -36,7 +36,7 @@ public class ShopKeeper : MonoBehaviour
                 }
                 else
                 {
-                    Time.timeScale = 0;
+                    Time.timeScale = 1;
                     isShopOpen = false;
                     OnShopStateChanged?.Invoke(shopManager, false);
                     shopCanvasGroup.alpha = 0;

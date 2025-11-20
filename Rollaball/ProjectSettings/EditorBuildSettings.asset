@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PotentialLevelpart3.unity
     guid: 46e89d550f4c8744d9ba20e6b5fcdfb9
+  - enabled: 1
+    path: Assets/Scenes/TR - Demolevel.unity
+    guid: 28e94aa56a5682b4eafa825ff07b32f6
+  - enabled: 1
+    path: Assets/Scenes/AV - DemoLvl.unity
+    guid: 60ef8ad0e67193d49b93430cab2f1c9e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

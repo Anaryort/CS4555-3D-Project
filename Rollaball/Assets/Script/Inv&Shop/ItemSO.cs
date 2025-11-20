@@ -1,8 +1,11 @@
 using UnityEngine;
 [CreateAssetMenu(fileName = "New Item")]
 
+
+
 public class ItemSO : ScriptableObject
 {
+    
     public string itemName;
     public string itemDescription;
     public Sprite icon;
@@ -12,8 +15,9 @@ public class ItemSO : ScriptableObject
     [Header("Stats")]
     public int currentHealth;
     public int maxHealth;
-    public int speed;
-
+    public float speed;
+    public float jumpForce;
+    
     [Header("Temp")]
     public float duration;
 

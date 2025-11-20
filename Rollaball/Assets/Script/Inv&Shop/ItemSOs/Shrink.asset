@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66ce45bca2ba76245a5c64849e96ca59, type: 3}
   m_Name: Shrink
   m_EditorClassIdentifier: 
-  itemName: Shrink
-  itemDescription: This item shrinks you.
-  icon: {fileID: 21300000, guid: 1e4cdc0aafa22184ab96dc28930ac167, type: 3}
+  itemName: Jump
+  itemDescription: This item increases jump force
+  icon: {fileID: 21300000, guid: ae59ffbfe65d6c444b276b3408b8b1f5, type: 3}
   stackSize: 3
   isGold: 0
   currentHealth: 0
   maxHealth: 0
   speed: 0
+  jumpForce: 10
   duration: 4

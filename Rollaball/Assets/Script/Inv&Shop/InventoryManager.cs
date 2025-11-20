@@ -3,6 +3,7 @@ using TMPro;
 public class InventoryManager : MonoBehaviour
 {
     public InventorySlot[] itemSlots;
+    public UseItem useItem;
     public int gold;
     public TMP_Text goldText;
     public GameObject LootPrefab;
@@ -87,7 +88,30 @@ public class InventoryManager : MonoBehaviour
     {
         if (slot.itemSO != null && slot.quantity >= 0)
         {
-            Debug.Log("AHHH");
+            // Find all UseItem components in the scene (for both Player 1 and Player 2)
+            UseItem[] allUseItems = FindObjectsOfType<UseItem>();
+            
+            if (allUseItems == null || allUseItems.Length == 0)
+            {
+                Debug.LogError("UseItem component not found! Make sure UseItem components exist on Player GameObjects in the scene.");
+                return;
+            }
+
+            // Apply item effects to all players
+            foreach (UseItem useItemInstance in allUseItems)
+            {
+                if (useItemInstance != null)
+                {
+                    useItemInstance.ApplyItemEffects(slot.itemSO);
+                }
+            }
+
+            slot.quantity--;
+            if(slot.quantity <= 0)
+            {
+                slot.itemSO = null;
+            }
+            slot.UpdateUI();
         }
     }
 }

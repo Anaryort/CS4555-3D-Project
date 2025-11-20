@@ -117,6 +117,17 @@ public class PlayerController : MonoBehaviour
         if (!groundCheck) return true;
         return Physics.CheckSphere(groundCheck.position, groundCheckRadius, groundMask, QueryTriggerInteraction.Ignore);
     }
+    
+    public void UpdateSpeed(float amount)
+    {
+        speed += amount;
+    }
+
+    public void UpdateJumpForce(float amount)
+    {
+        jumpForce += amount;
+    }
+
 
 #if UNITY_EDITOR
     void OnDrawGizmosSelected()

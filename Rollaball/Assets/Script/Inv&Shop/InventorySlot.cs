@@ -32,31 +32,35 @@ public class InventorySlot : MonoBehaviour, IPointerClickHandler
         activeShop = isOpen ? shopManager : null;
     }
 
-    public void OnPointerClick(PointerEventData eventData)
+public void OnPointerClick(PointerEventData eventData)
+{
+    if (quantity > 0)
     {
-        if (quantity > 0)
+        if (eventData.button == PointerEventData.InputButton.Left)
         {
-            if (eventData.button == PointerEventData.InputButton.Left)
+            if (activeShop != null)
             {
-                if (activeShop != null)
+                activeShop.SellItem(itemSO);
+                quantity--;
+                UpdateUI();
+
+                if (inventoryManager != null)
                 {
-                    activeShop.SellItem(itemSO);
-                    quantity--;
-                    UpdateUI();
-                }
-                else
-                {
-                    // Stat handle here i.e if(itemSO.currentHealth > 0 && file.Instance.currentHealth >= file.Instance
-                    inventoryManager.UseItem(this);
+                    inventoryManager.SavePersistentData();
                 }
             }
-
-            else if (eventData.button == PointerEventData.InputButton.Right)
+            else
             {
-                inventoryManager.DropItem(this);
+                // Use item normally
+                inventoryManager.UseItem(this);
             }
         }
+        else if (eventData.button == PointerEventData.InputButton.Right)
+        {
+            inventoryManager.DropItem(this);
+        }
     }
+}
 
     public void UpdateUI()
     {

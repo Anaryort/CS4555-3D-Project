@@ -298,7 +298,7 @@ MonoBehaviour:
   maxHealth: 100
   currentHealth: 100
   deathY: -50
-  respawnPoint: {fileID: 1742112906}
+  respawnPoint: {fileID: 1031618569}
   respawnDelay: 2
   healthBar: {fileID: 1080077610}
 --- !u!114 &1519252
